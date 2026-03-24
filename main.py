@@ -13,6 +13,7 @@ from scraper_x import scrape_x_profile
 from scraper_instagram import scrape_instagram_profile
 from scraper_tiktok import scrape_tiktok_profile
 from scraper_ranking import scrape_monthly_creator_ranking
+from scraper_discover import discover_usernames
 
 # CSV カラム定義（順序固定）
 CSV_COLUMNS = [
@@ -40,17 +41,6 @@ CSV_COLUMNS = [
     'has_free_plan', 'has_trial_period', 'has_update_frequency',
 ]
 
-
-def load_usernames_from_csv(csv_path: str) -> list[str]:
-    """既存CSVからユーザー名リストを読み込む"""
-    usernames = []
-    with open(csv_path, 'r', encoding='utf-8') as f:
-        reader = csv.DictReader(f)
-        for row in reader:
-            username = row.get('username', '').strip()
-            if username:
-                usernames.append(username)
-    return usernames
 
 
 def scrape_single_user(username: str, rank: str = '') -> dict:
@@ -113,30 +103,33 @@ def write_csv(results: list[dict], output_path: str):
 
 
 def main():
-    # 入力ソース: 既存CSV or コマンドライン引数
-    existing_csv = '/Users/yukitakeshia/Downloads/DB - 3_21時点myfansランキングデータ.csv'
+    # -n オプションで件数制限（例: python main.py -n 10）
+    limit = None
+    args = sys.argv[1:]
+    if '-n' in args:
+        n_idx = args.index('-n')
+        limit = int(args[n_idx + 1])
+        args = args[:n_idx] + args[n_idx + 2:]
 
-    if len(sys.argv) > 1:
+    if args:
         # コマンドライン引数でユーザー名指定
-        usernames = sys.argv[1:]
-        ranks = {u: '' for u in usernames}
-    elif os.path.exists(existing_csv):
-        # 既存CSVからユーザー名とランク読み込み
-        print(f'Loading usernames from: {existing_csv}')
-        ranks = {}
-        with open(existing_csv, 'r', encoding='utf-8') as f:
-            reader = csv.DictReader(f)
-            for row in reader:
-                username = row.get('username', '').strip()
-                rank = row.get('rank', '').strip()
-                if username:
-                    ranks[username] = rank
-        usernames = list(ranks.keys())
-        print(f'Loaded {len(usernames)} usernames')
+        usernames = args
     else:
-        print('Usage: python main.py [username1] [username2] ...')
-        print(f'Or place existing CSV at: {existing_csv}')
+        # MyFansサイトからユーザーを自動発見
+        print('>>> Discovering users from MyFans...')
+        usernames = discover_usernames()
+        print(f'Discovered {len(usernames)} unique users')
+
+    if not usernames:
+        print('No users found.')
         sys.exit(1)
+
+    # 件数制限
+    if limit:
+        usernames = usernames[:limit]
+        print(f'Limited to first {limit} users')
+
+    ranks = {}
 
     # 出力先
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
