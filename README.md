@@ -2,22 +2,89 @@
 
 MyFansのユーザープロフィール・SNS情報を自動収集し、CSVで出力するスクレイピングシステム。
 
-## クイックスタート
+## 動作環境
 
-### 1. セットアップ
+- **macOS**（Intel / Apple Silicon どちらも対応）
+- **Python 3.13以上**（必須）
+- 各サービスのログイン済みCookie
+
+## 完全セットアップ手順（macOS / ゼロから）
+
+### Step 1. Homebrewのインストール
+
+ターミナル（アプリケーション → ユーティリティ → ターミナル）を開いて実行：
 
 ```bash
-# Python 3.13+ 必須
-python3 --version  # 3.13以上であることを確認
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+```
 
+インストール完了後、**Apple Silicon Mac（M1/M2/M3/M4）** の場合のみ、画面に表示される `eval` で始まる2行のコマンドを実行してパスを通してください。**Intel Mac** の場合はそのまま使えます。
+
+確認：
+```bash
+brew --version
+```
+
+### Step 2. Gitのインストール
+
+```bash
+brew install git
+```
+
+確認：
+```bash
+git --version
+```
+
+### Step 3. Python 3.13のインストール
+
+```bash
+brew install python@3.13
+```
+
+確認：
+```bash
+python3 --version
+# Python 3.13.x と表示されればOK
+```
+
+### Step 4. リポジトリのクローン
+
+```bash
+cd ~/Documents
 git clone https://github.com/takeshita-0x0201/myfans.git
 cd myfans
+```
+
+### Step 5. 仮想環境の作成・有効化
+
+```bash
+python3 -m venv .venv
+source .venv/bin/activate
+```
+
+> プロンプトの先頭に `(.venv)` と表示されれば成功です。
+> 以降、**ターミナルを開き直すたびに** `cd ~/Documents/myfans && source .venv/bin/activate` を実行してください。
+
+### Step 6. Pythonパッケージのインストール
+
+```bash
 pip install -r requirements.txt
 ```
 
-### 2. Cookieの配置
+### Step 7. ブラウザエンジンのインストール
 
-`cookies/` ディレクトリに各サービスのCookieファイルを配置してください。
+Scraplingは内部でCamoufox（Firefox改造版）とPlaywrightを使います。
+
+```bash
+python -m camoufox fetch
+python -m playwright install
+```
+
+### Step 8. Cookieの配置
+
+`cookies/` ディレクトリに各サービスのCookieファイル（JSON形式）を配置します。
+元PCから `cookies/*.json` をコピーするか、新たに取得してください。
 詳細は [`cookies/README.md`](cookies/README.md) を参照。
 
 | ファイル | サービス | 必須 |
@@ -27,7 +94,29 @@ pip install -r requirements.txt
 | `cookies/instagram.json` | Instagram | 必須 |
 | `cookies/tiktok.json` | TikTok | 推奨 |
 
-### 3. 実行
+**Cookie取得手順（概要）:**
+
+1. ブラウザで対象サービスにログイン
+2. ブラウザ拡張機能（EditThisCookie等）でCookieをJSON形式でエクスポート
+3. `cookies/` ディレクトリに上記ファイル名で保存
+
+### Step 9. 動作確認
+
+```bash
+python main.py テスト用ユーザー名
+```
+
+`output/` フォルダにCSVが生成されれば成功です。
+
+### 毎回の起動手順（2回目以降）
+
+```bash
+cd ~/Documents/myfans
+source .venv/bin/activate
+python main.py ユーザー名1 ユーザー名2
+```
+
+## 使い方
 
 ```bash
 # 特定のユーザーをスクレイピング
@@ -46,6 +135,44 @@ CSVは `output/myfans_data_YYYYMMDD_HHMMSS.csv` に出力されます。
 1ユーザーあたり約10分（MyFans + X + Instagram + TikTok）。
 SNSリンクがないユーザーは該当SNSをスキップするため短縮されます。
 
+## トラブルシューティング
+
+### `ModuleNotFoundError: No module named 'scrapling'`
+
+仮想環境が有効か確認してください。
+
+```bash
+source .venv/bin/activate
+pip install -r requirements.txt
+```
+
+### `camoufox` や `playwright` 関連のエラー
+
+ブラウザが未インストールの可能性があります。
+
+```bash
+python -m camoufox fetch
+python -m playwright install
+```
+
+### Cookieの有効期限切れ
+
+各サービスのCookieは定期的に期限切れになります。スクレイピング結果が空やエラーになる場合は、ブラウザで再ログインしてCookieを再取得してください。
+
+### `Python 3.13+ required` エラー
+
+```bash
+python3 --version
+```
+
+3.13未満の場合は、[python.org](https://www.python.org/downloads/) または `pyenv` で3.13以上をインストールしてください。
+
+```bash
+# pyenvの場合
+pyenv install 3.13.0
+pyenv local 3.13.0
+```
+
 ## ファイル構成
 
 ```
@@ -55,6 +182,7 @@ myfans/
 ├── scraper_x.py          # X (Twitter) スクレイパー
 ├── scraper_instagram.py  # Instagramスクレイパー
 ├── scraper_tiktok.py     # TikTokスクレイパー
+├── scraper_ranking.py    # 月間クリエイターランキング
 ├── utils.py              # 共通ユーティリティ
 ├── requirements.txt      # Pythonパッケージ
 ├── cookies/              # Cookie格納（git管理外）
