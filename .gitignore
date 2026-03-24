@@ -1,0 +1,15 @@
+# 調査用HTMLサンプル
+page_*.html
+
+# 認証情報
+config.py
+.env
+cookies/
+
+# 出力
+output/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
