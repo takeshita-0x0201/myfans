@@ -96,17 +96,36 @@ def scrape_user_profile(username: str) -> dict:
                     data['followers'] = parse_count(stat_nums[idx]) or ''
 
         # === プロフィール文 ===
+        # バイオ本文
         bio_el = page.locator('.pb-6.font-light.text-black')
         if bio_el.count() == 0:
             bio_el = page.locator('[class*="pb-6"][class*="font-light"][class*="text-black"]')
+        bio_text = ''
         if bio_el.count() > 0:
-            data['profile_text'] = bio_el.first.inner_text().strip()
+            bio_text = bio_el.first.inner_text().strip()
 
-        # === 先月の投稿数 ===
+        # 「先月の投稿数」「おすすめのプラン料金」等の補足テキストも取得
+        promo_texts = []
         spans = page.locator('span')
         for i in range(spans.count()):
             try:
                 text = spans.nth(i).inner_text().strip()
+                if '先月の投稿数' in text or 'おすすめのプラン' in text:
+                    promo_texts.append(text)
+            except Exception:
+                pass
+
+        # profile_textに統合（改行区切り）
+        parts = []
+        if promo_texts:
+            parts.extend(promo_texts)
+        if bio_text:
+            parts.append(bio_text)
+        data['profile_text'] = '\n'.join(parts) if parts else ''
+
+        # === 先月の投稿数 ===
+        for text in promo_texts:
+            try:
                 m = re.search(r'先月の投稿数[：:]?\s*(\d+)', text)
                 if m:
                     data['last_30d_posts'] = int(m.group(1))

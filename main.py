@@ -12,6 +12,7 @@ from scraper_myfans import scrape_user_profile
 from scraper_x import scrape_x_profile
 from scraper_instagram import scrape_instagram_profile
 from scraper_tiktok import scrape_tiktok_profile
+from scraper_ranking import scrape_monthly_creator_ranking
 
 # CSV カラム定義（順序固定）
 CSV_COLUMNS = [
@@ -140,6 +141,18 @@ def main():
     # 出力先
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     output_path = f'output/myfans_data_{timestamp}.csv'
+
+    # 月間クリエイターランキングを取得
+    print('\n>>> Fetching monthly creator ranking...')
+    try:
+        ranking = scrape_monthly_creator_ranking()
+        print(f'  Ranking: {len(ranking)} creators found')
+        # ランキング情報をranksに反映
+        for username in usernames:
+            if username in ranking:
+                ranks[username] = ranking[username]
+    except Exception as e:
+        print(f'  Ranking fetch failed: {e}')
 
     # スクレイピング実行
     results = []
