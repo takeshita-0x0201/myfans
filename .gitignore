@@ -1,15 +1,19 @@
-# 調査用HTMLサンプル
-page_*.html
-
 # 認証情報
 config.py
 .env
-cookies/
+cookies/*.json
 
 # 出力
 output/
+
+# 調査用一時ファイル
+page_*.html
+explore_site.py
 
 # Python
 __pycache__/
 *.pyc
 .venv/
+
+# OS
+.DS_Store
