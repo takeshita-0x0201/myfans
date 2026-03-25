@@ -8,7 +8,7 @@ import sys
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
-from api_myfans import scrape_ranking_and_profiles, RANKING_URLS
+from scraper_discover import scrape_ranking_and_profiles, RANKING_URLS
 from scraper_x import scrape_all_x
 from scraper_instagram import scrape_all_instagram
 from scraper_tiktok import scrape_all_tiktok
@@ -80,9 +80,9 @@ def main():
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     output_path = f'output/myfans_data_{timestamp}.csv'
 
-    # === Phase 1: MyFans API（ランキング + プロフィール一括） ===
+    # === Phase 1: ランキング + MyFansプロフィール 一括取得 ===
     print(f'\n{"="*60}')
-    print(f'Phase 1: MyFans ランキング + プロフィール（API）')
+    print(f'Phase 1: ランキング + MyFansプロフィール')
     print(f'{"="*60}')
     entries = scrape_ranking_and_profiles(terms, limit)
 
@@ -92,7 +92,7 @@ def main():
 
     # 途中CSV保存
     write_csv(entries, output_path)
-    print(f'  -> Phase 1 complete ({len(entries)} entries)')
+    print(f'  -> Phase 1 complete ({len(entries)} entries), CSV saved')
 
     # === Phase 2: X / Instagram / TikTok 並列取得 ===
     x_urls = []
