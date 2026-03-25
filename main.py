@@ -8,10 +8,10 @@ import sys
 import time
 from datetime import datetime
 
-from scraper_myfans import scrape_user_profile
-from scraper_x import scrape_x_profile
-from scraper_instagram import scrape_instagram_profile
-from scraper_tiktok import scrape_tiktok_profile
+from scraper_myfans import scrape_all_myfans
+from scraper_x import scrape_all_x
+from scraper_instagram import scrape_all_instagram
+from scraper_tiktok import scrape_all_tiktok
 from scraper_discover import discover_from_rankings, RANKING_URLS
 
 # CSV カラム定義（順序固定）
@@ -42,48 +42,6 @@ CSV_COLUMNS = [
 ]
 
 VALID_TERMS = set(RANKING_URLS.keys())
-
-
-def scrape_single_user(username: str) -> dict:
-    """1ユーザーの全データを収集"""
-    print(f'\n{"="*60}')
-    print(f'Scraping: {username}')
-    print(f'{"="*60}')
-
-    # 1. MyFansプロフィール
-    print(f'  [1/4] MyFans profile...')
-    data = scrape_user_profile(username)
-
-    # 2. X (Twitter)
-    if data.get('sns_x') == 1 and data.get('sns_url_x'):
-        print(f'  [2/4] X profile: {data["sns_url_x"]}')
-        x_data = scrape_x_profile(data['sns_url_x'])
-        data.update(x_data)
-    else:
-        print(f'  [2/4] X: skipped (no link)')
-
-    # 3. Instagram
-    if data.get('sns_instagram') == 1 and data.get('sns_url_instagram'):
-        print(f'  [3/4] Instagram profile: {data["sns_url_instagram"]}')
-        ig_data = scrape_instagram_profile(data['sns_url_instagram'])
-        data.update(ig_data)
-    else:
-        print(f'  [3/4] Instagram: skipped (no link)')
-
-    # 4. TikTok
-    if data.get('sns_tiktok') == 1 and data.get('sns_url_tiktok'):
-        print(f'  [4/4] TikTok profile: {data["sns_url_tiktok"]}')
-        tt_data = scrape_tiktok_profile(data['sns_url_tiktok'])
-        data.update(tt_data)
-    else:
-        print(f'  [4/4] TikTok: skipped (no link)')
-
-    print(f'  Done: {data.get("name", "?")} | '
-          f'followers={data.get("followers", "?")} | '
-          f'posts={data.get("posts", "?")} | '
-          f'last_30d={data.get("last_30d_posts", "?")}')
-
-    return data
 
 
 def write_csv(results: list[dict], output_path: str):
@@ -120,53 +78,144 @@ def main():
     print(f'>>> Ranking: {", ".join(terms)}' + (f' (各上位{limit}件)' if limit else ' (全件)'))
     print(f'>>> Starting...')
 
-    # ランキングからユーザーを収集
+    # === Phase 0: ランキングからユーザーを収集 ===
+    print(f'\n{"="*60}')
+    print(f'Phase 0: ランキングからユーザー収集')
+    print(f'{"="*60}')
     entries = discover_from_rankings(terms, limit)
 
     if not entries:
         print('No users found.')
         sys.exit(1)
 
-    print(f'\n>>> {len(entries)} entries to scrape')
+    # ユニークユーザーリストを作成
+    unique_users = list(dict.fromkeys(e['username'] for e in entries))
+    total_users = len(unique_users)
+    print(f'\n>>> {len(entries)} entries ({total_users} unique users) to scrape')
 
     # 出力先
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     output_path = f'output/myfans_data_{timestamp}.csv'
 
-    # スクレイピング実行（同一ユーザーのキャッシュで重複回避）
+    # === Phase 1: MyFans 全ユーザー ===
+    print(f'\n{"="*60}')
+    print(f'Phase 1: MyFans プロフィール ({total_users} users)')
+    print(f'{"="*60}')
+    myfans_data = scrape_all_myfans(unique_users)
+
+    # rank/rank_as を付与しつつ結果を組み立て
     cache = {}
     results = []
-    unique_users = list(dict.fromkeys(e['username'] for e in entries))
-    total_users = len(unique_users)
-
     for idx, entry in enumerate(entries):
         username = entry['username']
-
         if username not in cache:
-            user_idx = unique_users.index(username) + 1
-            print(f'\n>>> [{user_idx}/{total_users}] {username}')
-            try:
-                cache[username] = scrape_single_user(username)
-            except Exception as e:
-                print(f'  -> FATAL ERROR for {username}: {e}')
-                cache[username] = {
-                    'username': username,
-                    'scraped_at': datetime.now().strftime('%Y-%m-%d'),
-                }
-            time.sleep(1)
-
-        # キャッシュからデータをコピーし、rank/rank_asを付与
+            cache[username] = dict(myfans_data.get(username, {'username': username, 'scraped_at': datetime.now().strftime('%Y-%m-%d')}))
         data = {**cache[username]}
         data['rank'] = entry['rank']
         data['rank_as'] = entry['rank_as']
         results.append(data)
 
-        # 途中経過を保存（5ユーザーごと or 最後）
-        if (idx + 1) % 5 == 0 or idx == len(entries) - 1:
-            write_csv(results, output_path)
-            print(f'  -> Progress saved ({idx+1}/{len(entries)} entries)')
+    # 途中CSV保存
+    write_csv(results, output_path)
+    print(f'  -> Phase 1 complete, CSV saved')
 
-    # 最終保存
+    # === Phase 2: X (Twitter) ===
+    x_urls = []
+    x_url_to_usernames = {}
+    for username, d in myfans_data.items():
+        if d.get('sns_x') == 1 and d.get('sns_url_x'):
+            url = d['sns_url_x']
+            if url not in x_url_to_usernames:
+                x_urls.append(url)
+                x_url_to_usernames[url] = username
+
+    print(f'\n{"="*60}')
+    print(f'Phase 2: X プロフィール ({len(x_urls)} users)')
+    print(f'{"="*60}')
+    if x_urls:
+        x_results = scrape_all_x(x_urls)
+        for url, x_data in x_results.items():
+            username = x_url_to_usernames.get(url)
+            if username and username in cache:
+                cache[username].update(x_data)
+    else:
+        print('  -> No X links found, skipping')
+
+    # 結果を再構築して途中CSV保存
+    results = []
+    for entry in entries:
+        username = entry['username']
+        data = {**cache.get(username, {'username': username})}
+        data['rank'] = entry['rank']
+        data['rank_as'] = entry['rank_as']
+        results.append(data)
+    write_csv(results, output_path)
+    print(f'  -> Phase 2 complete, CSV saved')
+
+    # === Phase 3: Instagram ===
+    ig_urls = []
+    ig_url_to_usernames = {}
+    for username, d in myfans_data.items():
+        if d.get('sns_instagram') == 1 and d.get('sns_url_instagram'):
+            url = d['sns_url_instagram']
+            if url not in ig_url_to_usernames:
+                ig_urls.append(url)
+                ig_url_to_usernames[url] = username
+
+    print(f'\n{"="*60}')
+    print(f'Phase 3: Instagram プロフィール ({len(ig_urls)} users)')
+    print(f'{"="*60}')
+    if ig_urls:
+        ig_results = scrape_all_instagram(ig_urls)
+        for url, ig_data in ig_results.items():
+            username = ig_url_to_usernames.get(url)
+            if username and username in cache:
+                cache[username].update(ig_data)
+    else:
+        print('  -> No Instagram links found, skipping')
+
+    # 結果を再構築して途中CSV保存
+    results = []
+    for entry in entries:
+        username = entry['username']
+        data = {**cache.get(username, {'username': username})}
+        data['rank'] = entry['rank']
+        data['rank_as'] = entry['rank_as']
+        results.append(data)
+    write_csv(results, output_path)
+    print(f'  -> Phase 3 complete, CSV saved')
+
+    # === Phase 4: TikTok ===
+    tiktok_urls = []
+    tiktok_url_to_usernames = {}
+    for username, d in myfans_data.items():
+        if d.get('sns_tiktok') == 1 and d.get('sns_url_tiktok'):
+            url = d['sns_url_tiktok']
+            if url not in tiktok_url_to_usernames:
+                tiktok_urls.append(url)
+                tiktok_url_to_usernames[url] = username
+
+    print(f'\n{"="*60}')
+    print(f'Phase 4: TikTok プロフィール ({len(tiktok_urls)} users)')
+    print(f'{"="*60}')
+    if tiktok_urls:
+        tiktok_results = scrape_all_tiktok(tiktok_urls)
+        for url, tt_data in tiktok_results.items():
+            username = tiktok_url_to_usernames.get(url)
+            if username and username in cache:
+                cache[username].update(tt_data)
+    else:
+        print('  -> No TikTok links found, skipping')
+
+    # === 最終CSV出力 ===
+    results = []
+    for entry in entries:
+        username = entry['username']
+        data = {**cache.get(username, {'username': username})}
+        data['rank'] = entry['rank']
+        data['rank_as'] = entry['rank_as']
+        results.append(data)
+
     write_csv(results, output_path)
     print(f'\n=== Complete: {len(results)} entries ({total_users} unique users) ===')
     print(f'Output: {output_path}')
