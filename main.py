@@ -6,6 +6,7 @@ import csv
 import os
 import sys
 import time
+from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
 
 from scraper_myfans import scrape_all_myfans
@@ -119,76 +120,25 @@ def main():
     write_csv(results, output_path)
     print(f'  -> Phase 1 complete, CSV saved')
 
-    # === Phase 2: X (Twitter) ===
+    # === Phase 2-4: X / Instagram / TikTok を並列実行 ===
     x_urls = []
     x_url_to_usernames = {}
+    ig_urls = []
+    ig_url_to_usernames = {}
+    tiktok_urls = []
+    tiktok_url_to_usernames = {}
+
     for username, d in myfans_data.items():
         if d.get('sns_x') == 1 and d.get('sns_url_x'):
             url = d['sns_url_x']
             if url not in x_url_to_usernames:
                 x_urls.append(url)
                 x_url_to_usernames[url] = username
-
-    print(f'\n{"="*60}')
-    print(f'Phase 2: X プロフィール ({len(x_urls)} users)')
-    print(f'{"="*60}')
-    if x_urls:
-        x_results = scrape_all_x(x_urls)
-        for url, x_data in x_results.items():
-            username = x_url_to_usernames.get(url)
-            if username and username in cache:
-                cache[username].update(x_data)
-    else:
-        print('  -> No X links found, skipping')
-
-    # 結果を再構築して途中CSV保存
-    results = []
-    for entry in entries:
-        username = entry['username']
-        data = {**cache.get(username, {'username': username})}
-        data['rank'] = entry['rank']
-        data['rank_as'] = entry['rank_as']
-        results.append(data)
-    write_csv(results, output_path)
-    print(f'  -> Phase 2 complete, CSV saved')
-
-    # === Phase 3: Instagram ===
-    ig_urls = []
-    ig_url_to_usernames = {}
-    for username, d in myfans_data.items():
         if d.get('sns_instagram') == 1 and d.get('sns_url_instagram'):
             url = d['sns_url_instagram']
             if url not in ig_url_to_usernames:
                 ig_urls.append(url)
                 ig_url_to_usernames[url] = username
-
-    print(f'\n{"="*60}')
-    print(f'Phase 3: Instagram プロフィール ({len(ig_urls)} users)')
-    print(f'{"="*60}')
-    if ig_urls:
-        ig_results = scrape_all_instagram(ig_urls)
-        for url, ig_data in ig_results.items():
-            username = ig_url_to_usernames.get(url)
-            if username and username in cache:
-                cache[username].update(ig_data)
-    else:
-        print('  -> No Instagram links found, skipping')
-
-    # 結果を再構築して途中CSV保存
-    results = []
-    for entry in entries:
-        username = entry['username']
-        data = {**cache.get(username, {'username': username})}
-        data['rank'] = entry['rank']
-        data['rank_as'] = entry['rank_as']
-        results.append(data)
-    write_csv(results, output_path)
-    print(f'  -> Phase 3 complete, CSV saved')
-
-    # === Phase 4: TikTok ===
-    tiktok_urls = []
-    tiktok_url_to_usernames = {}
-    for username, d in myfans_data.items():
         if d.get('sns_tiktok') == 1 and d.get('sns_url_tiktok'):
             url = d['sns_url_tiktok']
             if url not in tiktok_url_to_usernames:
@@ -196,16 +146,37 @@ def main():
                 tiktok_url_to_usernames[url] = username
 
     print(f'\n{"="*60}')
-    print(f'Phase 4: TikTok プロフィール ({len(tiktok_urls)} users)')
+    print(f'Phase 2-4: SNS プロフィール（並列実行）')
+    print(f'  X: {len(x_urls)} users / Instagram: {len(ig_urls)} users / TikTok: {len(tiktok_urls)} users')
     print(f'{"="*60}')
+
+    sns_tasks = []
+    if x_urls:
+        sns_tasks.append(('X', scrape_all_x, x_urls, x_url_to_usernames))
+    if ig_urls:
+        sns_tasks.append(('Instagram', scrape_all_instagram, ig_urls, ig_url_to_usernames))
     if tiktok_urls:
-        tiktok_results = scrape_all_tiktok(tiktok_urls)
-        for url, tt_data in tiktok_results.items():
-            username = tiktok_url_to_usernames.get(url)
-            if username and username in cache:
-                cache[username].update(tt_data)
+        sns_tasks.append(('TikTok', scrape_all_tiktok, tiktok_urls, tiktok_url_to_usernames))
+
+    if sns_tasks:
+        with ThreadPoolExecutor(max_workers=3) as executor:
+            futures = {}
+            for name, func, urls, url_map in sns_tasks:
+                futures[executor.submit(func, urls)] = (name, url_map)
+
+            for future in as_completed(futures):
+                name, url_map = futures[future]
+                try:
+                    sns_results = future.result()
+                    for url, sns_data in sns_results.items():
+                        username = url_map.get(url)
+                        if username and username in cache:
+                            cache[username].update(sns_data)
+                    print(f'  -> {name} complete ({len(sns_results)} results)')
+                except Exception as e:
+                    print(f'  -> {name} failed: {e}')
     else:
-        print('  -> No TikTok links found, skipping')
+        print('  -> No SNS links found, skipping')
 
     # === 最終CSV出力 ===
     results = []
