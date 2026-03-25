@@ -60,37 +60,29 @@ def _extract_usernames(page) -> list[str]:
 def _scrape_ranking(page, term: str, limit: int | None) -> list[dict]:
     """1つのランキング種別からユーザーを収集
 
-    フロー:
-    1. /ranking/creators にアクセス（初回のみ）
-    2. 「クリエイターランキングをもっと見る」リンクをクリック
-       → /ranking/creators/all?term=xxx に遷移
-    3. 全件ページでページネーション（「次へ」ボタン）
+    URLパラメータ &page=N で直接各ページにアクセスする方式。
     """
-    all_url = RANKING_URLS[term]
-    print(f'\n  [{term}] Navigating to {all_url}...')
-
-    # 全件ページへ直接遷移
-    page.evaluate(f"window.location.href = '{all_url}'")
-    page.wait_for_timeout(3000)
-    page.wait_for_load_state('networkidle')
-    page.wait_for_timeout(2000)
-
-    # 年齢確認（ページ遷移後に再表示される可能性）
-    _click_age_gate(page)
-
-    print(f'    URL: {page.url}')
-
-    # ページネーションで全ページ取得
+    base_url = RANKING_URLS[term]
     all_usernames = []
     page_num = 0
 
     while True:
         page_num += 1
+        url = f'{base_url}&page={page_num}'
+        print(f'  [{term}] Page {page_num}: {url}')
+
+        page.evaluate(f"window.location.href = '{url}'")
+        page.wait_for_timeout(2000)
+        page.wait_for_load_state('networkidle')
+        page.wait_for_timeout(1000)
+
+        if page_num == 1:
+            _click_age_gate(page)
 
         # スクロールして全件表示
-        for _ in range(5):
+        for _ in range(3):
             page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
-            page.wait_for_timeout(1000)
+            page.wait_for_timeout(500)
 
         # ユーザー抽出
         page_users = _extract_usernames(page)
@@ -100,29 +92,16 @@ def _scrape_ranking(page, term: str, limit: int | None) -> list[dict]:
                 all_usernames.append(u)
                 new_count += 1
 
-        print(f'    Page {page_num}: +{new_count} users (total: {len(all_usernames)})')
+        print(f'    +{new_count} users (total: {len(all_usernames)})')
+
+        # 新規ユーザーが0件なら最終ページ
+        if new_count == 0:
+            break
 
         # limit に達したら終了
         if limit and len(all_usernames) >= limit:
             all_usernames = all_usernames[:limit]
             print(f'    Reached limit ({limit})')
-            break
-
-        # 新規ユーザーが0件ならページが変わっていない
-        if new_count == 0 and page_num > 1:
-            break
-
-        # 「次へ」ボタンを探す
-        next_btn = page.locator('button:has-text("次へ")')
-        if next_btn.count() == 0:
-            break
-
-        try:
-            next_btn.first.click()
-            page.wait_for_timeout(2000)
-            page.wait_for_load_state('networkidle')
-            page.wait_for_timeout(1000)
-        except Exception:
             break
 
     # 順位を振ってエントリを作成
@@ -159,16 +138,6 @@ def discover_from_rankings(terms: list[str], limit: int | None = None) -> list[d
         print('  Browser started, checking age gate...')
         # まずトップページで年齢確認を突破
         _click_age_gate(page)
-
-        print('  Navigating to /ranking/creators...')
-        # まずランキングページに遷移して年齢確認を確実に突破
-        page.evaluate("window.location.href = '/ranking/creators'")
-        page.wait_for_timeout(5000)
-        page.wait_for_load_state('networkidle')
-        page.wait_for_timeout(3000)
-        _click_age_gate(page)
-
-        print(f'  Base ranking page: {page.url}')
 
         # 各ランキング種別を順次巡回
         for term in terms:
