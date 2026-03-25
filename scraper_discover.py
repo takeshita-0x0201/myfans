@@ -148,15 +148,19 @@ def discover_from_rankings(terms: list[str], limit: int | None = None) -> list[d
     Returns:
         list[dict]: [{"username": "xxx", "rank": 1, "rank_as": "daily"}, ...]
     """
+    print('  Loading cookies...')
     cookies = load_cookies('myfans')
     all_entries = []
+    print('  Launching browser...')
 
     def action_scrape(page):
         nonlocal all_entries
 
+        print('  Browser started, checking age gate...')
         # まずトップページで年齢確認を突破
         _click_age_gate(page)
 
+        print('  Navigating to /ranking/creators...')
         # まずランキングページに遷移して年齢確認を確実に突破
         page.evaluate("window.location.href = '/ranking/creators'")
         page.wait_for_timeout(5000)

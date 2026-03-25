@@ -120,7 +120,8 @@ def main():
         print(f'Error: ランキング種別を指定してください (daily/weekly/monthly/yearly)')
         sys.exit(1)
 
-    print(f'>>> Ranking: {", ".join(terms)}' + (f' (上位{limit}件)' if limit else ' (全件)'))
+    print(f'>>> Ranking: {", ".join(terms)}' + (f' (各上位{limit}件)' if limit else ' (全件)'))
+    print(f'>>> Starting...')
 
     # ランキングからユーザーを収集
     entries = discover_from_rankings(terms, limit)
