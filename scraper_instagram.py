@@ -26,7 +26,7 @@ def scrape_instagram_profile(url: str) -> dict:
 
     def action_scrape(page):
         nonlocal post_dates
-        page.wait_for_timeout(5000)
+        page.wait_for_timeout(3000)
 
         body_text = page.locator('body').inner_text()
         body_lower = body_text.lower()

@@ -28,9 +28,9 @@ def _click_age_gate(page):
         for i in range(buttons.count()):
             if 'はい' in buttons.nth(i).inner_text():
                 buttons.nth(i).click()
-                page.wait_for_timeout(3000)
-                page.wait_for_load_state('networkidle')
                 page.wait_for_timeout(2000)
+                page.wait_for_load_state('networkidle')
+                page.wait_for_timeout(1000)
                 return
     except Exception:
         pass
@@ -71,9 +71,9 @@ def _scrape_ranking(page, term: str, limit: int | None) -> list[dict]:
 
     # 全件ページへ直接遷移
     page.evaluate(f"window.location.href = '{all_url}'")
-    page.wait_for_timeout(5000)
-    page.wait_for_load_state('networkidle')
     page.wait_for_timeout(3000)
+    page.wait_for_load_state('networkidle')
+    page.wait_for_timeout(2000)
 
     # 年齢確認（ページ遷移後に再表示される可能性）
     _click_age_gate(page)
@@ -119,9 +119,9 @@ def _scrape_ranking(page, term: str, limit: int | None) -> list[dict]:
 
         try:
             next_btn.first.click()
-            page.wait_for_timeout(3000)
-            page.wait_for_load_state('networkidle')
             page.wait_for_timeout(2000)
+            page.wait_for_load_state('networkidle')
+            page.wait_for_timeout(1000)
         except Exception:
             break
 

@@ -15,9 +15,9 @@ def _click_age_gate(page):
         for i in range(buttons.count()):
             if 'はい' in buttons.nth(i).inner_text():
                 buttons.nth(i).click()
-                page.wait_for_timeout(3000)
-                page.wait_for_load_state('networkidle')
                 page.wait_for_timeout(2000)
+                page.wait_for_load_state('networkidle')
+                page.wait_for_timeout(1000)
                 return
     except Exception:
         pass
@@ -58,6 +58,7 @@ def scrape_user_profile(username: str) -> dict:
     def action_scrape(page):
         nonlocal post_dates
         _click_age_gate(page)
+        page.wait_for_timeout(2000)
 
         # === 表示名 ===
         title = page.title()
@@ -207,13 +208,13 @@ def scrape_user_profile(username: str) -> dict:
         first_post = page.locator('a[href*="/posts/"]').first
         if first_post.count() > 0:
             first_post.click()
-            page.wait_for_timeout(3000)
-            page.wait_for_load_state('networkidle')
             page.wait_for_timeout(2000)
+            page.wait_for_load_state('networkidle')
+            page.wait_for_timeout(1000)
 
             # スワイプビューで日付を収集（最新〜過去へスクロール）
             collected = set()
-            for scroll_round in range(15):
+            for scroll_round in range(5):
                 all_els = page.locator('span, div, p')
                 count = all_els.count()
                 found_new = False
@@ -233,7 +234,7 @@ def scrape_user_profile(username: str) -> dict:
                 # 次の投稿へスワイプ（下スクロール or スワイプ）
                 # スワイプビューではスクロールで次の投稿に進む
                 page.evaluate('window.scrollBy(0, window.innerHeight)')
-                page.wait_for_timeout(800)
+                page.wait_for_timeout(500)
 
             # 戻る
             try:
@@ -248,22 +249,22 @@ def scrape_user_profile(username: str) -> dict:
             select = page.locator('.MuiSelect-select')
             if select.count() > 0:
                 select.first.click()
-                page.wait_for_timeout(1000)
+                page.wait_for_timeout(500)
                 items = page.locator('[role="option"], .MuiMenuItem-root, li')
                 for i in range(items.count()):
                     try:
                         text = items.nth(i).inner_text().strip()
                         if '古い' in text:
                             items.nth(i).click()
-                            page.wait_for_timeout(3000)
-                            page.wait_for_load_state('networkidle')
                             page.wait_for_timeout(2000)
+                            page.wait_for_load_state('networkidle')
+                            page.wait_for_timeout(1000)
 
                             # 最古の投稿をクリック
                             oldest_post = page.locator('a[href*="/posts/"]').first
                             if oldest_post.count() > 0:
                                 oldest_post.click()
-                                page.wait_for_timeout(3000)
+                                page.wait_for_timeout(2000)
                                 # 日付を取得
                                 all_els = page.locator('span, div, p')
                                 for j in range(all_els.count()):

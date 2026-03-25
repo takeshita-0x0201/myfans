@@ -59,7 +59,6 @@ def scrape_single_user(username: str) -> dict:
         print(f'  [2/4] X profile: {data["sns_url_x"]}')
         x_data = scrape_x_profile(data['sns_url_x'])
         data.update(x_data)
-        time.sleep(2)
     else:
         print(f'  [2/4] X: skipped (no link)')
 
@@ -68,7 +67,6 @@ def scrape_single_user(username: str) -> dict:
         print(f'  [3/4] Instagram profile: {data["sns_url_instagram"]}')
         ig_data = scrape_instagram_profile(data['sns_url_instagram'])
         data.update(ig_data)
-        time.sleep(2)
     else:
         print(f'  [3/4] Instagram: skipped (no link)')
 
@@ -77,7 +75,6 @@ def scrape_single_user(username: str) -> dict:
         print(f'  [4/4] TikTok profile: {data["sns_url_tiktok"]}')
         tt_data = scrape_tiktok_profile(data['sns_url_tiktok'])
         data.update(tt_data)
-        time.sleep(2)
     else:
         print(f'  [4/4] TikTok: skipped (no link)')
 
@@ -156,7 +153,7 @@ def main():
                     'username': username,
                     'scraped_at': datetime.now().strftime('%Y-%m-%d'),
                 }
-            time.sleep(3)
+            time.sleep(1)
 
         # キャッシュからデータをコピーし、rank/rank_asを付与
         data = {**cache[username]}
