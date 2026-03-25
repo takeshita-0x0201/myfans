@@ -22,7 +22,7 @@ EXCLUDE_PREFIXES = [
 ]
 
 # ページ並列取得のワーカー数
-PAGE_WORKERS = 3
+PAGE_WORKERS = 5
 
 
 def _click_age_gate(page):
