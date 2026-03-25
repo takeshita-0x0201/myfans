@@ -116,7 +116,7 @@ cookies/ ディレクトリに以下のファイルを配置（元PCからコピ
 ## Step 11. 動作確認
 
 ```
-python main.py テスト用ユーザー名
+python3 main.py daily 5
 ```
 
 output/ フォルダにCSVが生成されれば成功。
@@ -133,8 +133,58 @@ cd ~/Documents/myfans
 source .venv/bin/activate
 ```
 
+実行：
+
 ```
-python main.py ユーザー名1 ユーザー名2
+python3 main.py daily 5
+```
+
+---
+
+## 実行コマンド一覧
+
+日間ランキング全件：
+
+```
+python3 main.py daily
+```
+
+月間ランキング上位50件：
+
+```
+python3 main.py monthly 50
+```
+
+日間＋週間 各上位30件：
+
+```
+python3 main.py daily weekly 30
+```
+
+全ランキング全件：
+
+```
+python3 main.py daily weekly monthly yearly
+```
+
+---
+
+## 最新コードに更新して実行する手順
+
+```
+cd ~/Documents/myfans
+```
+
+```
+source .venv/bin/activate
+```
+
+```
+git pull origin main
+```
+
+```
+python3 main.py daily 5
 ```
 
 ---
