@@ -19,6 +19,9 @@ EXCLUDE_PREFIXES = [
     '/account', '/feed', '/en/', '/ja/', '/search',
 ]
 
+# ページ並列取得のワーカー数
+PAGE_WORKERS = 3
+
 
 def _click_age_gate(page):
     """年齢確認ダイアログを突破"""
@@ -56,50 +59,49 @@ def _extract_usernames(page) -> list[str]:
     return usernames
 
 
-def _scrape_single_term(term: str, limit: int | None) -> list[dict]:
-    """1つのランキング種別を1ブラウザで全ページ取得（スレッドで実行される）"""
+def _fetch_pages_worker(term: str, worker_id: int, total_workers: int) -> dict[int, list[str]]:
+    """ワーカーが担当するページ群を1ブラウザで取得
+
+    worker_id=0, total_workers=3 → pages 1, 4, 7, 10, ...
+    worker_id=1, total_workers=3 → pages 2, 5, 8, 11, ...
+    worker_id=2, total_workers=3 → pages 3, 6, 9, 12, ...
+
+    Returns: {page_num: [username1, username2, ...], ...}
+    """
     fetcher = StealthyFetcher()
     cookies = load_cookies('myfans')
     base_url = RANKING_URLS[term]
-    all_usernames = []
+    page_results = {}
 
     def action(page):
-        nonlocal all_usernames
-        page_num = 0
+        _click_age_gate(page)
 
+        page_num = worker_id + 1  # 1-indexed
         while True:
-            page_num += 1
             url = f'{base_url}&page={page_num}'
-            print(f'  [{term}] Page {page_num}')
+            print(f'  [{term}] Worker {worker_id+1}: page {page_num}')
 
             page.evaluate(f"window.location.href = '{url}'")
             page.wait_for_timeout(2000)
             page.wait_for_load_state('networkidle')
             page.wait_for_timeout(1000)
 
-            if page_num == 1:
+            if page_num == worker_id + 1:
                 _click_age_gate(page)
 
             for _ in range(3):
                 page.evaluate('window.scrollTo(0, document.body.scrollHeight)')
                 page.wait_for_timeout(500)
 
-            page_users = _extract_usernames(page)
-            new_count = 0
-            for u in page_users:
-                if u not in all_usernames:
-                    all_usernames.append(u)
-                    new_count += 1
-
-            print(f'    [{term}] +{new_count} users (total: {len(all_usernames)})')
-
-            if new_count == 0:
+            users = _extract_usernames(page)
+            if not users:
+                print(f'    [{term}] Worker {worker_id+1}: page {page_num} empty, stopping')
                 break
 
-            if limit and len(all_usernames) >= limit:
-                all_usernames = all_usernames[:limit]
-                print(f'    [{term}] Reached limit ({limit})')
-                break
+            page_results[page_num] = users
+            print(f'    [{term}] Worker {worker_id+1}: page {page_num} -> {len(users)} users')
+
+            page_num += total_workers
 
     fetcher.fetch(
         'https://myfans.jp',
@@ -111,6 +113,39 @@ def _scrape_single_term(term: str, limit: int | None) -> list[dict]:
         locale='ja-JP',
     )
 
+    return page_results
+
+
+def _scrape_single_term(term: str, limit: int | None) -> list[dict]:
+    """1つのランキング種別を並列ページ取得"""
+    print(f'\n  [{term}] Starting with {PAGE_WORKERS} parallel browsers...')
+
+    # 各ワーカーを並列実行
+    all_page_results = {}
+    with ThreadPoolExecutor(max_workers=PAGE_WORKERS) as executor:
+        futures = {
+            executor.submit(_fetch_pages_worker, term, i, PAGE_WORKERS): i
+            for i in range(PAGE_WORKERS)
+        }
+        for future in as_completed(futures):
+            worker_id = futures[future]
+            try:
+                page_results = future.result()
+                all_page_results.update(page_results)
+            except Exception as e:
+                print(f'  [{term}] Worker {worker_id+1} failed: {e}')
+
+    # ページ番号順にソートしてユーザーリストを構築（順位を正確にするため）
+    all_usernames = []
+    for page_num in sorted(all_page_results.keys()):
+        for u in all_page_results[page_num]:
+            if u not in all_usernames:
+                all_usernames.append(u)
+
+    # limit適用
+    if limit and len(all_usernames) > limit:
+        all_usernames = all_usernames[:limit]
+
     entries = []
     for idx, username in enumerate(all_usernames):
         entries.append({
@@ -119,28 +154,22 @@ def _scrape_single_term(term: str, limit: int | None) -> list[dict]:
             'rank_as': term,
         })
 
-    print(f'  [{term}] Done: {len(entries)} users')
+    print(f'  [{term}] Done: {len(entries)} users from {len(all_page_results)} pages')
     return entries
 
 
 def discover_from_rankings(terms: list[str], limit: int | None = None) -> list[dict]:
-    """指定されたランキング種別からユーザーを並列収集
-
-    各termは別ブラウザで並列実行される。
-    """
+    """指定されたランキング種別からユーザーを並列収集"""
     valid_terms = [t for t in terms if t in RANKING_URLS]
     if not valid_terms:
         return []
 
-    print(f'  Launching {len(valid_terms)} browser(s) in parallel...')
-
     all_entries = []
 
     if len(valid_terms) == 1:
-        # 1種別のみなら直列
         all_entries = _scrape_single_term(valid_terms[0], limit)
     else:
-        # 複数種別は並列
+        # 複数種別も並列（各種別内でさらにページ並列）
         with ThreadPoolExecutor(max_workers=len(valid_terms)) as executor:
             futures = {
                 executor.submit(_scrape_single_term, term, limit): term
