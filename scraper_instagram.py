@@ -15,6 +15,7 @@ def scrape_instagram_profile(url: str) -> dict:
         'instagram_last_30d_posts': '',
         'instagram_latest_post_date': '',
         'instagram_first_post_date': '',
+        'instagram_status': '',
     }
 
     if not url or url == 'N/A':
@@ -28,11 +29,29 @@ def scrape_instagram_profile(url: str) -> dict:
         page.wait_for_timeout(5000)
 
         body_text = page.locator('body').inner_text()
+        body_lower = body_text.lower()
 
-        # ページが存在しない場合
-        if "this page isn't available" in body_text or 'ページがありません' in body_text:
-            print(f'  Instagram: page not found')
+        # ログインページにリダイレクトされた場合
+        if 'login' in page.url or ('log in' in body_lower and 'followers' not in body_lower):
+            data['instagram_status'] = 'login_required'
+            print(f'  Instagram: login required')
             return
+
+        # ページが存在しない / アカウント凍結・削除
+        if "this page isn't available" in body_text or 'ページがありません' in body_text:
+            data['instagram_status'] = 'not_available'
+            print(f'  Instagram: not available (suspended/deleted/not found)')
+            return
+
+        # 非公開アカウント
+        if 'this account is private' in body_lower or '非公開' in body_text:
+            data['instagram_status'] = 'private'
+            print(f'  Instagram: private account')
+            # 非公開でもフォロワー数は取得できる場合がある（以下で取得を続行）
+
+        # 正常
+        if not data['instagram_status']:
+            data['instagram_status'] = 'ok'
 
         # フォロワー数: "XXX followers" パターン（bodyテキストから）
         m = re.search(r'([\d,.]+[KMkm]?)\s*followers', body_text, re.I)

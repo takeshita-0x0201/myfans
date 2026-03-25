@@ -1,6 +1,6 @@
 """
 MyFans Scraper - メインスクリプト
-ユーザープロフィール + SNS情報を収集してCSVに出力
+ランキングからユーザーを収集し、プロフィール + SNS情報をCSVに出力
 """
 import csv
 import os
@@ -12,12 +12,11 @@ from scraper_myfans import scrape_user_profile
 from scraper_x import scrape_x_profile
 from scraper_instagram import scrape_instagram_profile
 from scraper_tiktok import scrape_tiktok_profile
-from scraper_ranking import scrape_monthly_creator_ranking
-from scraper_discover import discover_usernames
+from scraper_discover import discover_from_rankings, RANKING_URLS
 
 # CSV カラム定義（順序固定）
 CSV_COLUMNS = [
-    'scraped_at', 'rank', 'name', 'username', 'myfans_url', 'profile_text',
+    'scraped_at', 'rank', 'rank_as', 'name', 'username', 'myfans_url', 'profile_text',
     'followers', 'likes', 'posts', 'last_30d_posts',
     'myfans_latest_post_date', 'myfans_first_post_date',
     # X
@@ -26,6 +25,7 @@ CSV_COLUMNS = [
     # Instagram
     'sns_instagram', 'sns_url_instagram', 'instagram_followers', 'instagram_posts',
     'instagram_last_30d_posts', 'instagram_latest_post_date', 'instagram_first_post_date',
+    'instagram_status',
     # TikTok
     'sns_tiktok', 'sns_url_tiktok', 'tiktok_followers', 'tiktok_posts',
     'tiktok_last_30d_posts', 'tiktok_latest_post_date', 'tiktok_first_post_date',
@@ -41,9 +41,10 @@ CSV_COLUMNS = [
     'has_free_plan', 'has_trial_period', 'has_update_frequency',
 ]
 
+VALID_TERMS = set(RANKING_URLS.keys())
 
 
-def scrape_single_user(username: str, rank: str = '') -> dict:
+def scrape_single_user(username: str) -> dict:
     """1ユーザーの全データを収集"""
     print(f'\n{"="*60}')
     print(f'Scraping: {username}')
@@ -52,7 +53,6 @@ def scrape_single_user(username: str, rank: str = '') -> dict:
     # 1. MyFansプロフィール
     print(f'  [1/4] MyFans profile...')
     data = scrape_user_profile(username)
-    data['rank'] = rank
 
     # 2. X (Twitter)
     if data.get('sns_x') == 1 and data.get('sns_url_x'):
@@ -96,85 +96,81 @@ def write_csv(results: list[dict], output_path: str):
         writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS, extrasaction='ignore')
         writer.writeheader()
         for row in results:
-            # 欠損カラムを空文字で埋める
             clean_row = {col: row.get(col, '') for col in CSV_COLUMNS}
             writer.writerow(clean_row)
     print(f'\nCSV saved: {output_path}')
 
 
 def main():
-    # -n オプションで件数制限（例: python main.py -n 10）
-    limit = None
     args = sys.argv[1:]
-    if '-n' in args:
-        n_idx = args.index('-n')
-        limit = int(args[n_idx + 1])
-        args = args[:n_idx] + args[n_idx + 2:]
 
-    if args:
-        # コマンドライン引数でユーザー名指定
-        usernames = args
-    else:
-        # MyFansサイトからユーザーを自動発見
-        print('>>> Discovering users from MyFans...')
-        usernames = discover_usernames()
-        print(f'Discovered {len(usernames)} unique users')
+    if not args:
+        print('Usage: python main.py <daily|weekly|monthly|yearly> [件数]')
+        print('  例: python main.py daily            # 日間ランキング全件')
+        print('  例: python main.py monthly 50        # 月間ランキング上位50件')
+        print('  例: python main.py daily weekly 30   # 日間+週間 各上位30件')
+        sys.exit(1)
 
-    if not usernames:
+    # 引数パース: ランキング種別と件数を分離
+    terms = [a for a in args if a in VALID_TERMS]
+    numbers = [a for a in args if a.isdigit()]
+    limit = int(numbers[0]) if numbers else None
+
+    if not terms:
+        print(f'Error: ランキング種別を指定してください (daily/weekly/monthly/yearly)')
+        sys.exit(1)
+
+    print(f'>>> Ranking: {", ".join(terms)}' + (f' (上位{limit}件)' if limit else ' (全件)'))
+
+    # ランキングからユーザーを収集
+    entries = discover_from_rankings(terms, limit)
+
+    if not entries:
         print('No users found.')
         sys.exit(1)
 
-    # 件数制限
-    if limit:
-        usernames = usernames[:limit]
-        print(f'Limited to first {limit} users')
-
-    ranks = {}
+    print(f'\n>>> {len(entries)} entries to scrape')
 
     # 出力先
     timestamp = datetime.now().strftime('%Y%m%d_%H%M%S')
     output_path = f'output/myfans_data_{timestamp}.csv'
 
-    # 月間クリエイターランキングを取得
-    print('\n>>> Fetching monthly creator ranking...')
-    try:
-        ranking = scrape_monthly_creator_ranking()
-        print(f'  Ranking: {len(ranking)} creators found')
-        # ランキング情報をranksに反映
-        for username in usernames:
-            if username in ranking:
-                ranks[username] = ranking[username]
-    except Exception as e:
-        print(f'  Ranking fetch failed: {e}')
-
-    # スクレイピング実行
+    # スクレイピング実行（同一ユーザーのキャッシュで重複回避）
+    cache = {}
     results = []
-    total = len(usernames)
-    for idx, username in enumerate(usernames):
-        print(f'\n>>> [{idx+1}/{total}] {username}')
-        try:
-            data = scrape_single_user(username, rank=ranks.get(username, ''))
-            results.append(data)
+    unique_users = list(dict.fromkeys(e['username'] for e in entries))
+    total_users = len(unique_users)
 
-            # 途中経過を保存（クラッシュ対策）
-            if (idx + 1) % 5 == 0 or idx == total - 1:
-                write_csv(results, output_path)
-                print(f'  -> Progress saved ({idx+1}/{total})')
+    for idx, entry in enumerate(entries):
+        username = entry['username']
 
-        except Exception as e:
-            print(f'  -> FATAL ERROR for {username}: {e}')
-            results.append({
-                'username': username,
-                'scraped_at': datetime.now().strftime('%Y-%m-%d'),
-                'rank': ranks.get(username, ''),
-            })
+        if username not in cache:
+            user_idx = unique_users.index(username) + 1
+            print(f'\n>>> [{user_idx}/{total_users}] {username}')
+            try:
+                cache[username] = scrape_single_user(username)
+            except Exception as e:
+                print(f'  -> FATAL ERROR for {username}: {e}')
+                cache[username] = {
+                    'username': username,
+                    'scraped_at': datetime.now().strftime('%Y-%m-%d'),
+                }
+            time.sleep(3)
 
-        # レート制限対策
-        time.sleep(3)
+        # キャッシュからデータをコピーし、rank/rank_asを付与
+        data = {**cache[username]}
+        data['rank'] = entry['rank']
+        data['rank_as'] = entry['rank_as']
+        results.append(data)
+
+        # 途中経過を保存（5ユーザーごと or 最後）
+        if (idx + 1) % 5 == 0 or idx == len(entries) - 1:
+            write_csv(results, output_path)
+            print(f'  -> Progress saved ({idx+1}/{len(entries)} entries)')
 
     # 最終保存
     write_csv(results, output_path)
-    print(f'\n=== Complete: {len(results)}/{total} users scraped ===')
+    print(f'\n=== Complete: {len(results)} entries ({total_users} unique users) ===')
     print(f'Output: {output_path}')
 
 
