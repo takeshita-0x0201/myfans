@@ -139,7 +139,8 @@ def fetch_user_detail(rank, username, user_id):
 
 def main():
     import sys
-    max_pages = int(sys.argv[1]) if len(sys.argv) > 1 else 50
+    start_page = int(sys.argv[1]) if len(sys.argv) > 1 else 1
+    end_page = int(sys.argv[2]) if len(sys.argv) > 2 else 50
 
     os.makedirs('output', exist_ok=True)
     ts = datetime.now().strftime('%Y%m%d_%H%M%S')
@@ -150,12 +151,19 @@ def main():
         writer = csv.DictWriter(f, fieldnames=CSV_COLUMNS)
         writer.writeheader()
 
-    global_rank = 0
+    # 開始ページ前のランク数を計算 (page1=21件, page2以降=20件)
+    if start_page == 1:
+        global_rank = 0
+    else:
+        global_rank = 21 + (start_page - 2) * 20
+
     total_ok = 0
     total_err = 0
     start = time.time()
 
-    for page in range(1, max_pages + 1):
+    print(f'Fetching pages {start_page} to {end_page} (rank {global_rank + 1}~)', flush=True)
+
+    for page in range(start_page, end_page + 1):
         # === 1ページ分のランキング取得 ===
         if page == 1:
             params = {'genre_key': 'all', 'sexual_orientation': 'woman',
