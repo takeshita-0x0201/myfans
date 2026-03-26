@@ -1,0 +1,2807 @@
+{
+  "https://api.myfans.jp/api/ranking/creators/all?genre_key=all&sexual_orientation=general&term=daily&page=1&per_page=21&padding=0": {
+    "data": [
+      {
+        "id": "a35859c7-d1db-4c26-b019-d267c350c4f9",
+        "username": "mery_cosnico",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/b6cafc5c-8a16-4eca-822a-61a88f5f355f/image20260115-1-nmher4.webp",
+        "likes_count": 158,
+        "name": "紫月メリー",
+        "about": "~cosplayer~\r\n\r\n東京・名古屋を中心に活動してますっ！✨\r\n過去のも含めて、いろいろ投稿していくね〜🫶\r\n\r\nYouTubeではVtuberとして活動しています！",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 90,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/be80a383-4b1f-48d6-ba89-7b86323b5e90/image20260115-1-v39qsn.webp",
+        "is_following": false,
+        "recommended_plan": {
+          "id": "9bb11f09-3ad9-4795-9ca9-b100f70b0d29",
+          "is_single": true,
+          "is_back_number": false,
+          "flag": "recommended",
+          "monthly_price": 10000,
+          "posts_count": 3,
+          "product_name": "紫月だいだいだいすきぷらん♡",
+          "description": "紫月のこと大好きだよー！！！って人向け♡\n投稿は余さずぜーーーんぶ見れちゃいます！\nプライベートなことも投稿しちゃうかも？？\n\n♡即売会でチェキ1枚無料\n♡写真集やグッズ取り置き確実✨\n\nあなたのおかげで衣装が増えたりスタジオで撮れたり、イベントの開催が出来たりするかも？？\n実質旦那様なのでは？！",
+          "status": "initialize",
+          "user": {
+            "id": "a35859c7-d1db-4c26-b019-d267c350c4f9",
+            "username": "mery_cosnico",
+            "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/b6cafc5c-8a16-4eca-822a-61a88f5f355f/image20260115-1-nmher4.webp",
+            "likes_count": 158,
+            "name": "紫月メリー",
+            "about": "~cosplayer~\r\n\r\n東京・名古屋を中心に活動してますっ！✨\r\n過去のも含めて、いろいろ投稿していくね〜🫶\r\n\r\nYouTubeではVtuberとして活動しています！",
+            "is_official": false,
+            "can_display_premium_badge": false,
+            "can_create_coupon": false,
+            "can_use_dashboard": false,
+            "creator_sexual_orientation": "general"
+          },
+          "active_discount": {
+            "id": "3e871b6a-a657-431a-9da1-934801913486",
+            "discount_rate": 30
+          },
+          "active_plan_bundles": [
+            {
+              "id": "8bbd3d30-ac83-42fa-8a7e-2670ebe364e7",
+              "duration_months": 3,
+              "price": 27000,
+              "monthly_price": 9000,
+              "is_recommended": false,
+              "discount_rate": 10,
+              "display_price": 27000
+            },
+            {
+              "id": "63b0067b-9107-4525-ac8f-f027b79986d8",
+              "duration_months": 6,
+              "price": 51000,
+              "monthly_price": 8500,
+              "is_recommended": true,
+              "discount_rate": 15,
+              "display_price": 51000
+            },
+            {
+              "id": "cf45e370-94bb-44a5-8e69-bfa17605e213",
+              "duration_months": 12,
+              "price": 102000,
+              "monthly_price": 8500,
+              "is_recommended": false,
+              "discount_rate": 15,
+              "display_price": 102000
+            }
+          ]
+        }
+      },
+      {
+        "id": "c7db3317-0149-4cc9-9b89-1d36ee6ee304",
+        "username": "Ari18192",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/19cd4e96-8113-4c80-a37e-ee7d0101f70d/image20251223-1-sdqzew.webp",
+        "likes_count": 619,
+        "name": "Ari",
+        "about": "お尻フェチファンクラブ🍑\r\nえっちなコスプレやグラビアを投稿します🫣💕︎\r\n\r\nミーミューズと内容は同じにしたかったのですが、こちらの方が厳しいらしく削除されるものが多いので、お楽しみプランまでにしました🥺💦\r\n",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 515,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/04571ea9-248a-4090-a982-8b4c489c61e6/image20251223-1-35j2ve.webp",
+        "is_following": false
+      },
+      {
+        "id": "286cfa16-98e5-419b-bb8d-6282ee0e0475",
+        "username": "natsumikan",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/e7fd057b-0274-4f12-b05e-666b429982bc/image20260321-1-9kw0gm.webp",
+        "likes_count": 492,
+        "name": "なつみ",
+        "about": "趣味:ダイエット🏃‍♀️旅行✈️食べ歩き🍺\r\n特技:リバウンド🐷ボケ潰し🥺",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 193,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/0fb2f330-c8f7-45f4-9bed-a41a44e3fb7a/image20260227-1-niyf3q.webp",
+        "is_following": false
+      },
+      {
+        "id": "722bc4aa-52cd-4c2b-a552-aa083db41385",
+        "username": "ao_walking",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/821304f9-abc1-4982-90de-f8e8df8d9cdf/image20260310-1-ypjlma.webp",
+        "likes_count": 554,
+        "name": "ao💙",
+        "about": "ファンになって下さったフォロワー様向けに\r\nファンサイト作ってみましたが…\r\n過激な投稿者さん多くて続けられるかな?",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 106,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/a26ffbf1-0bfc-45fb-9172-4bae5d8847ed/image20260305-1-khqj0h.webp",
+        "is_following": false
+      },
+      {
+        "id": "a31ae059-5e03-4338-a9c6-9d7028ab2b6d",
+        "username": "hnmr__100",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/0483115f-20ee-4968-857d-de2f09927929/image20260304-1-fwtv4f.webp",
+        "likes_count": 293,
+        "name": "HANA",
+        "about": "",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 129,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/5665cbd7-54ee-46d1-8bdf-9d8078eeb5e7/image20260304-1-ii8bvj.webp",
+        "is_following": false
+      },
+      {
+        "id": "b2e905c0-7076-4b52-8439-d530c6e70e89",
+        "username": "tonarinonoaa",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/dd05b281-f5e1-4d42-a96d-915a10b5abaa/image20260304-1-xvhlvb.webp",
+        "likes_count": 122,
+        "name": "隣ののあ",
+        "about": "R18アカウントはリンクから飛んでください🫶\r\n普段は学生しながらTikTokで踊ってます⸜(๑‘ᵕ‘๑)⸝*",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 57,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/1d06715a-4eff-4a1f-ae65-5e63da77a341/image20260304-1-82xc3z.webp",
+        "is_following": false
+      },
+      {
+        "id": "6cfb8799-a5fd-4d52-9ee8-ff5ae3468630",
+        "username": "moonfantasy22",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/ae41302c-ae42-40f0-8346-8a13b2442054/image20260301-1-gil7lj.webp",
+        "likes_count": 209,
+        "name": "月野るな",
+        "about": "",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 108,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/93fa6de9-b4a5-4ccb-9eb3-bf3bd98fd0db/image20260303-1-7pii1g.webp",
+        "is_following": false
+      },
+      {
+        "id": "473e43c3-a20d-4f40-8d53-4a26a078b4b1",
+        "username": "ichichiha",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/86e14659-afc8-42d3-bb8f-03cde6150c35/image20260115-1-3alx87.webp",
+        "likes_count": 154,
+        "name": "天津いちは",
+        "about": "SNSフォローしてね！",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 70,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/3bd126f7-82df-489e-a034-df410b12797c/image20260123-1-29ttpx.webp",
+        "is_following": false
+      },
+      {
+        "id": "35c37cd0-67df-4ad2-9e1b-c374020388a6",
+        "username": "yuzupon0509",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/420f11d3-d0f2-4291-8ef2-a2bcd095cd55/image20260208-1-t08vkl.webp",
+        "likes_count": 579,
+        "name": "ながさわゆずき",
+        "about": "やっほー！長澤柚希（ゆずぽん）です🍋 \r\nTiktokではダンスしたり、モデル系の動画上げたりしてるけど…… 正直、猫かぶってます（笑）。\r\nTikTokってさ、いろいろ厳しいじゃん？ 「あ、これちょっと際どいかな…？」ってボツにした動画とか、 「素が出すぎてて恥ずかしいｗ」ってプロデューサー（撮影者）に止められたやつとか。\r\n\r\nそういう「表には出せない私」を、こっそり公開するためにこの部屋を作りました✨\r\n\r\nここは私のスマホの中身をぶちまける「裏垢」みたいな場所です。 加工なしのガチ寝起きとか、お風呂上がりのすっぴんとか、 ちょっとドキッとするような写真や動画も……ここでは解禁しちゃうかも？🫣\r\n\r\n【🗝️ ここだけで見れるもの】\r\n\r\n    📱 TikTokのNG集＆未公開シーン （BAN対策で泣く泣くカットしたやつとか…笑）\r\n\r\n    🛌 完全プライベートの「オフショット」 （部屋着、寝起き、写真）\r\n\r\n    💬 ゆずの「本音」日記 （SNSでは言えない愚痴とか、悩みとか、秘密の恋バナとか！）\r\n\r\n「ファン」っていうより、「秘密の共犯者」になってくれたら嬉しいな。 こっちでは、もっともっと濃密に絡も？💕\r\n\r\n登録待ってるね！",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 144,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/7422b3c7-95a5-4490-b10f-86d52abc9a1c/image20260208-1-bm90z2.webp",
+        "is_following": false
+      },
+      {
+        "id": "5f000872-90e0-44e5-a5a3-43f718f6ecb0",
+        "username": "9xvzoh",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/e46e3a38-3dc2-40c9-8416-cdfa0c317f47/image20251223-1-jmaa7i.webp",
+        "likes_count": 2240,
+        "name": "トキミホのサクラダファミリア",
+        "about": "時希美穂といいます💓\r\nしがないグラビアアイドルやってます！\r\n三度の飯よりとき民が好き！！！！！！！",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 546,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/a314b78e-a636-420c-b6da-e81edc17c97f/image20251223-1-s2a65i.webp",
+        "is_following": false
+      },
+      {
+        "id": "a016742b-9ae8-4f15-8080-67c80182c2d4",
+        "username": "misono_915",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/6d3194d3-5613-4321-81a4-5b35bab66872/image20260108-1-q7yvse.webp",
+        "likes_count": 739,
+        "name": "水原みその",
+        "about": "🤍🩵セクシー女優🩵🤍バーもやってます❣️",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 1040,
+        "banner_url": "https://p1.cdn.myfans.jp/static/banner-t3UFaa.png",
+        "is_following": false
+      },
+      {
+        "id": "5c64322e-5991-49aa-b125-f14b5f66a0de",
+        "username": "kuubooty_24",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/8e00af7b-dab1-4345-a5b3-b4adf7949d78/image20260315-1-3wh564.webp",
+        "likes_count": 130,
+        "name": "くぅ🍑🫧",
+        "about": "メンエス嬢の裏側見せちゃうよ...❤︎🤫\r\n\r\n🍑お尻が好きな人、ムチムチが好きな人向け🍑",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 80,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b58cc0e6-2b23-4813-a984-c8d0ef9a06bc/image20260315-1-wlvv7c.webp",
+        "is_following": false
+      },
+      {
+        "id": "39fbeafc-6103-4467-bc72-d6d39527f744",
+        "username": "onushidao",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/8f67f378-f95e-421e-b91c-b5820760b7e6/image20260210-1-hgmiy5.webp",
+        "likes_count": 177,
+        "name": "りあん",
+        "about": "りあんちゃです！♡\r\n========================================\r\n【注意】\r\n当サイト内の全ての画像・動画を許可無く転載することを禁じます。\r\n\r\nIt is prohibited to reproduce all the works on this website without permission.\r\n========================================\r\n・画像　動画の転載やダウンロード　第三者に見せる行為は禁止します。著作権の侵害の場合の罰則は「10年以下の懲役」または「1000万円以下の罰金」が科せられます。無断転載等が発覚した場合は即情報開示請求致します。情報開示請求後の示談には応じませんので予めご了承下さい",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 140,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/9386610d-be26-4e7a-95b9-a027044564c1/image20260210-1-dyzhqy.webp",
+        "is_following": false
+      },
+      {
+        "id": "43b8e923-e7cd-45d2-aff2-2f76912e83eb",
+        "username": "miko_prpr",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/edff3248-2842-458d-ba07-229ffc6a826b/image20260112-1-e4lrib.webp",
+        "likes_count": 442,
+        "name": "黒田みこ🐈‍⬛💙",
+        "about": "貴方の日常を非日常に🐈‍⬛💙\r\n鎌倉出身のフリーランス🐈‍⬛\r\nグラビア(dvd4本VR3本、Kindle写真集など/CM、TV出演)/コスプレ/game🎮:PCﾒｲﾝ/マンガ/アニメ/音楽/動物とダーツ好き🎯べろ〜家巣鴨店で逢えるやさん(2022.3~PERFECT所属)",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 239,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/0521728a-93e2-4f8d-b3ae-4bebbb9a2914/image20260112-1-jijfmv.webp",
+        "is_following": false
+      },
+      {
+        "id": "3b2a3731-bb5b-43cf-95c7-dadd87dad2cb",
+        "username": "kitiga_dayo",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/7de653b8-c0d7-4485-bc7b-a462f75dac97/image20260226-1-5xxwbb.webp",
+        "likes_count": 373,
+        "name": "男だが",
+        "about": "男だがです。\r\n少しずつしっかり追加していきます。\r\nチップなど応援してくれたら喜ぶ",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 153,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/50fb36ac-1acc-4ad8-9ec8-43bbb70151e2/image20260226-1-p6ikbw.webp",
+        "is_following": false
+      },
+      {
+        "id": "5aa7e163-dfac-45bb-b7b2-0a57ff5e7e7c",
+        "username": "odi8vc",
+        "avatar_url": "https://p1.cdn.myfans.jp/static/avatar-aL4W8u.png",
+        "likes_count": 44,
+        "name": "らんちゃん",
+        "about": "",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 26,
+        "banner_url": "https://p1.cdn.myfans.jp/static/banner-t3UFaa.png",
+        "is_following": false
+      },
+      {
+        "id": "9fe3881e-e92e-483b-9085-63c574101e18",
+        "username": "sryk_mei",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/b0884659-09d0-43cb-b0ef-61e5e02da9a5/image20260225-1-ma7kcs.webp",
+        "likes_count": 95,
+        "name": "白雪めい",
+        "about": "キミにクエスト🗡️\r\n『キミに会うための冒険』",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 49,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/aa618c96-5203-496a-b46a-75295b7e92f2/image20260225-1-ssujpb.webp",
+        "is_following": false
+      },
+      {
+        "id": "ce6b3380-c9ab-4aaa-8a4a-0f9670b4508c",
+        "username": "teras_ama",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/3b3b47cb-7af9-4099-99f6-8dee90360e05/image20260312-1-8szx2p.webp",
+        "likes_count": 90,
+        "name": "エマ    Emma",
+        "about": "(21)🇯🇵🇺🇸🇧🇷 / 169cm / Hカップ / コスプレダンス\r\n\r\n自己紹介は1投稿目を見てね👀︎💕︎\r\n",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 97,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/a3e612a3-76f6-4847-9883-0ade8a46608b/image20260312-1-ef25a1.webp",
+        "is_following": false
+      },
+      {
+        "id": "cce40c34-50a5-4cc3-8231-09ad1cf27ac8",
+        "username": "gal9646",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/fe65b633-45b6-45e1-9720-4bfc5547cdd6/image20260227-1-e8fdjt.webp",
+        "likes_count": 15,
+        "name": "ギャルの日常🥺",
+        "about": "ギャルの〇〇〇写真、動画など投稿します🫣\r\nいいねお願いします😍",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 109,
+        "banner_url": "https://p1.cdn.myfans.jp/static/banner-t3UFaa.png",
+        "is_following": false
+      },
+      {
+        "id": "557e22fa-6277-4b60-ae6e-5ddd5d1de3dd",
+        "username": "TOF_o_o",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/95021ac2-e109-462e-b999-1b4015ae761a/image20260303-1-tgs9ax.webp",
+        "likes_count": 12,
+        "name": "TOF_o_o",
+        "about": "𝑵𝑶𝑻 𝑨𝑰 𝑮𝑬𝑵𝑬𝑹𝑨𝑻𝑬𝑫  ️ ️\r\n ️ラブドール၈莓（Mei）ちゃ𐓩。",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 30,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/fc661029-0666-42ff-a578-c47de002a865/image20260303-1-gafele.webp",
+        "is_following": false
+      },
+      {
+        "id": "418cfaea-3ad7-4ecf-83c6-e4eb680f1c98",
+        "username": "l4rzv8",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/6a93799a-1d46-428f-83a9-9f746cb3e841/image20260227-1-i8b402.webp",
+        "likes_count": 134,
+        "name": "おんぷちゃん",
+        "about": "2026/02/28〜   \r\nXに載せてない写真を更新予定です🍓\r\n\r\n\r\n【著作権保護のお願い】\r\n無断転載、二次利用、転売等は固くお断りします。\r\n著作権侵害は重い罰則の対象となる行為です。\r\nなお、法的着手後の示談には応じかねますので、ルールを守ってご利用ください。",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 70,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/d809910c-e422-46c4-acc4-7c3c26858f3c/image20260227-1-q25w4q.webp",
+        "is_following": false
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": 2,
+      "previous": null
+    }
+  },
+  "https://api.myfans.jp/api/ranking/creators/all?genre_key=all&sexual_orientation=woman&term=daily&page=1&per_page=21&padding=0": {
+    "data": [
+      {
+        "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+        "username": "fanzazz",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+        "likes_count": 131677,
+        "name": "裏垢男子の日常",
+        "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 148647,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+        "is_following": false,
+        "recommended_plan": {
+          "id": "81740597-aa47-4541-84dc-cdfd5916ae2d",
+          "is_single": true,
+          "is_back_number": false,
+          "flag": "recommended",
+          "monthly_price": 5980,
+          "posts_count": 117,
+          "product_name": "【50%OFF】ALL見放題プラン",
+          "description": "プランに紐付けられている全ての投稿が見放題！期間限定販売動画や単品限定販売動画も含めて全部見放題です。\n⚠️一部のインフルエンサーとのコラボ動画は見れないのでご注意ください。\n⚠️プラン加入できるのは先着100名まで。100人を超えたら即加入停止します。\n⚠️加入停止後に公開開始した期間限定販売動画や単品限定販売動画は閲覧できません。\n⚠️ ALL見放題プランで全動画が閲覧可能なのは今だけ！プラン内の全動画は、2026年1月より順次単品販売限定動画に戻していきますので早めにご視聴ください。また、プラン内の動画は随時削除しますのでご注意ください。また、加入停止後に公開開始した期間限定販売動画や単品限定販売動画は閲覧できません。この注記を読んでいない場合は返金対応しかねますのでご了承ください。",
+          "status": "initialize",
+          "user": {
+            "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+            "username": "fanzazz",
+            "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+            "likes_count": 131677,
+            "name": "裏垢男子の日常",
+            "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+            "is_official": false,
+            "can_display_premium_badge": true,
+            "can_create_coupon": false,
+            "can_use_dashboard": false,
+            "creator_sexual_orientation": "woman"
+          },
+          "active_plan_bundles": [
+            {
+              "id": "967e2417-6aa3-4b03-bfa0-7e5af702ecea",
+              "duration_months": 6,
+              "price": 23322,
+              "monthly_price": 3887,
+              "is_recommended": false,
+              "discount_rate": 35,
+              "display_price": 23322
+            },
+            {
+              "id": "bc7a81d4-54c0-4f73-a416-fc21f863b48f",
+              "duration_months": 3,
+              "price": 14352,
+              "monthly_price": 4784,
+              "is_recommended": false,
+              "discount_rate": 20,
+              "display_price": 14352
+            },
+            {
+              "id": "bf7f2388-86c7-4501-8088-295ea8697685",
+              "duration_months": 12,
+              "price": 35880,
+              "monthly_price": 2990,
+              "is_recommended": false,
+              "discount_rate": 50,
+              "display_price": 35880
+            }
+          ]
+        }
+      },
+      {
+        "id": "7d7cc053-b74b-42bc-a8ec-ae0a52396f97",
+        "username": "yuma24",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/cb1c2192-fc9c-4121-9e37-6fe203a2c02c/image20251129-1-pcodlw.webp",
+        "likes_count": 44611,
+        "name": "灯葉-あきは- 爆イキ備忘録",
+        "about": "187cm裏垢男子 / XやInstagram、マチアプで出会ったリアルな子たちを開発して痙攣と白目させてます！顔出し長編も多数あります🎥\r\n\r\n初対面の男に演技なし潮吹き・中イキ・脳イキしてしまっている女の子が見られます、Xからフォームで出会っているので素人100%です👑\r\n\r\n👑見放題プラン👑\r\n◆高評価100作品以上+月4本以上\r\n全ての動画が自由に見られます！1作品あたり\r\n50円以下で見られるので超お得です🎥\r\n\r\n◆常に「今」が一番安いです\r\n2,980円から5,980円まで値上げしてきたので、\r\n一度加入したら永遠にその価格で見られます！\r\n二度と下げません。気になるなら今ぜひ！　\r\n\r\n◆様々な決済方法\r\nカードはもちろん、様々な決済方法が使えます。\r\nまた、複数ヶ月で50%オフも解放しています！\r\n気になる方は一度買えるかだけでもご確認ください。\r\n\r\n【フォロワー限定特典】\r\ndmだけでしか公開しない㊙️限定画像やクーポン配布！\r\nいつも交渉の上で動画を出しているので、動画が消える前に一旦ぜひ今すぐフォローして下さい！\r\n\r\n【単品販売】\r\n①全ての投稿は単品でも販売しております！\r\n②単品で購入した動画はプラン退会後や動画公開期限終了後も「半永続的」に閲覧することができます！\r\n③見放題プランにご加入頂いている方も、お気に入りの投稿に関しては購入をお勧めしています🔥\r\n\r\n【動画】\r\nプライベートでこっそり遊んでいる大学生やOLはもちろん、普段めったに見られない地下アイドルや元芸能人まで密会しています🎥　( Xに募集フォームがあります！)\r\n\r\n来てくれた女の子の感想dmなども公開している通り、ありのままイかせる女風出身のテクに自信ありです🔥\r\n\r\n数年前から活動していますが、動画のほとんどは告知なしで消しているので今すぐフォロー推奨です🔜\r\n\r\n\r\n【法律上の注意事項】\r\n・二次使用、譲渡、転載、転売等は禁止します。\r\n・動画の一部のスクリーンショットなども無断掲載に該当します。\r\n・無断転載等が発覚した場合、情報開示請求を行い著作権法に基づき厳しく対処いたします。著作権、著作隣接権の侵害は原則として「10年以下の懲役または1,000万円以下の罰金またはその両方」となります。\r\n・嫌がらせによる虚偽の通報に関しては業務妨害となり刑事告訴の対象です。\r\n\r\nおすすめ\r\n【全作】見放題プラン\r\n¥5,960 / 月\r\n【全作】見放題プラン 公開中の【全ての】投稿を見ることができます。 爆イキ開発の動画（60-90分程度）を、月に6-8タイトル投稿しています。 ※入会日から翌月の同日まで動画を見ることができます。途中で退会すると動画が見れなくなってしまうのでご注意ください。 ※出演女性の事情により事前の予告なく作品を削除もしくは一時的に非公開にすることがありますのであらかじめご容赦ください。 ※VISA/マスターのクレジットカードを持っていない方は、VISAカードとして使えるチャージ式のクレカ「バンドルカード」で決済が可能です。 https://vandle.jp/",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 36005,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/1b436371-0bb7-48e3-8440-8b34deab2ec4/image20251203-1-liakc7.webp",
+        "is_following": false
+      },
+      {
+        "id": "37897518-8ab6-407f-87ea-36f726c1395d",
+        "username": "kento_ntr76",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/37897518-8ab6-407f-87ea-36f726c1395d/photo-output.png",
+        "likes_count": 33178,
+        "name": "けんと。",
+        "about": "SNSから連絡をくれた女の子や紹介等で出会った子との生々しいハメ撮りを載せていきます。ほぼ顔出し生ハメ生中出し。\r\n\r\n・日々の性欲・ストレスを発散したい､､､\r\n・パートナーとだと満足できなくて､､､\r\n\r\nそんな依頼をくれた女の子とのハメ撮りを公開しています。\r\nリアルで生々しいけんとのハメ撮りをマイペースに載せていくので見てくれたら嬉しいです\r\n\r\n※顔出しOKの子や彼氏持ちの子が多い為、身バレや彼氏バレしたら即削除することもあるのでご容赦ください。\r\n \r\n\r\n【その他法律上の注意事項】\r\n \r\n ※撮影、掲載の許諾を得て運営しています。\r\n ※二次使用、譲渡、転載、転売等は禁止します。\r\n ※無断転載等が発覚した場合、情報開示請求を行った後、著作権法に基づき厳しく対処いたします。\r\n 著作権、著作隣接権の侵害の場合、罰則は原則として「10年以下の懲役」または「1000万円以下の罰金」またはその両方となります。\r\n ※情報開示請求後の示談には応じませんので予めご了承下さい。\r\n ※コンテンツ出演者○○○以上確認済み\r\n ※出演者公開同意済み\r\n ※コンテンツの無断転載禁止",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 22239,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/e1bb278b-aa30-4145-abf2-7367878eb1d9/image20260320-1-b9p9mg.webp",
+        "is_following": false
+      },
+      {
+        "id": "c650670b-0924-40d9-afd8-97aa923dcd73",
+        "username": "SNAPTOKYO_secret",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/c650670b-0924-40d9-afd8-97aa923dcd73/%E3%81%90%E3%81%84h.jpg",
+        "likes_count": 20226,
+        "name": "裏SNAPTOKYO【ハメ撮り流出】",
+        "about": "【SNAPTOKYOで脱いでくれた女の子とハメ撮りしてみた。】\r\n\r\n普段SNAPTOKYOのスタッフやってます。\r\nSNAPTOKYOのオシャレ女子たちのハメ撮りをこのアカウントで流出させますw\r\n\r\n※毎週金曜更新予定\r\n\r\nSNAPTOKYO【スナップトーキョー】\r\nhttps://myfans.jp/SNAPTOKYO\r\n\r\n法律上の注意事項\r\n・出演していただいた方々には撮影や掲載の許諾を得ております。\r\n・動画、写真の無断転載は著作権侵害となり、10年以下の懲役又は1000万円以下の罰金が課せられます。\r\n発見次第、法的措置を取らせていただきます。\r\n・出演者は全員成人であることを確認しております。\r\n※映像送信型性風俗特殊営業届提出済",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 37024,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b6665301-9383-477b-9263-e4ddb64b024a/image20250420-1-u6lt56.jpg",
+        "is_following": false
+      },
+      {
+        "id": "77935041-6c1c-473c-83c3-5908b350f55d",
+        "username": "shachiku_vlog",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/99a1eda8-e558-4e88-820a-c1c561fd92d2/image20250605-1-b6f09s.webp",
+        "likes_count": 12940,
+        "name": "風俗ブイログ【ただの趣味。】",
+        "about": "ここには、SNSには出していない\r\n“あの子たち”のリアルな表情を載せてます。\r\n\r\n毎月4〜6本を目処に更新していきます\r\n売上のほとんどはお店の撮影OPの資金にさせてもらいます\r\n\r\n※女の子には撮影OPの掲載の許諾を得ております。",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 30769,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/99b09e33-f14c-462a-a618-2f6dacf41357/image20250606-1-t0lu2m.webp",
+        "is_following": false
+      },
+      {
+        "id": "017139a2-570c-4308-826a-04dbf94d44ac",
+        "username": "rehinf",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/017139a2-570c-4308-826a-04dbf94d44ac/laughing.png",
+        "likes_count": 143373,
+        "name": "かる",
+        "about": "演技でなく余裕なくよがり狂う完全”素人”女性を見たい、という方にオススメ垢。\r\n※ 最近裏垢でも主流になっている、プロ？の女性（夜の女性など）を雇ったりは一切してません。素人に拘ってます。そのため顔出し作品は少ないです。\r\n\r\nバンドル販売を始めました。12ヶ月プランは9ヶ月分の料金で登録出来るためおすすめです。\r\n完全素人がAVの演技以上に、エロ漫画みたいに、よがる、絶頂する、崩壊する、といったところを目指しております。\r\n\r\n中イキしたい女性、中イキさせたい女性、は右上のリンクにあるTIPS記事が参考になるとおもいます。\r\n\r\n試してみたい女性はもう一つのリンクからであいふぉーむに飛んでいただければと。\r\n\r\n【その他注意事項】\r\n・動画の撮影、掲載は相手の許諾を得て行っております。\r\n・動画は出演者の要望などにより予告なく削除することがございます（申し訳ないですが、こういう取り組みゆえ、ご理解いただけると嬉しいです）。\r\n・私が投稿している動画の複製・転載・転売・貸与・公開・配信・加工・改竄、その他これに類する行為を禁止しております。これらが発覚した場合、法に基づき厳しく対応していく所存です）。仕事柄、虎ノ門の友人は多いので笑。\r\n・更新は必ずしも約束しているものではないことをご理解いただけますと幸いです。いろいろとプラットフォーム側のレギュレーションなどもありますので。",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 109577,
+        "banner_url": "https://content.mfcdn.jp/uploads/user/banner_image/017139a2-570c-4308-826a-04dbf94d44ac/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-10-12_6.49.01.png",
+        "is_following": false
+      },
+      {
+        "id": "2481341a-01a1-4022-93a8-378e36329f44",
+        "username": "kazutora",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/84188ce5-baf9-4faa-8a6b-7a92898e6180/image20260317-1-41qqa9.webp",
+        "likes_count": 99327,
+        "name": "カズトラ🐯あそびにん",
+        "about": "カズトラがX（旧Twitter）やマッチングアプリで出会った女の子たちの長編密会映像を載せていきます🐯\r\n\r\n素人の女の子の生々しい反応が好きな性癖に刺さるでしょう。\r\n\r\n主に彼氏持ちやオフパコで顔出し許可をもらった女の子のハメ撮りを載せていきます。身バレや彼氏バレしたら即削除するのでお早めにご覧ください。\r\n\r\n\r\n自己紹介はこちらTwitterをご覧ください。\r\nhttps://twitter.com/kazutora_asobi\r\nhttps://twitter.com/kazutora_otoko\r\n\r\nハメ撮りの詳細は「単品販売」にまとめていますのでそちらをご覧ください。\r\n\r\n\r\n【プラン紹介】\r\n\r\n🐯無料プラン🐯\r\nTwitterにUPしてる動画の続きをこちらに載せてます。\r\n無料だから絶対入るべし❗️\r\n\r\n🐯シンプルプラン🐯←ｵｽｽﾒ\r\n毎月300分以上の動画が見放題のプランです。\r\n性器モザイクあります。\r\nhttps://myfans.jp/kazutora/plans/e180f5be-8444-46d0-8462-f6951a0ca426\r\n\r\n🐯各種バックナンバープラン🐯\r\nシンプルプランで公開期限が過ぎた動画たちをまとめています。過去3ヶ月分の動画が見放題のプランです。\r\n\r\nバックナンバープラン①⤵︎\r\nhttps://myfans.jp/kazutora/plans/cb820e71-6cb6-40c4-abf6-cb3e9bb39330\r\n\r\nバックナンバープラン②⤵︎\r\nhttps://myfans.jp/kazutora/plans/ce5734ef-2952-4260-af51-3cfee53a381b\r\n\r\nバックナンバープラン③⤵︎\r\nhttps://myfans.jp/kazutora/plans/3d753358-ce71-4587-a4c0-69b367b9cc88\r\n\r\n\r\n🐯プレミアムプラン🐯\r\n全プランの動画が見放題です。\r\n\r\n\r\n【クレジットカードがない方へ】\r\nコンビニで手続きをすればすぐにホームページ上でカード情報が発行されます。面倒な審査も、本人確認もいらないので身バレ防止できます🙆‍♂️\r\n http://vpc.lifecard.co.jp/\r\n\r\n【⚠️注意事項⚠️】\r\n※撮影、掲載の許諾を得て運営しています。\r\n※二次使用、譲渡、転載、転売等は禁止します。\r\n※無断転載等が発覚した場合、情報開示請求を行った後、著作権法に基づき厳しく対処いたします。\r\n著作権、著作隣接権の侵害の場合、罰則は原則として「10年以下の懲役」または「1000万円以下の罰金」またはその両方となります。\r\n※情報開示請求後の示談には応じませんので予めご了承下さい。\r\n※コンテンツ出演者18歳以上確認済み\r\n※コンテンツの無断転載禁止",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 76174,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/01e8cd4c-7262-449f-8135-66b59c770648/image20250426-1-sql3lm.jpg",
+        "is_following": false
+      },
+      {
+        "id": "c4f13384-0ad1-496e-8d05-724ab874c074",
+        "username": "SNAPTOKYO",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/c4f13384-0ad1-496e-8d05-724ab874c074/h.png",
+        "likes_count": 231087,
+        "name": "SNAPTOKYO【スナップトーキョー】",
+        "about": "某有名ストスナ編集部の元スタッフが、ストリートスナップに協力してくれたおしゃれ女子たちに、下着や脱毛チェックを交渉してみました😎\r\n\r\nイマドキのオシャレ女子はどこまで脱いでくれるのか🫣💕\r\n\r\n【裏アカ】\r\nhttps://myfans.jp/SNAPTOKYO_secret\r\n\r\n【系列企画】\r\n↓↓PLAY KING CHICKEN【プレイキングチキン】\r\nhttps://myfans.jp/PLAYKINGCHICKEN\r\n\r\n↓↓脱毛サロンXclear【エクスクリア】\r\nhttps://myfans.jp/Xclear\r\n\r\nクレジットカードをお持ちでない方は「Vプリカ」や「バンドルカード」にて決済が可能です！\r\n・http://vpc.lifecard.co.jp/\r\n・https://vandle.jp/\r\n\r\n法律上の注意事項\r\n・出演していただいた方々には撮影や掲載の許諾を得ております。\r\n・動画、写真の無断転載は著作権侵害となり、10年以下の懲役又は1000万円以下の罰金が課せられます。\r\n発見次第、法的措置を取らせていただきます。\r\n・出演者は全員成人であることを確認しております。\r\n※映像送信型性風俗特殊営業届提出済",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 246174,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/30e6588e-ea85-457f-9466-973957e6cd99/image20250611-1-bnmxst.webp",
+        "is_following": false
+      },
+      {
+        "id": "ccc0f7df-da78-401f-9c55-e28ad53ddf33",
+        "username": "daigaku_real",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/ccc0f7df-da78-401f-9c55-e28ad53ddf33/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-03-21_15.25.38.png",
+        "likes_count": 130714,
+        "name": "大学生の日常",
+        "about": "【素人同士のリアルなハメ撮りが大量に見放題】\r\n\r\nSNSには上げてない“完全顔出し”の長編動画を高頻度で投稿してます。\r\n\r\n大学の先輩やバイトの後輩をお持ち帰りしたり、彼氏持ちのサークルの女の子たちと乱交したりしてますww\r\n\r\n授業サボって毎日SEXしてます。。。\r\n\r\nガチ素人同士のリアルなハメ撮り動画をお楽しみください。\r\n\r\n※動画は流出厳禁です。\r\n※女の子の身バレ防止の為、予告なく削除/非公開にすることがございます。",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 72886,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/25c92c2b-6967-4dad-8c46-9a5e2b278439/image20260118-1-yn52da.webp",
+        "is_following": false
+      },
+      {
+        "id": "d2e3ebb5-4dea-42c3-b6a0-8491ae7ff5ea",
+        "username": "kemonokai",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/d2e3ebb5-4dea-42c3-b6a0-8491ae7ff5ea/%E3%82%AB%E3%82%99%E3%83%81%E5%A0%95%E3%81%A1%E3%82%A2%E3%82%A4%E3%82%B3%E3%83%B3.png",
+        "likes_count": 65165,
+        "name": "【獣会】素人肉便器ガチ堕ちch",
+        "about": "【獣会新作見放題プラン】\r\n毎月3人以上のSNSに応募があった”素人女性”を肉便器に堕とす、壮絶な純度100%の真の変態プレイを超長編でお届けします。\r\n\r\n【新作&過去動画完全見放題プラン】\r\n掲載数が膨大なため過去の肉便器動画を保存しております。\r\nバックナンバープランにご加入の方は過去動画はもちろん、新作の獣会動画もご視聴可能です。\r\n\r\nAVでは見れない【素人にしか撮れないリアル】をお楽しみください。\r\n\r\n※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※※\r\n注意喚起\r\n※アダルトコンテンツとなるため、18歳未満の方は閲覧・購入することはできません。ご理解のほどよろしくお願いいたします。\r\n\r\n※画像　動画の転載やダウンロード　第三者に見せる行為は禁止します。著作権の侵害の場合の罰則は「10年以下の懲役」または「1000万円以下の罰金」が科せられます。\r\n\r\n※情報開示請求後の示談には応じませんので予めご了承下さい。\r\n※コンテンツ出演者18歳以上確認済み\r\n※全出演者、新法適用出演契約書.説明許諾書.本人確認.公開同意済み\r\n※コンテンツの無断転載禁止\r\n※素人女性の身バレに繋がる書き込み禁止\r\n\r\n※プランの内容及び配信している動画は予告なく終了する事があります。ご理解のほどお願いいたします。",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 86153,
+        "banner_url": "https://content.mfcdn.jp/uploads/user/banner_image/d2e3ebb5-4dea-42c3-b6a0-8491ae7ff5ea/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2025-03-12_18.26.29.png",
+        "is_following": false
+      },
+      {
+        "id": "37f96593-8de7-42c6-b815-ef64b4749f0d",
+        "username": "hqulbf",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/af44feeb-069c-4051-bceb-802e8069e00e/image20260306-1-1jo4k6.webp",
+        "likes_count": 15037,
+        "name": "渋谷くん",
+        "about": "渋谷在住、元YouTuber裏垢男子の日常記録\r\n\r\n待ち合わせから移動中も含めて服を脱ぎ始める瞬間、シャワーシーン、終わった後の会話……カメラに残った映像全部そのまま残してます。\r\n\r\n本編は全て顔出し、平均1時間以上の長編動画です。\r\n\r\n※一般女性の為、予告なく動画は削除される場合がありますが、単品で購入いただいた動画は削除後も視聴可能です。\r\n\r\n無断転載は即開示請求、賠償請求します。",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 14817,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/f945193b-9d47-460e-ab5d-35a36d1cbc0a/image20260307-1-ersfht.webp",
+        "is_following": false
+      },
+      {
+        "id": "0ffb7390-7c89-42d4-970d-cbad0dd9cf20",
+        "username": "ma17459",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/88449b0b-7a53-4deb-90e7-9004693caa9b/image20251009-1-pu4e7o.webp",
+        "likes_count": 1547,
+        "name": "松田",
+        "about": "OLとして働いてます。松田です。\r\n\r\n会社になじめず\r\n息抜きでSNSを始めてみました～。\r\n\r\n\r\n人前では言えない秘密を\r\nここでだけお見せしてみます…",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 1199,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/498319d1-a63c-42c5-b135-7067bf5dca4d/image20260107-1-bue1l7.webp",
+        "is_following": false
+      },
+      {
+        "id": "ad6c413d-5f93-48b0-9ccf-10a3a0b66577",
+        "username": "nanisore_203",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/ad6c413d-5f93-48b0-9ccf-10a3a0b66577/IMG_0119.JPG",
+        "likes_count": 36766,
+        "name": "何えろ。",
+        "about": "どうも、何えろ。です。\r\n身の回りの女の子を、あの手この手で持ち帰っては、えっろいハメ撮りして遊んでます。男と女がエロがる生々しい姿が性癖な貴方には、きっと刺さるはず。TikTok「何それ、えっろ。」のその先の世界をお見せします。\r\n\r\n【何それ、えっろ。とは...】\r\n身の回りの女の子を持ち帰って口説くまでの生のやり取りを投稿しているTikTokとインスタのアカウントです。\r\n\r\n・開設約2ヶ月で総再生回数5,000万突破\r\n・登録者数5万人超え\r\n\r\n正直めちゃくちゃバズってます。\r\n\r\nそんな「何それ、えっろ。」のその先、女の子とのえっちな時間をお見せするのがこのmyfansです。これまでのえっろい女の子たちとのありったけの生ハメ撮りを公開していきます。\r\n※女の子の許可取れたもののみ【完全顔出し公開】\r\n\r\n男と女なんて、こんなもんだよ、本当に。\r\n\r\n\r\n【その他法律上の注意事項】\r\n ※撮影、掲載の許諾を得て運営しています。\r\n ※商品は出演者のプライバシー保護の観点から予告なく削除することがございます。\r\n ※二次使用、譲渡、転載、転売等は禁止します。\r\n ※無断転載等が発覚した場合、情報開示請求を行った後、著作権法に基づき厳しく対処いたします。\r\n\r\n\r\nHello, this is What's Erotic.\r\nI use every trick in the book to bring home the girls around me and have fun filming them having sex. If you're into the raw, erotic scenes of men and women getting all horny, this should appeal to you. I'll show you the world beyond TikTok's \"What's Erotic.\"\r\n\r\n[What's that, erotic? is...]\r\n\r\nThis is a TikTok and Instagram account where I post the raw interactions I have with girls I take home and woo.\r\n\r\n・Over 50 million views in about 2 months since it was launched\r\n・Over 50,000 subscribers\r\n\r\nHonestly, it's a huge buzz.\r\n\r\nMyfans goes beyond that \"What's that, erotic?\" and shows you the naughty times I have with girls. I'll be releasing all the raw sex videos I've taken with the naughty girls so far.\r\n\r\nOnly those with the girls' permission [full face revealed]\r\n\r\nThat's what men and women are like, really.\r\n\r\n\r\n[Other legal notes]\r\n*Filming and publishing is carried out with permission.\r\n*Products may be removed without notice to protect the privacy of performers.\r\n*Secondary use, transfer, reproduction, resale, etc. are prohibited.\r\n*If unauthorized reproduction, etc. is discovered, we will request disclosure of the information and then take strict action in accordance with copyright law.\r\n",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 19088,
+        "banner_url": "https://content.mfcdn.jp/uploads/user/banner_image/ad6c413d-5f93-48b0-9ccf-10a3a0b66577/header3.JPG",
+        "is_following": false
+      },
+      {
+        "id": "59ef07db-116c-4bcd-8991-035986db5a00",
+        "username": "tiakun_404",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/59ef07db-116c-4bcd-8991-035986db5a00/IMG_0281.jpeg",
+        "likes_count": 23452,
+        "name": "ティアくん",
+        "about": "ティアです。他の裏垢男子では絶対流せない、本物の爆美女を提供しています。僕は界隈で唯一それが実現できる人間です。約束します。\r\n\r\n正直、皆さんもお気づきかもしれませんが最近、このハメ撮り界隈は同人AVの子や誰かの動画に出てた子、\r\n風俗嬢、メンエス嬢、ばかり撮ってる人も沢山います。\r\n\r\nだけど僕の動画は違います。プライベートの僕のブランド、今まで行動してきた力、センス、ノウハウと、人脈、全て使って真の爆美女を提供してるし今後はもっと提供できる自信があります。\r\n\r\n普段のインスタグラマー活動を通した高次元の美女、ここだけで見れる美女の変態な裏の姿、月6本以上の新作更新、を提供しております。普段インスタグラマーとして活動しており、出会う女の子も高レベルのインスタグラマー、モデル、ギャル、アイドル、大学生、OL、人妻、などです。女の子達にうまく交渉してAVとは違うリアルなハメ撮り映像をお届けしておりますのでチェックしてみてください🧸❤️‍🔥\r\n\r\n皆様の応援があればあるほど、高次元の美女を提供出来る確率が高まります。お約束します☺️\r\n\r\n【その他法律上の注意事項】\r\n※撮影、掲載の許諾を得て運営しています。\r\n※二次使用、譲渡、転載、転売等は禁止します。\r\n※無断転載等が発覚した場合、情報開示請求を行った後、著作権法に基づき厳しく対処いたします。\r\n著作権、著作隣接権の侵害の場合、罰則は原則として「10年以下の懲役」または「1000万円以下の罰金」またはその両方となります。\r\n※情報開示請求後の示談には応じませんので予めご了承下さい。\r\n※コンテンツ出演者18以上確認済み、\r\n※出演者公開同意済み\r\n※コンテンツの無断転載禁止\r\n\r\n🔥映像送信型性風俗特殊営業の届出済🔥\r\n",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 18381,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/7e4924ca-9981-46a8-b7a4-1b7481fd9730/image20251123-1-mh7413.webp",
+        "is_following": false
+      },
+      {
+        "id": "94a884c6-6eab-4dec-828b-3560d90df149",
+        "username": "saori_beauty_",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/94a884c6-6eab-4dec-828b-3560d90df149/%E3%82%B9%E3%82%AF%E3%83%AA%E3%83%BC%E3%83%B3%E3%82%B7%E3%83%A7%E3%83%83%E3%83%88_2024-10-24_18.53.20.png",
+        "likes_count": 24869,
+        "name": "脱毛サロンで働くさおり🥹🫶🏻️💓",
+        "about": "メンズ脱毛サロンで働き始めた当初は、男性器を明るい場所で見るのも恥ずかしかったですし、触るのもとても抵抗がありました。\r\n\r\nそして何より徐々に反応していく姿を見てすぐに赤面してしまい、まともに直視できず施術どころではなかったのを覚えています。\r\n\r\n先輩スタッフにもスタッフの私が恥ずかしがるのはプロ意識が低くお客様にも失礼だと叱って頂き私自身なんとか回数をこなすことで慣れていきました。\r\n\r\nただ、最近tiktokをするようになり\r\n再生数のために少し卑猥なやり取りの動画を載せたりそういったコメントが多く寄せられ私自身やはり男性器を見て触って施術することに興奮する気持ちを抑えられなくなってしまいました。\r\n\r\n脱毛サロンに来るお客様は予想以上に性的な目的で来る方が多いこと。\r\n施術中は全然そういった素振りを見せなくても下半身は反応していて心の中では興奮していること。\r\n\r\nそんな皆さんの期待に少しでも応えたいと思いマイファンズで性的な動画をアップしていくことに決めました。\r\n\r\n真面目に応援してくださっていただいた方、がっかりさせてしまっていたら申し訳ございません。\r\n\r\nこんなふしだらな女で、あくまでも健全な施術なのに、興奮してはいけないのに興奮してしまう私を受けれていただけると嬉しいです。\r\n\r\nあまり男性経験がないためどんな動画を撮っていいかもまだふわっとしていますがとりあえず今の私の気持ちをツイートしてみました。\r\n\r\nこんな私でも良ければ応援よろしくお願いいたします。",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 15709,
+        "banner_url": "https://content.mfcdn.jp/uploads/user/banner_image/94a884c6-6eab-4dec-828b-3560d90df149/22.jpg",
+        "is_following": false
+      },
+      {
+        "id": "b7e024d0-0a93-4b00-927a-47cd8b8dfed8",
+        "username": "secret_japan",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/b7e024d0-0a93-4b00-927a-47cd8b8dfed8/01DEA63B-8817-4CE7-9FC7-3873A4F754FA.jpeg",
+        "likes_count": 358581,
+        "name": "💎👑裏垢Japan👑💎",
+        "about": "🏆🏆🏆祝！myfans開設３日で総合ランキング１位達成🏆🏆🏆\r\n\r\n【裏垢JAPANとは】\r\n\r\n日本最大手のファンサイト『myfans』にて\r\n開設以来、毎月１位を獲り続けている最強の裏垢チーム。\r\n\r\n国内最大手のファンクラブサイトでランキング１位\r\n＝日本で一番オカズにされているファンクラブ　で間違いないです。\r\n\r\n『１位』ということは全世界の人々が\r\nこのファンクラブのクォリティを保証してくれてるのと同じ。\r\n\r\n皆さんを満足させる自信と実績があります‼️\r\n安心して各プランに入ってみてください🫧\r\n\r\nこれからどんどんメンバーが増えていくにつれて\r\nその分ファンクラブの投稿頻度も質も上がっていきます！\r\n\r\n超絶お楽しみに！\r\n\r\n\r\n関連ファンクラブ⇨ https://myfans.jp/ray_nanpa\r\n\r\n\r\n💎💎💎💎💎💎💎💎娼年　レイ様💎💎💎💎💎💎💎💎💎\r\n\r\n\r\nバチボコ爆イキ動画担当。\r\n\r\nドドドドS。日本で一番女の子をイかせてる男👑\r\n\r\nTwitterの総フォロワー獲得数160万人超。凍結回数40回以上。今までイかせた中イキ未経験の女の子の人数900人以上。童貞卒業企画で卒業させた童貞数30人以上。これまでエロ創作にかけた経費6000万円超。\r\n\r\n誰よりエロとエロ創作を愛し、そしてエロい人たちに愛された男。\r\n\r\nファンクラブ開設から数年間ずっと総合ランキング１位。\r\n\r\n⭐️ガチ素人や彼氏持ち美女が演技無しで本気でイきまくる。\r\n⭐️アイドルやモデルなど本物芸能人がズタボロに○○○されまくる。\r\n\r\nそんなAVもハメ撮りも超越した『新時代のエロ』が見たい人にオススメ\r\n\r\n※ビンタやイ◯マ、加◯、輪●プレイ等過激な表現も多めなので\r\n普通の動画じゃ満足できないドSやドMさんにも推せます🫧\r\n\r\n\r\n\r\n👅 👅 👅 👅 👅 👅 👅 👅 👅かすた〜ど👅 👅 👅 👅 👅 👅 👅 👅 👅\r\n\r\n派手髪、○○○、地雷系、制服担当。\r\n\r\n通称『カスくん』でお馴染みのかすた〜どが提供する激エロコンテンツ❣️\r\n\r\nその最大の特徴は\"可愛い系\"に特化した女の子と溢れんばかりの生々しさ❤️‍🔥\r\nアップする動画は9割以上が『女の子完全顔出し＆生中出し』の動画です‼️\r\n\r\nそして地下アイ◯ル、コン◯フェ嬢、地雷系女子、制服女子と言った涙袋ぷっくり可愛い子ちゃんのオンパレード👁️✨\r\n\r\n加◯・バチボコプレイから甘々イチャラブプレイ、ハーレム逆3Pまで幅広いプレイスタイルで\"可愛い\"と\"生々しさ\"を徹底的に追求した超絶コスパプランです🍨💓\r\n\r\n・ギャルより○○○が好き‼️\r\n・日常感、生活感のあるエロが好き‼️\r\n・顔出し動画しか勝たん‼️\r\n・生中しか勝たん‼️\r\n\r\nそんな性欲モンスターの皆様は問答無用でおすすめとなっております🫶\r\n\r\n\r\n\r\n🔥🃏🔥🃏🔥🃏🔥🃏🔥野獣紳士クラブ🔥🃏🔥🃏🔥🃏🔥🃏🔥\r\n\r\n泥●乱交動画担当。\r\n\r\n○○○った○○○たちと毎週淫らな大乱交中出しパーティ🍾🔥\r\n\r\n社会人界隈No.1チャラリーマン3人衆がお届けする非日常コンテンツ。\r\n\r\n抜群のナンパ・飲みゲースキルにより、ハイテンション宅飲みにて清楚からギャルまで女子達を崩してゆく.。o○\r\n\r\n・ハメるまでの物語まで重視したい人\r\n・可愛い女の子がチャラリーマンになし崩し的に○○○されるのが見たい人\r\n\r\nそんな人にオススメです👀\r\n\r\n🃏💎👅🐱🃏💎👅🐭🃏💎👅🏆💎👅🃏🐱💎👅🃏🐭💎👅🃏🐭\r\n\r\nレイ様👑💎⇨ https://twitter.com/R_main_\r\n\r\nかすた〜ど👅 ⇨ https://twitter.com/kasutaado_p\r\n\r\n野獣紳士クラブ🃏🔥⇨ https://twitter.com/beast_gentle_03\r\n\r\nP.S.いつも「いいね」ありがとうございます。\r\n課金の有無を問わず、皆さんの些細な応援が活動の励みになりて忙しい日々の中でもなんとか編集や投稿を頑張れてます。\r\n\r\n裏垢JAPANは無料プランや格安プランにも力を入れており、金銭的に余裕がない方でも楽しめるようなファンクラブ運営を心がけてやっていきますので今後ともお楽しみくださいっ\r\n\r\n皆さんの人生というタイムラインを良きエロで満たせるようにこれからも精進していきますのでこれからも何卒よろしくお願いします。今後も気軽に「いいね」頂ければ幸いです🫧\r\n\r\n裏垢JAPAN一同より",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 429055,
+        "banner_url": "https://content.mfcdn.jp/uploads/user/banner_image/b7e024d0-0a93-4b00-927a-47cd8b8dfed8/DCCA55C1-9A3B-4D29-838D-209DCE12A81B.jpeg",
+        "is_following": false
+      },
+      {
+        "id": "488ac8af-7ce9-4f38-bd45-653d007a2f45",
+        "username": "_072q",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/488ac8af-7ce9-4f38-bd45-653d007a2f45/IMG_2321.jpeg",
+        "likes_count": 140337,
+        "name": "ﾐﾙ",
+        "about": "軽率におっぱい報告しちゃうミルさんです🐈‍⬛\r\nここではTwitterには載せてないおっぱい報告したり、ハメ撮りしたりオナニーしたりえっちなお散歩したり過激なことしちゃいます。。\r\n\r\n【その他法律上の注意事項】\r\n ※撮影、掲載の許諾を得て撮影しています。\r\n ※二次使用、譲渡、転載、転売等は禁止します。\r\n ※無断転載等が発覚した場合、情報開示請求を行った後、著作権法に基づき厳しく対処いたします。\r\n 著作権、著作隣接権の侵害の場合、罰則は原則として「10年以下の懲役」または「1000万円以下の罰金」またはその両方となります。\r\n ※情報開示請求後の示談には応じませんので予めご了承下さい。",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 112032,
+        "banner_url": "https://content.mfcdn.jp/uploads/user/banner_image/488ac8af-7ce9-4f38-bd45-653d007a2f45/IMG_1527.jpeg",
+        "is_following": false
+      },
+      {
+        "id": "eeda4057-b42f-4d15-9c4a-3ea5ba0d7cf0",
+        "username": "Retsu_dao",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/6916f1d9-de3f-4c96-9c6b-0a2b12b9aada/image20251220-1-v6ol21.webp",
+        "likes_count": 145887,
+        "name": "烈",
+        "about": "Twitterに載ってる動画のフルver をファンクラブでは公開していきます❤️‍🔥\r\nHi! Welcome to my Seacret world for fan😘!\r\nYou can enjoy all the porn content by subscribing.\r\nYou can change the language display from the menu.\r\n\r\n2022年8月以前の動画はバックナンバープラン加入で全て視聴可能です！\r\n更新頻度は週２回ほど\r\n動画を見たらいいねいただけると嬉しいです！\r\n期間限定で掲載の動画もございます。リクエストが多ければ再アップもございますのでDMお気軽にください〜\r\n\r\n・Cumshot\r\n・erotic massage\r\n・creampie ,○○○,etc...\r\nI'm looking forward to your joining us💓\r\nAre you ready?\r\n\r\n【バックナンバー導入のお知らせ】\r\n・動画の公開期限を3ヵ月に設定いたしました。3ヶ月を経過したコンテンツはバックナンバープランで視聴可能になります。なお、バックナンバープランは段階的に値上がりしていく予定ですので、動画が少なくても今ご入会いただくとずっとお得にご利用いただけます。\r\n\r\n\r\n【Notice ・ back number plan】\r\n・The video release period has been set to 3 months. Content that has passed 3 months will be available for viewing with the back number plan. In addition, the price of the back number plan is scheduled to increase in stages, so even if you have few videos, you can use it at a great price if you join now. \r\n\r\nまた、クレジットカードをお持ちでない方は\r\n Vプリカというプリペイドカードで\r\n とっても簡単にお支払いができます🐰！\r\n 審査などは一切なく\r\n ネットでも購入できますし\r\n セブンイレブンやローソン\r\n ファミマなどのコンビニでも購入でます🐰💸\r\n 詳しくは公式サイトをご覧ください\r\n ↯\r\n https://vpc.lifecard.co.jp/\r\n",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": false,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 225673,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/1afea674-5fab-4b30-92b6-8c0b90aae4fd/image20260123-1-frvwgw.webp",
+        "is_following": false
+      },
+      {
+        "id": "b8f1047b-33b4-4514-aaff-0f35601c99a2",
+        "username": "outdoorcom",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/b8f1047b-33b4-4514-aaff-0f35601c99a2/IMG_3069.JPG",
+        "likes_count": 69882,
+        "name": "OUTDOORcom",
+        "about": "麺類が大好きな九州男児です。\r\n\r\nこの度、myfansでも活動を始めますのでどうかよろしくお願いします。\r\n\r\n初めましての方がメインと思いますので簡単なご紹介を。\r\n\r\n僕は九州を中心にSNSで出会ったイケてる変態女子との記録をほぼ生配信で提供してます。\r\n\r\n都会もいいけど、九州の女の子はめっちゃくちゃ可愛いし、イケてますよ。\r\nぜひよろしくお願いします。\r\n\r\n本編は\"\"長尺\"\"が基本（30分以上3時間未満）\r\n地方女子の魅力を存分にお楽しみいただけますので応援していただけると嬉しいです。\r\n\r\n※シロートさんに声をかけ、作品を制作していますのでまず、他のチャンネルでは見かけることはないかと思います。\r\n\r\n配信頻度：\r\n新作＝週１回配信＊大体金曜日\r\n※編集が間に合わない場合は遅延いたしますがご了承ください\r\n\r\n単品販売価格参考：\r\n4000円程度\r\n---------------------------------------------------------\r\nクレジットカードをお持ちでない方は「バンドルカード」や「デビットカード（即時引き落とし）」にて決済が可能です💳\r\nhttps://vandle.jp/\r\nhttps://x.gd/3oiRl\r\n---------------------------------------------------------\r\n\r\nぜひお気軽にご加入していってください。",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 45689,
+        "banner_url": "https://content.mfcdn.jp/uploads/user/banner_image/b8f1047b-33b4-4514-aaff-0f35601c99a2/%E5%90%8D%E7%A7%B0%E6%9C%AA%E8%A8%AD%E5%AE%9A%E3%81%AE%E3%83%86%E3%82%99%E3%82%B5%E3%82%99%E3%82%A4%E3%83%B3__57_.png",
+        "is_following": false
+      },
+      {
+        "id": "87b703d0-ef0c-409b-82bd-9c7106309927",
+        "username": "suita_ona_ka",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/87b703d0-ef0c-409b-82bd-9c7106309927/6B0E8F36-A192-40E9-9A06-3D46B0871C11.jpeg",
+        "likes_count": 102631,
+        "name": "つばさ❗️【メス親と彼女と素人女】",
+        "about": "Twitterの「つばさ❗️」です！主に、幼馴染の○○○親や友達の○○○など身内に手を出してハメ撮りを載せてます（性癖）\r\nTwitterよりも極○○○イクで高画質で長い動画を載せています。\r\n\r\n・会員様しか見られない限定コンテンツが沢山あります\r\n\r\n\r\nクレジットカードをお持ちでない方は「バンドルカード」で決済が可能です🉑\r\n・https://vandle.jp/\r\n\r\n",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 59941,
+        "banner_url": "https://content.mfcdn.jp/uploads/user/banner_image/87b703d0-ef0c-409b-82bd-9c7106309927/6038AACC-F546-4391-A032-EFB52E1C741E.jpeg",
+        "is_following": false
+      },
+      {
+        "id": "1fecbbb8-f073-46c7-84ad-2f09caa6c849",
+        "username": "yuumtx",
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/1fecbbb8-f073-46c7-84ad-2f09caa6c849/b9jcak2G_400x400.jpg",
+        "likes_count": 101518,
+        "name": "雄 -YUU- 彼氏持ち、人妻、ママをNTR",
+        "about": "さまざまな性の悩みをもつ女の子を、おもちゃ責め、潮吹き、高速ピストンなどのバチボコセックスでイカせまくり、別世界のえっちを体験させる裏垢男子。\r\n\r\n・彼氏がMであんまりいじめてくれなくて…\r\n・旦那と最近セックスレスで…\r\n・息子、娘が小学校に行ってる間に…\r\n\r\nそんな密会依頼をくれる女の子たちに「人生で一番気持ちいいセックス」を体験してもらい、笑顔になって帰ってもらえるよう頑張っています。\r\n\r\n※予告なく動画の削除等を行うことがあります。",
+        "is_official": false,
+        "can_display_premium_badge": false,
+        "can_create_coupon": false,
+        "can_use_dashboard": false,
+        "has_approved_user_identification": true,
+        "followers_count": 153517,
+        "banner_url": "https://content.mfcdn.jp/uploads/user/banner_image/1fecbbb8-f073-46c7-84ad-2f09caa6c849/top.jpg",
+        "is_following": false
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": 2,
+      "previous": null
+    }
+  },
+  "https://api.myfans.jp/api/v2/users/show_by_username?username=fanzazz": {
+    "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+    "active": true,
+    "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+    "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+    "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+    "is_following": false,
+    "is_blocking": false,
+    "likes_count": 131677,
+    "name": "裏垢男子の日常",
+    "username": "fanzazz",
+    "can_display_premium_badge": true,
+    "can_create_coupon": false,
+    "can_use_dashboard": false,
+    "is_official": false,
+    "label": null,
+    "genre_keys": [],
+    "has_approved_user_identification": true,
+    "back_number_post_images_count": 0,
+    "back_number_post_videos_count": 0,
+    "cant_receive_message": false,
+    "current_back_number_plan": null,
+    "followers_count": 148647,
+    "followings_count": 19,
+    "has_ranking": true,
+    "hidden_ranking_order": false,
+    "is_bought_back_number": false,
+    "is_followed": false,
+    "is_single_month_back_number": false,
+    "is_subscribed": false,
+    "link_instagram_id": "",
+    "link_instagram_url": null,
+    "link_tiktok_id": "",
+    "link_tiktok_url": null,
+    "link_twitter_id": "",
+    "link_twitter_url": null,
+    "link_youtube_url": "",
+    "post_images_count": 1,
+    "post_videos_count": 133,
+    "posts_count": 142,
+    "single_month_back_number_amount": null,
+    "sns_link1": "https://linktr.ee/fanzazz",
+    "sns_link2": "",
+    "achievement": {
+      "plan": {
+        "posts_count_last_month": 14
+      },
+      "recommended_plan": {
+        "plan_cost": 5980,
+        "plan_cost_per_content": 51
+      }
+    },
+    "show_tip_button": true,
+    "short_url": null,
+    "has_gachas": false,
+    "creator_sexual_orientation": "woman"
+  },
+  "https://api.myfans.jp/api/v1/users/227f2f1e-d75d-4460-a7c7-d6036921e44c/plans": [
+    {
+      "id": "81740597-aa47-4541-84dc-cdfd5916ae2d",
+      "product_name": "【50%OFF】ALL見放題プラン",
+      "monthly_price": 5980,
+      "status": "initialize",
+      "is_limited_access": false,
+      "is_single": true,
+      "disallow_new_subscriber": false,
+      "active_discount": null,
+      "active_plan_bundles": [
+        {
+          "id": "967e2417-6aa3-4b03-bfa0-7e5af702ecea",
+          "duration_months": 6,
+          "price": 23322,
+          "monthly_price": 3887,
+          "is_recommended": false,
+          "discount_rate": 35,
+          "display_price": 23322
+        },
+        {
+          "id": "bc7a81d4-54c0-4f73-a416-fc21f863b48f",
+          "duration_months": 3,
+          "price": 14352,
+          "monthly_price": 4784,
+          "is_recommended": false,
+          "discount_rate": 20,
+          "display_price": 14352
+        },
+        {
+          "id": "bf7f2388-86c7-4501-8088-295ea8697685",
+          "duration_months": 12,
+          "price": 35880,
+          "monthly_price": 2990,
+          "is_recommended": false,
+          "discount_rate": 50,
+          "display_price": 35880
+        }
+      ],
+      "description": "プランに紐付けられている全ての投稿が見放題！期間限定販売動画や単品限定販売動画も含めて全部見放題です。\n⚠️一部のインフルエンサーとのコラボ動画は見れないのでご注意ください。\n⚠️プラン加入できるのは先着100名まで。100人を超えたら即加入停止します。\n⚠️加入停止後に公開開始した期間限定販売動画や単品限定販売動画は閲覧できません。\n⚠️ ALL見放題プランで全動画が閲覧可能なのは今だけ！プラン内の全動画は、2026年1月より順次単品販売限定動画に戻していきますので早めにご視聴ください。また、プラン内の動画は随時削除しますのでご注意ください。また、加入停止後に公開開始した期間限定販売動画や単品限定販売動画は閲覧できません。この注記を読んでいない場合は返金対応しかねますのでご了承ください。",
+      "posts_count": 117,
+      "is_back_number": false,
+      "flag": "recommended",
+      "welcome_message": "プランに加入いただきありがとうございます😊より良いファンクラブにしていきたいため、1分で終わるアンケートにご協力いただけると嬉しいです。\n▼アンケート（1分で終わります）\nhttps://forms.gle/ck4S7KTwbzz9WBW17",
+      "plan_discounts": null,
+      "plan_bundles": [],
+      "is_unlimited": false,
+      "is_unlimited_ch_private": false,
+      "cdb": null,
+      "applying_discount": null,
+      "applying_coupon": null,
+      "user": {
+        "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+        "active": true,
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+        "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+        "is_following": false,
+        "is_blocking": false,
+        "likes_count": 131677,
+        "name": "裏垢男子の日常",
+        "username": "fanzazz",
+        "creator_sexual_orientation": "woman"
+      }
+    },
+    {
+      "id": "edca49ef-a1a3-41e0-b903-c1639c36b2a0",
+      "product_name": "サンプル動画プラン",
+      "monthly_price": 1980,
+      "status": "initialize",
+      "is_limited_access": false,
+      "is_single": true,
+      "disallow_new_subscriber": false,
+      "active_discount": null,
+      "active_plan_bundles": [
+        {
+          "id": "fbf281ba-f601-4786-b10a-819c616cf7d5",
+          "duration_months": 3,
+          "price": 5643,
+          "monthly_price": 1881,
+          "is_recommended": false,
+          "discount_rate": 5,
+          "display_price": 5643
+        },
+        {
+          "id": "5c8c702a-7990-44c7-82e0-e30c39ae2e4d",
+          "duration_months": 6,
+          "price": 10692,
+          "monthly_price": 1782,
+          "is_recommended": false,
+          "discount_rate": 10,
+          "display_price": 10692
+        },
+        {
+          "id": "40df6c61-712a-4c39-ad40-b03866c1ef5e",
+          "duration_months": 12,
+          "price": 20196,
+          "monthly_price": 1683,
+          "is_recommended": true,
+          "discount_rate": 15,
+          "display_price": 20196
+        }
+      ],
+      "description": "",
+      "posts_count": 6,
+      "is_back_number": false,
+      "flag": null,
+      "welcome_message": "",
+      "plan_discounts": null,
+      "plan_bundles": [],
+      "is_unlimited": true,
+      "is_unlimited_ch_private": false,
+      "cdb": null,
+      "applying_discount": null,
+      "applying_coupon": null,
+      "user": {
+        "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+        "active": true,
+        "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+        "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+        "is_following": false,
+        "is_blocking": false,
+        "likes_count": 131677,
+        "name": "裏垢男子の日常",
+        "username": "fanzazz",
+        "creator_sexual_orientation": "woman"
+      }
+    }
+  ],
+  "https://api.myfans.jp/api/users/227f2f1e-d75d-4460-a7c7-d6036921e44c/ranking_orders?term=daily": [
+    {
+      "genre_key": "all",
+      "rank_number": 1
+    },
+    {
+      "genre_key": "f-amateur",
+      "rank_number": 1
+    },
+    {
+      "genre_key": "f-secret-account",
+      "rank_number": 1
+    },
+    {
+      "genre_key": "f-home-video",
+      "rank_number": 1
+    }
+  ],
+  "https://api.myfans.jp/api/v1/users/227f2f1e-d75d-4460-a7c7-d6036921e44c": {
+    "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+    "active": true,
+    "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+    "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+    "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+    "is_following": false,
+    "is_blocking": false,
+    "likes_count": 131677,
+    "name": "裏垢男子の日常",
+    "username": "fanzazz",
+    "can_display_premium_badge": true,
+    "can_create_coupon": false,
+    "can_use_dashboard": false,
+    "is_official": false,
+    "label": null,
+    "genre_keys": [],
+    "has_approved_user_identification": true,
+    "back_number_post_images_count": 0,
+    "back_number_post_videos_count": 0,
+    "cant_receive_message": false,
+    "current_back_number_plan": null,
+    "followers_count": 148647,
+    "followings_count": 19,
+    "has_ranking": true,
+    "hidden_ranking_order": false,
+    "is_bought_back_number": false,
+    "is_followed": false,
+    "is_single_month_back_number": false,
+    "is_subscribed": false,
+    "link_instagram_id": "",
+    "link_instagram_url": null,
+    "link_tiktok_id": "",
+    "link_tiktok_url": null,
+    "link_twitter_id": "",
+    "link_twitter_url": null,
+    "link_youtube_url": "",
+    "post_images_count": 1,
+    "post_videos_count": 133,
+    "posts_count": 142,
+    "single_month_back_number_amount": null,
+    "sns_link1": "https://linktr.ee/fanzazz",
+    "sns_link2": "",
+    "achievement": {
+      "plan": {
+        "posts_count_last_month": 14
+      },
+      "recommended_plan": {
+        "plan_cost": 5980,
+        "plan_cost_per_content": 51
+      }
+    },
+    "show_tip_button": true,
+    "short_url": null,
+    "has_gachas": false
+  },
+  "https://api.myfans.jp/api/users/227f2f1e-d75d-4460-a7c7-d6036921e44c/posts?sort_key=publish_start_at&page=1": {
+    "data": [
+      {
+        "id": "6f893f41-4c35-4d84-994f-099c4769468b",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "某女性芸能人プロデュースグループの人気アイドルをゲットしてしまった。誰なのか分かっても秘密にしておいてください、、\r\n炎上どころの騒ぎではないので動画販売予定はありません、、\r\n\r\n【内容詳細】\r\n\r\n正直、今回ばかりは書くのちょっと迷った。\r\nそれくらいヤバい相手。\r\n\r\n某有名女性芸能人がプロデュースしてるグループの人気アイドル。\r\n普通に生活してたら絶対に関わらないレベルの存在。\r\n連絡来た時点で「これ大丈夫なやつ？」ってなった。\r\n\r\n実際に会ってみると、\r\nやっぱりオーラが違う。\r\n顔立ちも雰囲気も完成されすぎてて、\r\n街中でも普通に目立つタイプ。\r\n\r\nでも話してみると意外とフランクで、\r\nアイドルっぽい作られた感じじゃなくて、\r\n素で笑ったりツッコんできたりするのが印象的。\r\n\r\n人目をかなり気にしながらの移動で、\r\nその時点で緊張感がずっと続く。\r\nバレたら普通に終わるやつだから、\r\n会話もどこか慎重になるのがリアル。\r\n\r\n2人きりになると、\r\nステージとは違う空気感。\r\nアイドルとしての顔じゃない、\r\n完全にオフの表情が見えてくる時間。\r\n\r\n有名人だからこその距離感と、\r\n絶対に表に出せないこの感じ。\r\n背徳感というか、緊張感がずっと続く一本です。\r\n\r\n※完全顔出し・本編は2時間31分収録。",
+        "bookmarked": false,
+        "bookmarks_count": 47,
+        "humanized_publish_start_at": "03/25 03:39",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 56,
+        "view_count": 0,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/e47ee066-b027-4967-a623-494b91c2708e/image20260324-1-hstbo0.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/e47ee066-b027-4967-a623-494b91c2708e/image20260324-1-gyyomg.webp",
+            "raw_image_height": 1920,
+            "raw_image_width": 1080
+          }
+        ],
+        "visible": false,
+        "publish_end_at": null,
+        "published_at": "2026-03-25T03:39:16+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": {
+          "id": "ac6fb9bf-00c4-49f1-869b-8aa1e277520d",
+          "amount": 5980,
+          "auto_message_body": "not_visible"
+        },
+        "plans": [
+          {
+            "id": "81740597-aa47-4541-84dc-cdfd5916ae2d",
+            "product_name": "【50%OFF】ALL見放題プラン",
+            "monthly_price": 5980,
+            "status": "initialize",
+            "is_limited_access": false,
+            "is_single": true,
+            "disallow_new_subscriber": false,
+            "active_discount": null,
+            "active_plan_bundles": [
+              {
+                "id": "967e2417-6aa3-4b03-bfa0-7e5af702ecea",
+                "duration_months": 6,
+                "price": 23322,
+                "monthly_price": 3887,
+                "is_recommended": false,
+                "discount_rate": 35,
+                "display_price": 23322
+              },
+              {
+                "id": "bc7a81d4-54c0-4f73-a416-fc21f863b48f",
+                "duration_months": 3,
+                "price": 14352,
+                "monthly_price": 4784,
+                "is_recommended": false,
+                "discount_rate": 20,
+                "display_price": 14352
+              },
+              {
+                "id": "bf7f2388-86c7-4501-8088-295ea8697685",
+                "duration_months": 12,
+                "price": 35880,
+                "monthly_price": 2990,
+                "is_recommended": false,
+                "discount_rate": 50,
+                "display_price": 35880
+              }
+            ]
+          }
+        ],
+        "video_processing": false,
+        "video_duration": {
+          "hours": "2",
+          "minutes": "31",
+          "seconds": "54"
+        },
+        "free": false,
+        "limited": true,
+        "available": false,
+        "metadata": {
+          "video": {
+            "duration": 9114333,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/6f893f41-4c35-4d84-994f-099c4769468b/image20260324-1-l1gq3x.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "fb2f6794-013c-4131-90fc-f06ec168a6e1",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "👑脅威の17時間！裏垢男子の日常の傑作選👑特別限定価格2980円で販売します。\r\n※必ず本文を最後までお読みください※\r\n\r\n「何を買えばいいかわからない」\r\n「まずどれか試してみたい」\r\n\r\nそういう方のために作ったパッケージです\r\n\r\n＝＝＝＝＝＝＝＝＝＝＝＝\r\n\r\n📦 収録内容\r\n\r\n＝＝＝＝＝＝＝＝＝＝＝＝\r\n\r\n✅最も売れた動画を詰め合わせ\r\n✅ 総収録時間 16時間56分\r\n\r\n＝＝＝＝＝＝＝＝＝＝＝＝\r\n\r\n💰 通常価格との比較\r\n\r\n＝＝＝＝＝＝＝＝＝＝＝＝\r\n\r\nハメ撮り5本を通常価格でそろえると\r\n通常価格数万円以上〜\r\n↓\r\n特別価格2980円\r\n数量限定での価格となります。\r\n\r\n裏垢男子の日常史上、最も売れた動画、傑作動画を詰め込みました。1秒たりとも見逃せない内容になってます。",
+        "bookmarked": false,
+        "bookmarks_count": 225,
+        "humanized_publish_start_at": "03/20 00:15",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 193,
+        "view_count": 2448,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/47f9adc7-bb2d-48c8-a9c5-cf880174248b/image20260320-1-hxkvo0.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/47f9adc7-bb2d-48c8-a9c5-cf880174248b/image20260320-1-g36x83.webp",
+            "raw_image_height": 1920,
+            "raw_image_width": 1080
+          }
+        ],
+        "visible": false,
+        "publish_end_at": null,
+        "published_at": "2026-03-20T00:15:00+09:00",
+        "publish_start_at": "2026-03-20T00:15:00+09:00",
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": {
+          "id": "d238b653-4434-4ff8-9417-b931b62ce711",
+          "amount": 2980,
+          "auto_message_body": "not_visible"
+        },
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": "16",
+          "minutes": "56",
+          "seconds": "24"
+        },
+        "free": false,
+        "limited": true,
+        "available": false,
+        "metadata": {
+          "video": {
+            "duration": 60984965,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/fb2f6794-013c-4131-90fc-f06ec168a6e1/image20260323-1-oee10n.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "0f734976-2ef4-485a-aa13-85d5eead3a38",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "「童貞卒業したいです」とDMしてきた童貞のフォロワーに、ともだちの天然Lカップ芸能爆美女ちゃんを会わせてみた結果がこちら。\r\n完全顔出し本編フル3時間56分\r\n\r\n【内容詳細】\r\n\r\nある日フォロワーから届いたDM。\r\n「本気で童貞卒業したいです」って、かなり真面目な相談。\r\n\r\nせっかく勇気出して送ってくれたみたいだし、\r\nちょうど仲のいい友だちに超スタイルいい子がいるので、\r\nダメ元で相談してみたらまさかのOK。\r\n\r\n待ち合わせ場所に現れた瞬間、\r\nフォロワーの表情が完全に固まる。\r\n天然でふわっとした雰囲気なのに、\r\nスタイルはとんでもないレベル。\r\n目の前の状況が理解できてない感じがリアルすぎて面白かった。\r\n\r\n最初は緊張でほとんど喋れないフォロワーと、\r\nマイペースに話しかけてくれる彼女。\r\nぎこちない空気が少しずつ柔らかくなっていく感じが\r\nなんだかんだ一番リアル。\r\n\r\n理想の存在みたいな美女と、\r\n人生初レベルの緊張状態のフォロワー。\r\nその対照的な空気感がこの企画の見どころです。\r\n\r\nどこにでもいそうなフォロワーの夢みたいな展開が、\r\n思わぬ形で実現した記録。\r\n気になる続きは本編でぜひ。",
+        "bookmarked": false,
+        "bookmarks_count": 912,
+        "humanized_publish_start_at": "03/15 16:49",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 983,
+        "view_count": 21238,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/dffdd546-a808-4a41-bca1-e9d5d0846e63/image20260315-1-p7afk6.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/dffdd546-a808-4a41-bca1-e9d5d0846e63/image20260315-1-22kfjv.webp",
+            "raw_image_height": 1920,
+            "raw_image_width": 1080
+          }
+        ],
+        "visible": false,
+        "publish_end_at": null,
+        "published_at": "2026-03-15T16:49:30+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": {
+          "id": "c4c4170c-384e-475d-b65e-06d1b1615431",
+          "amount": 4980,
+          "auto_message_body": "not_visible"
+        },
+        "plans": [
+          {
+            "id": "81740597-aa47-4541-84dc-cdfd5916ae2d",
+            "product_name": "【50%OFF】ALL見放題プラン",
+            "monthly_price": 5980,
+            "status": "initialize",
+            "is_limited_access": false,
+            "is_single": true,
+            "disallow_new_subscriber": false,
+            "active_discount": null,
+            "active_plan_bundles": [
+              {
+                "id": "967e2417-6aa3-4b03-bfa0-7e5af702ecea",
+                "duration_months": 6,
+                "price": 23322,
+                "monthly_price": 3887,
+                "is_recommended": false,
+                "discount_rate": 35,
+                "display_price": 23322
+              },
+              {
+                "id": "bc7a81d4-54c0-4f73-a416-fc21f863b48f",
+                "duration_months": 3,
+                "price": 14352,
+                "monthly_price": 4784,
+                "is_recommended": false,
+                "discount_rate": 20,
+                "display_price": 14352
+              },
+              {
+                "id": "bf7f2388-86c7-4501-8088-295ea8697685",
+                "duration_months": 12,
+                "price": 35880,
+                "monthly_price": 2990,
+                "is_recommended": false,
+                "discount_rate": 50,
+                "display_price": 35880
+              }
+            ]
+          }
+        ],
+        "video_processing": false,
+        "video_duration": {
+          "hours": "3",
+          "minutes": "56",
+          "seconds": "15"
+        },
+        "free": false,
+        "limited": true,
+        "available": false,
+        "metadata": {
+          "video": {
+            "duration": 14175461,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/0f734976-2ef4-485a-aa13-85d5eead3a38/image20260315-1-4pqj2o.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "a5d4b056-4caa-4a4a-a4cd-81768ef3f7e9",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "元N◯B48アイドルちゃん🟪今は僕のセフレです。ファンが逆立ちしても見れない全裸を自分だけが見れる優越感エグいです。\r\n\r\n【詳細】\r\nまさかこんな形で再会するとは思ってなかった。\r\n以前はあの有名グループで活動していた元アイドル。\r\nテレビやSNSで見ていた“あの子”と普通に会っている状況が、いまだに少し不思議。\r\n\r\n待ち合わせで現れた瞬間、\r\nやっぱりオーラはそのまま。\r\nアイドル時代の透明感は健在で、\r\n周りの視線を自然に集めちゃう感じも相変わらず。\r\n\r\nでも話してみると、\r\nステージの上とは全然違うラフなテンション。\r\n当時の裏話とか、ファンには見せない素のトークとか、\r\n距離が近いからこそ聞ける話がどんどん出てくる。\r\n\r\n時間が経つにつれて、\r\n“元アイドル”というより普通の女の子の表情になっていくのが印象的。\r\nあの頃は遠い存在だったのに、\r\n今はすぐ隣で笑っている不思議な感覚。\r\n\r\nファンが知っている彼女と、\r\nプライベートで見せる自然な一面。\r\nそのギャップと距離感を楽しめる一本です。",
+        "bookmarked": false,
+        "bookmarks_count": 685,
+        "humanized_publish_start_at": "03/10 14:33",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 685,
+        "view_count": 15942,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/6029b921-e139-4e65-b1b2-e8536431090c/image20260310-1-w60el7.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/6029b921-e139-4e65-b1b2-e8536431090c/image20260310-1-3ebyel.webp",
+            "raw_image_height": 1920,
+            "raw_image_width": 1080
+          }
+        ],
+        "visible": false,
+        "publish_end_at": null,
+        "published_at": "2026-03-10T14:33:56+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": {
+          "id": "b7161fdf-67d4-4f6a-bda2-34472eae1b42",
+          "amount": 4980,
+          "auto_message_body": "not_visible"
+        },
+        "plans": [
+          {
+            "id": "81740597-aa47-4541-84dc-cdfd5916ae2d",
+            "product_name": "【50%OFF】ALL見放題プラン",
+            "monthly_price": 5980,
+            "status": "initialize",
+            "is_limited_access": false,
+            "is_single": true,
+            "disallow_new_subscriber": false,
+            "active_discount": null,
+            "active_plan_bundles": [
+              {
+                "id": "967e2417-6aa3-4b03-bfa0-7e5af702ecea",
+                "duration_months": 6,
+                "price": 23322,
+                "monthly_price": 3887,
+                "is_recommended": false,
+                "discount_rate": 35,
+                "display_price": 23322
+              },
+              {
+                "id": "bc7a81d4-54c0-4f73-a416-fc21f863b48f",
+                "duration_months": 3,
+                "price": 14352,
+                "monthly_price": 4784,
+                "is_recommended": false,
+                "discount_rate": 20,
+                "display_price": 14352
+              },
+              {
+                "id": "bf7f2388-86c7-4501-8088-295ea8697685",
+                "duration_months": 12,
+                "price": 35880,
+                "monthly_price": 2990,
+                "is_recommended": false,
+                "discount_rate": 50,
+                "display_price": 35880
+              }
+            ]
+          }
+        ],
+        "video_processing": false,
+        "video_duration": {
+          "hours": "3",
+          "minutes": "26",
+          "seconds": "31"
+        },
+        "free": false,
+        "limited": true,
+        "available": false,
+        "metadata": {
+          "video": {
+            "duration": 12391612,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/a5d4b056-4caa-4a4a-a4cd-81768ef3f7e9/image20260310-1-z417j3.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "58001b6e-e1bc-4a01-8ed3-22e414c74ad3",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "\"完全顔出し\"元ミス青学ちゃんをホテル連れ込み成功笑服脱がせたら身体えぐかった。ぼくのアカウントを昔から見てくれてるらしい。\r\n\r\n完全顔出し本編2時間51分\r\n\r\n【内容詳細】\r\n\r\n正直、最初はネタかと思った。\r\n元ミス青学って肩書きだけで十分すごいのに、\r\nまさか自分のアカウントを昔から見てくれてたらしいって聞いてびっくり。\r\n\r\n待ち合わせ場所に現れた瞬間、\r\nやっぱりオーラが違う。\r\nスタイルも雰囲気も洗練されてて、\r\n「これが本物か…」って内心ちょっとテンパる。\r\n\r\n話してみると意外と気さくで、\r\n昔の投稿の話とか、ちょっと恥ずかしい黒歴史まで把握されてて、\r\nこっちが逆に照れる展開。\r\n距離の詰め方が自然すぎて、気づけば完全にペース持ってかれてた。\r\n\r\nそのまま流れで場所を変えることに。\r\n2人きりになると空気が一気に変わるのがリアル。\r\nさっきまで余裕そうだったのに、\r\n少し照れた表情見せたりするのがズルい。\r\n\r\n華やかな肩書きの裏にある素の一面、\r\nフォロワーとして見てくれてた彼女との不思議な距離感。\r\nそのギャップと緊張感が詰まった密会記録です。\r\n\r\nキラキラの頂点にいた彼女の、\r\nちょっとだけオフな時間。",
+        "bookmarked": false,
+        "bookmarks_count": 1676,
+        "humanized_publish_start_at": "03/03 19:14",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 1804,
+        "view_count": 26143,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/e0ce96e9-7bb2-4aeb-b657-ff03950fd9e2/image20260303-1-n6wgvr.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/e0ce96e9-7bb2-4aeb-b657-ff03950fd9e2/image20260303-1-ps03zr.webp",
+            "raw_image_height": 1920,
+            "raw_image_width": 1080
+          }
+        ],
+        "visible": false,
+        "publish_end_at": null,
+        "published_at": "2026-03-03T19:14:50+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": {
+          "id": "5b0a1aa8-ac18-45c9-8dfd-3d055bef5251",
+          "amount": 4980,
+          "auto_message_body": "not_visible"
+        },
+        "plans": [
+          {
+            "id": "81740597-aa47-4541-84dc-cdfd5916ae2d",
+            "product_name": "【50%OFF】ALL見放題プラン",
+            "monthly_price": 5980,
+            "status": "initialize",
+            "is_limited_access": false,
+            "is_single": true,
+            "disallow_new_subscriber": false,
+            "active_discount": null,
+            "active_plan_bundles": [
+              {
+                "id": "967e2417-6aa3-4b03-bfa0-7e5af702ecea",
+                "duration_months": 6,
+                "price": 23322,
+                "monthly_price": 3887,
+                "is_recommended": false,
+                "discount_rate": 35,
+                "display_price": 23322
+              },
+              {
+                "id": "bc7a81d4-54c0-4f73-a416-fc21f863b48f",
+                "duration_months": 3,
+                "price": 14352,
+                "monthly_price": 4784,
+                "is_recommended": false,
+                "discount_rate": 20,
+                "display_price": 14352
+              },
+              {
+                "id": "bf7f2388-86c7-4501-8088-295ea8697685",
+                "duration_months": 12,
+                "price": 35880,
+                "monthly_price": 2990,
+                "is_recommended": false,
+                "discount_rate": 50,
+                "display_price": 35880
+              }
+            ]
+          }
+        ],
+        "video_processing": false,
+        "video_duration": {
+          "hours": "2",
+          "minutes": "51",
+          "seconds": "03"
+        },
+        "free": false,
+        "limited": true,
+        "available": false,
+        "metadata": {
+          "video": {
+            "duration": 10263353,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/58001b6e-e1bc-4a01-8ed3-22e414c74ad3/image20260303-1-rrn3nm.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "5bcc6279-8b23-4387-a8ca-425d50a09dfb",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編→https://myfans.jp/fanzaNTR 大学時代のセフレが結婚したので、久しぶりに家に男友達と一緒に遊びに行ってきた。娘も産まれて、すっかりママになってた。旦那さんとの写真、結婚式の写真、娘の写真、お子さんのおもちゃ。幸せいっぱいの部屋での中出しセックスは背徳感でいっぱいでした。\r\n\r\n本編3時間は100部限定で販売中\r\n旦那さんや家族に身バレするのを防ぐため数量限定での公開となります。\r\n\r\n【内容詳細】\r\n\r\n大学時代、なんだかんだ一番一緒にいたあの子。\r\n卒業してから疎遠になってたけど、「結婚したよ〜」って連絡が来て、流れで久々に再会。\r\n大学の仲良い野郎友達と家に押しかけました。\r\n\r\n家に入った瞬間、まず思ったのが\r\n「ちゃんと大人になってるな…」ってこと。\r\n玄関にはベビーカー、リビングにはお子さんのおもちゃ、\r\n壁には旦那さんとの写真と結婚式のアルバム。\r\n完全に幸せな家庭って空気で、ちょっと不思議な気分。\r\n\r\nコーヒー飲みながら昔話してたら、\r\nサークルの話とか飲み会の黒歴史とかで普通に爆笑。\r\nあの頃と会話のテンポが全然変わってなくて、\r\n一気に大学時代に戻った感じがリアルすぎた。\r\n\r\nでもふとした瞬間、\r\nママになった落ち着いた表情と、\r\n昔のままの距離感が混ざる瞬間があって妙にドキッとする。\r\n\r\n「懐かしいね」って笑いながら、\r\n同窓会みたいな空気のまま時間が過ぎていく。\r\nただの再会のはずなのに、\r\n昔を知ってる2人だからこその空気感がずっと漂ってた。\r\n\r\n大人になった今と、\r\n大学時代の記憶が交差する再会記録。\r\n懐かしさと少しの背徳感が混ざる、\r\nちょっとリアルすぎる動画になってます。",
+        "bookmarked": false,
+        "bookmarks_count": 84,
+        "humanized_publish_start_at": "02/28 18:12",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 124,
+        "view_count": 7013,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/265791ae-b561-466c-96ce-7107416151a1/image20260228-1-cilqfw.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/265791ae-b561-466c-96ce-7107416151a1/image20260228-1-39376z.webp",
+            "raw_image_height": 2560,
+            "raw_image_width": 1440
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-28T18:12:18+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "51"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 51400,
+            "resolutions": [
+              "sd",
+              "uhd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/5bcc6279-8b23-4387-a8ca-425d50a09dfb/image20260228-1-3orqo8.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "0fd1fc21-af6b-4323-8f99-add4324f0678",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編→ https://myfans.jp/jj_life",
+        "bookmarked": false,
+        "bookmarks_count": 49,
+        "humanized_publish_start_at": "02/23 16:50",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 81,
+        "view_count": 4548,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/7cbe0a79-5a17-46ea-af7b-ca11d9ea5f89/image20260223-1-9504hj.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/7cbe0a79-5a17-46ea-af7b-ca11d9ea5f89/image20260223-1-7p3vsk.webp",
+            "raw_image_height": 2560,
+            "raw_image_width": 1440
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-23T16:50:35+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "45"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 45816,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/7cbe0a79-5a17-46ea-af7b-ca11d9ea5f89/image20260223-1-7p3vsk.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "89c8f230-71d1-44bc-94f5-54f3943a4a4c",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編→ https://myfans.jp/posts/2ed75b74-b41a-4f35-a227-638ccd3b90e6",
+        "bookmarked": false,
+        "bookmarks_count": 85,
+        "humanized_publish_start_at": "02/22 19:30",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 144,
+        "view_count": 3363,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/59b11971-2270-4fdd-b3b1-51fd6320e8f6/image20260222-1-ulo1di.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/59b11971-2270-4fdd-b3b1-51fd6320e8f6/image20260222-1-n6tjtt.webp",
+            "raw_image_height": 2560,
+            "raw_image_width": 1440
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-22T19:30:26+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "07"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 7516,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/59b11971-2270-4fdd-b3b1-51fd6320e8f6/image20260222-1-n6tjtt.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "245309ca-7c9a-4cd0-a72e-b51bc0a14979",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "\"完全顔出し\"佐々木希似のSNSフォロワー数10万人超ガチ爆美女ちゃんと禁断の密会してきた。\r\n完全顔出し本編は100部限定で販売中\r\n\r\n【内容詳細】\r\n\r\n正直、最初は完全にネタだと思ってた。\r\nSNSフォロワー10万人超えのモデルちゃんから連絡が来るなんて、普通ありえない。\r\n\r\nでも待ち合わせ場所に現れた瞬間、全部本物だと理解。\r\n小顔すぎるし、雰囲気も透明感も完全に別格。\r\n佐々木希っぽい柔らかいオーラで、周りの視線を自然に集めちゃうタイプ。\r\n\r\n最初はカフェでゆったりトーク。\r\n撮影の裏話とか、SNS運用の話とか、\r\n画面越しでは分からない素のテンションが見えてくる。\r\nモデルらしい余裕ある雰囲気なのに、\r\nふとした瞬間に見せる笑顔が妙に距離近くてドキッとする。\r\n\r\n人目を気にしながら移動して、\r\n2人きりになった途端に空気が少し変わる。\r\n仕事モードじゃない自然体の表情、\r\nリラックスした仕草、\r\n“モデルの顔”じゃない時間が流れていく感じがリアル。\r\n\r\nSNSでは完璧に見える彼女の、\r\n誰にも見せないオフの一面。\r\nそのギャップと緊張感が詰まった密会記録です。\r\n\r\nキラキラの裏側を覗いてみたい人におすすめの一本。",
+        "bookmarked": false,
+        "bookmarks_count": 364,
+        "humanized_publish_start_at": "02/21 01:32",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 456,
+        "view_count": 9754,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/abb8b56d-1aa3-4597-a5db-e3409bce7d0a/image20260220-1-yr59zd.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/abb8b56d-1aa3-4597-a5db-e3409bce7d0a/image20260220-1-zsc1dh.webp",
+            "raw_image_height": 1920,
+            "raw_image_width": 1080
+          }
+        ],
+        "visible": false,
+        "publish_end_at": null,
+        "published_at": "2026-02-21T01:32:12+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": {
+          "id": "06efe1e1-5311-4409-bef7-d419dd66fd50",
+          "amount": 4980,
+          "auto_message_body": "not_visible"
+        },
+        "plans": [
+          {
+            "id": "81740597-aa47-4541-84dc-cdfd5916ae2d",
+            "product_name": "【50%OFF】ALL見放題プラン",
+            "monthly_price": 5980,
+            "status": "initialize",
+            "is_limited_access": false,
+            "is_single": true,
+            "disallow_new_subscriber": false,
+            "active_discount": null,
+            "active_plan_bundles": [
+              {
+                "id": "967e2417-6aa3-4b03-bfa0-7e5af702ecea",
+                "duration_months": 6,
+                "price": 23322,
+                "monthly_price": 3887,
+                "is_recommended": false,
+                "discount_rate": 35,
+                "display_price": 23322
+              },
+              {
+                "id": "bc7a81d4-54c0-4f73-a416-fc21f863b48f",
+                "duration_months": 3,
+                "price": 14352,
+                "monthly_price": 4784,
+                "is_recommended": false,
+                "discount_rate": 20,
+                "display_price": 14352
+              },
+              {
+                "id": "bf7f2388-86c7-4501-8088-295ea8697685",
+                "duration_months": 12,
+                "price": 35880,
+                "monthly_price": 2990,
+                "is_recommended": false,
+                "discount_rate": 50,
+                "display_price": 35880
+              }
+            ]
+          }
+        ],
+        "video_processing": false,
+        "video_duration": {
+          "hours": "3",
+          "minutes": "18",
+          "seconds": "32"
+        },
+        "free": false,
+        "limited": true,
+        "available": false,
+        "metadata": {
+          "video": {
+            "duration": 11912000,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/245309ca-7c9a-4cd0-a72e-b51bc0a14979/image20260220-1-fbzjwd.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "2ed75b74-b41a-4f35-a227-638ccd3b90e6",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "\"完全顔出し\"「僕もヤりたいです」とDMしてきた素人童貞のフォロワーに超人気コスプレイヤーちゃんを会わせてみた結果がこちら。女体に興奮しすぎておまんこから溢れる体液を全部飲み干そうとしてるとこです。\r\n\r\n顔出しフルとなります\r\n\r\n【内容詳細】\r\n\r\nフォロワーから突然届いた一通のDM。\r\n「一度でいいから、ああいう子と会ってみたいです」って、\r\nちょっと勇気出して送ってきた感じが逆にリアルだった。\r\n\r\nせっかくだしってことで、\r\n仲良くしてる超人気コスプレイヤーちゃんに相談してみたら、\r\nまさかのOK。\r\n当日まで本人が一番信じてなかったのが面白い。\r\n\r\n待ち合わせ場所に現れた瞬間、\r\n画面越しで見てた存在が目の前にいる衝撃。\r\n緊張で会話ぎこちなくなるフォロワーと、\r\n余裕の笑顔で距離を縮めていくコスプレイヤーちゃん。\r\n\r\n最初はぎこちなかった空気も、\r\n時間が経つにつれて少しずつ柔らかくなっていって、\r\nテンションの差や反応のリアルさがそのまま記録されてる。\r\n\r\n憧れだった存在と実際に会ったときの戸惑い、\r\n高鳴る空気感、\r\nそして予想外に盛り上がっていく流れ。\r\n\r\n理想と現実が交差する、\r\nちょっと特別な出会いの記録です。",
+        "bookmarked": false,
+        "bookmarks_count": 290,
+        "humanized_publish_start_at": "02/20 19:41",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 335,
+        "view_count": 5729,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/2ddae5ae-3a5e-49d2-b652-eef82faf9283/image20260220-1-vvr5y5.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/2ddae5ae-3a5e-49d2-b652-eef82faf9283/image20260220-1-tcbke3.webp",
+            "raw_image_height": 1920,
+            "raw_image_width": 1080
+          }
+        ],
+        "visible": false,
+        "publish_end_at": null,
+        "published_at": "2026-02-20T19:41:32+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": {
+          "id": "6c78e659-c56c-4d79-a595-848a20fbcbd6",
+          "amount": 4980,
+          "auto_message_body": "not_visible"
+        },
+        "plans": [
+          {
+            "id": "81740597-aa47-4541-84dc-cdfd5916ae2d",
+            "product_name": "【50%OFF】ALL見放題プラン",
+            "monthly_price": 5980,
+            "status": "initialize",
+            "is_limited_access": false,
+            "is_single": true,
+            "disallow_new_subscriber": false,
+            "active_discount": null,
+            "active_plan_bundles": [
+              {
+                "id": "967e2417-6aa3-4b03-bfa0-7e5af702ecea",
+                "duration_months": 6,
+                "price": 23322,
+                "monthly_price": 3887,
+                "is_recommended": false,
+                "discount_rate": 35,
+                "display_price": 23322
+              },
+              {
+                "id": "bc7a81d4-54c0-4f73-a416-fc21f863b48f",
+                "duration_months": 3,
+                "price": 14352,
+                "monthly_price": 4784,
+                "is_recommended": false,
+                "discount_rate": 20,
+                "display_price": 14352
+              },
+              {
+                "id": "bf7f2388-86c7-4501-8088-295ea8697685",
+                "duration_months": 12,
+                "price": 35880,
+                "monthly_price": 2990,
+                "is_recommended": false,
+                "discount_rate": 50,
+                "display_price": 35880
+              }
+            ]
+          }
+        ],
+        "video_processing": false,
+        "video_duration": {
+          "hours": "3",
+          "minutes": "28",
+          "seconds": "21"
+        },
+        "free": false,
+        "limited": true,
+        "available": false,
+        "metadata": {
+          "video": {
+            "duration": 12501822,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/2ed75b74-b41a-4f35-a227-638ccd3b90e6/image20260220-1-i3ke6f.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "8f96b6f9-ce57-426b-9672-7dd5721966b3",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編→https://myfans.jp/adult_circle",
+        "bookmarked": false,
+        "bookmarks_count": 44,
+        "humanized_publish_start_at": "02/19 11:42",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 76,
+        "view_count": 3525,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/0c9fd6dd-64b2-4618-b282-e13464f33982/image20260219-1-p3l2gx.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/0c9fd6dd-64b2-4618-b282-e13464f33982/image20260219-1-f3vcji.webp",
+            "raw_image_height": 2560,
+            "raw_image_width": 1440
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-19T11:42:49+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "16"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 16600,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/0c9fd6dd-64b2-4618-b282-e13464f33982/image20260219-1-f3vcji.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "724ae4d8-5df8-4e62-a501-2afac945bfa4",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編→ https://myfans.jp/noah69 【100部限定販売】\"完全顔出し\"インスタフォロワー10万人越えの爆乳インフルエンサーちゃんとお忍びの密会してきた。\r\n\r\n【内容詳細】\r\n\r\n正直、DM来たときは釣りかと思った。\r\nフォロワー10万人超えのインフルエンサー。\r\n毎日キラキラ投稿してるあの子が、まさか普通に会う流れになるとは。\r\n\r\n待ち合わせ場所に現れた瞬間、\r\n画面越しよりスタイル良くて普通にビビる。\r\nシンプルな私服なのに存在感がエグい。\r\n特にあのボリューム感、写真より破壊力あるのズルい。\r\n\r\n最初はカフェで軽くトーク。\r\n仕事の裏話とか、バズった投稿の話とか、\r\n意外とサバサバしてて話しやすい。\r\nでもふとした瞬間に見せる甘い笑顔が反則級。\r\n\r\n人目を避けながら移動して、\r\n2人きりになった瞬間に空気が変わるのがリアル。\r\nさっきまで余裕そうだったのに、\r\n急に距離が近くなったり、目が合わなくなったり。\r\n\r\nSNSでは強気で自信満々なのに、\r\nオフだとちょっと照れるのがギャップすぎる。\r\nあの“表と裏の落差”がこの映像の一番の見どころ。",
+        "bookmarked": false,
+        "bookmarks_count": 80,
+        "humanized_publish_start_at": "02/18 08:06",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 109,
+        "view_count": 4105,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/90422fec-87fb-4080-bf91-aa489bb690cd/image20260217-1-wmkuuv.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/90422fec-87fb-4080-bf91-aa489bb690cd/image20260217-1-w987a2.webp",
+            "raw_image_height": 2560,
+            "raw_image_width": 1440
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-18T08:06:11+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "10"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 10040,
+            "resolutions": [
+              "sd",
+              "uhd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/90422fec-87fb-4080-bf91-aa489bb690cd/image20260217-1-w987a2.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "11d88b37-5045-4451-9261-6c17341d45b7",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編フル→ https://myfans.jp/jj_life 【100部限定】予備校で知り合った医学部志望ちゃんに中出し。成績上位層で頭がいいのにアナルひくひくしちゃってるのが下品でエロかった。\r\n\r\n同じ予備校に通う受験生として出会った彼女。\r\n模試では常に上位に入るほどの実力者で、落ち着いた話し方や理論的な考え方が印象的な、いわゆる“才女”。\r\n\r\n普段はクールで隙のない雰囲気だけど、勉強終わりに二人きりで過ごす時間はどこか柔らかい。\r\n張りつめた受験生活の反動なのか、安心できる空間では少しだけ甘えた表情を見せてくれる。\r\n\r\nその日の空気を残そうと、軽く固定カメラを回したハメ撮りです。\r\n派手な演出はなく、会話や息づかい、照れ笑いといった“リアルな距離感”を大切にしてます\r\n\r\n知的で冷静な彼女が、プライベートでは少しだけ無防備になるギャップがえぐかった。",
+        "bookmarked": false,
+        "bookmarks_count": 97,
+        "humanized_publish_start_at": "02/15 00:47",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 128,
+        "view_count": 4406,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/69bbda52-8653-44db-9d89-10f9763ddf83/image20260214-1-6a48yo.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/69bbda52-8653-44db-9d89-10f9763ddf83/image20260214-1-ejx699.webp",
+            "raw_image_height": 2560,
+            "raw_image_width": 1440
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-15T00:47:02+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "16"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 16116,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/11d88b37-5045-4451-9261-6c17341d45b7/image20260214-1-nyf909.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "e3858eba-3969-4c75-ad4c-778fa8b25a6e",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "\"完全顔出し\"花澤香菜似の声優志望ガチアイドルにおしっこ見せてほしいって頼んでみた結果がこちら。そのまま流れで下品交尾しちゃいました。\r\n\r\n完全顔出し・本編フル4時間4分はファンクラブで販売中\r\n\r\n【内容詳細】\r\n\r\n最初はほんとにただの密会。\r\n声優志望でアイドル活動もしてるっていう、いわば“夢追いガチ勢”。\r\nしかも雰囲気が花澤香菜っぽい柔らかさで、声も仕草も全部ふわっとしてる。\r\n\r\nカフェで話してるときは終始明るくて、\r\n将来の話とかレッスンの話とか、真面目モード全開。\r\nでも距離が近くなると、急に視線が泳いだりして、\r\nプロの顔と素の顔のギャップがどんどん出てくる。\r\n\r\n冗談半分でちょっと無茶なお願いをしてみたら、\r\n「え、なにそれ…」って笑いながらも、\r\n完全拒否しないあの間がやばい。\r\n空気がゆっくり変わっていくのが分かる。\r\n\r\nそこからは一気に“大人の時間”。\r\nアイドルとしての清楚さと、\r\n2人きりだからこそ見せる表情の落差が反則級。\r\n\r\n普段はステージでキラキラしてるのに、\r\n近くで見るとちゃんと女の子で、\r\n少し戸惑いながらも受け入れていく姿がリアル。\r\n\r\n夢追い系清楚アイドルの“裏の顔”。\r\n甘くて危ない一夜の記録です。",
+        "bookmarked": false,
+        "bookmarks_count": 687,
+        "humanized_publish_start_at": "02/14 00:39",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 840,
+        "view_count": 20719,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/0058c8d5-7234-49de-a8b1-f1780cdb1087/image20260213-1-yrgsdo.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/0058c8d5-7234-49de-a8b1-f1780cdb1087/image20260213-1-8dxtf9.webp",
+            "raw_image_height": 1920,
+            "raw_image_width": 1080
+          }
+        ],
+        "visible": false,
+        "publish_end_at": null,
+        "published_at": "2026-02-14T00:39:00+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": {
+          "id": "74283b44-896e-46b2-86ae-f5108027dd75",
+          "amount": 5980,
+          "auto_message_body": "not_visible"
+        },
+        "plans": [
+          {
+            "id": "81740597-aa47-4541-84dc-cdfd5916ae2d",
+            "product_name": "【50%OFF】ALL見放題プラン",
+            "monthly_price": 5980,
+            "status": "initialize",
+            "is_limited_access": false,
+            "is_single": true,
+            "disallow_new_subscriber": false,
+            "active_discount": null,
+            "active_plan_bundles": [
+              {
+                "id": "967e2417-6aa3-4b03-bfa0-7e5af702ecea",
+                "duration_months": 6,
+                "price": 23322,
+                "monthly_price": 3887,
+                "is_recommended": false,
+                "discount_rate": 35,
+                "display_price": 23322
+              },
+              {
+                "id": "bc7a81d4-54c0-4f73-a416-fc21f863b48f",
+                "duration_months": 3,
+                "price": 14352,
+                "monthly_price": 4784,
+                "is_recommended": false,
+                "discount_rate": 20,
+                "display_price": 14352
+              },
+              {
+                "id": "bf7f2388-86c7-4501-8088-295ea8697685",
+                "duration_months": 12,
+                "price": 35880,
+                "monthly_price": 2990,
+                "is_recommended": false,
+                "discount_rate": 50,
+                "display_price": 35880
+              }
+            ]
+          }
+        ],
+        "video_processing": false,
+        "video_duration": {
+          "hours": "4",
+          "minutes": "04",
+          "seconds": "43"
+        },
+        "free": false,
+        "limited": true,
+        "available": false,
+        "metadata": {
+          "video": {
+            "duration": 14683716,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/e3858eba-3969-4c75-ad4c-778fa8b25a6e/image20260213-1-cotzhw.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "fcb94dbb-4e28-463a-9b74-3b3faefa3af0",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編→https://myfans.jp/adult_circle 有名大学ミスコングランプリ3年生ちゃんがサークルに入部してくれました🎉\r\n毎日の就活とバイト疲れを発散したいんだとか…\r\n僕たちのサークルは何年生でも入部可能です😊\r\n\r\n歓迎会の動画は【100部限定】でファンクラブで公開予定。\r\n観たい方は今のうちに入っておいてください！",
+        "bookmarked": false,
+        "bookmarks_count": 89,
+        "humanized_publish_start_at": "02/11 17:55",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 114,
+        "view_count": 6460,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/4aa9b556-a94e-43b2-a366-c8dff882cd9e/image20260211-1-vpqo9h.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/4aa9b556-a94e-43b2-a366-c8dff882cd9e/image20260211-1-ddzf69.webp",
+            "raw_image_height": 2560,
+            "raw_image_width": 1440
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-11T17:55:36+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "18"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 18483,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/fcb94dbb-4e28-463a-9b74-3b3faefa3af0/image20260211-1-s1ptqu.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "8342d5bd-7157-43c6-8943-66f8d7f39a68",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編フル→ https://myfans.jp/adult_circle 🟥100部限定🟥今日はイったことがないという彼氏持ち新入生ちゃんに4年生の先輩がオナニー講習してきました🤌\r\n 白目剥いちゃった😂\r\n \r\n 100部限定でファンクラブで販売中\r\n #春から大学生\r\n \r\n 今日はちょっと変わった新歓エピソード。\r\n 「今までちゃんとイったことがないんです…」って言ってた彼氏持ちの新入生ちゃんに、4年生の先輩が“セルフケア講習”をしてきたらしい🤌\r\n \r\n 最初は半信半疑で、めちゃくちゃ恥ずかしそうにしてたけど、先輩がわりと真面目にコツとかリラックスの仕方を説明してて、途中から空気が完全に“保健体育の特別授業”みたいな感じに😂\r\n \r\n 緊張しすぎて変な顔になってたのをみんなでいじりつつ、でも最後は「ちょっと感覚わかったかも…」って照れ笑い。\r\n 白目剥いちゃったのは本人いわく「力みすぎただけ」らしいです（笑）\r\n \r\n なんだかんだで、大学生らしいゆるいノリの一日でした。",
+        "bookmarked": false,
+        "bookmarks_count": 68,
+        "humanized_publish_start_at": "02/10 15:22",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 102,
+        "view_count": 7155,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/acf488f0-2e5e-42f5-bf18-1d8c9d45fd68/image20260210-1-9dp15p.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/acf488f0-2e5e-42f5-bf18-1d8c9d45fd68/image20260210-1-gtpi6e.webp",
+            "raw_image_height": 2214,
+            "raw_image_width": 1772
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-10T15:22:30+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "26"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 26850,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/acf488f0-2e5e-42f5-bf18-1d8c9d45fd68/image20260210-1-gtpi6e.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "298e7112-4b16-4b9d-867d-2db81655b033",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編→ https://myfans.jp/noah69 同じ芸能事務所で仲良くなった女優ちゃんと密会。地上波ドラマにも出演経験ある子です。陥没乳首が勃っちゃってて可愛い。\r\n \r\n 100部限定でファンクラブで公開中。\r\n 流出厳禁です。\r\n \r\n 【内容詳細】\r\n \r\n 同じ芸能事務所ってだけで距離は近かったけど、\r\n まさかプライベートで2人きりになるとは思ってなかった。\r\n \r\n 地上波ドラマにも出てる子で、\r\n テレビで見るときはクールで落ち着いた役が多い。\r\n でも実際会うと、意外とよく笑うし、ちょっと天然。\r\n そのギャップがまず可愛い。\r\n \r\n カフェで待ち合わせした瞬間から、\r\n やっぱりオーラは別格。\r\n 一般の子とは明らかに違う透明感と存在感。\r\n でも近くで見ると、ちゃんと女の子で、\r\n ふとした瞬間に照れたりするのがたまらない。\r\n \r\n 2人きりになったとき、\r\n 普段は見せない表情や反応がどんどん出てきて、\r\n “女優の顔”じゃなくて“素の彼女”になる瞬間が一番刺さる。\r\n \r\n スタイルも綺麗で、\r\n 無防備な仕草がいちいち色っぽい。\r\n 繊細で可愛い一面が見えたとき、\r\n テレビ越しじゃ絶対分からない距離感を実感した。\r\n \r\n 表では完璧、裏では素直。\r\n その落差を楽しめる一本です。\r\n",
+        "bookmarked": false,
+        "bookmarks_count": 38,
+        "humanized_publish_start_at": "02/09 23:59",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 72,
+        "view_count": 1998,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/dc9c3404-57c4-4255-ba3f-9811b189713f/image20260209-1-xoz9rh.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/dc9c3404-57c4-4255-ba3f-9811b189713f/image20260209-1-w3b70h.webp",
+            "raw_image_height": 1800,
+            "raw_image_width": 1440
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-09T23:59:36+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "12"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 12400,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/dc9c3404-57c4-4255-ba3f-9811b189713f/image20260209-1-w3b70h.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "26b410a4-aaa6-4cc4-b5f9-6d69742890c5",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編→https://myfans.jp/jj_life 文化祭で知り合った私立のバスケ部ちゃんの処女をもらってきた。おしりの発育が良すぎて赤ちゃん産めそうな安産体型でした。100部限定でファンクラブで販売中\r\n\r\n文化祭に来てくれた時に声をかけた彼女。\r\n引き締まった体と、思わず目を奪われるプロポーションは相変わらずで、周囲の視線を集めてしまうのも無理はない。そんな彼女と、プライベートな時間にだけ許された“内緒の記録”。",
+        "bookmarked": false,
+        "bookmarks_count": 52,
+        "humanized_publish_start_at": "02/09 00:22",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 82,
+        "view_count": 3233,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/e54a113c-53a4-43d4-8074-57435844d6d4/image20260208-1-749qnt.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/e54a113c-53a4-43d4-8074-57435844d6d4/image20260208-1-a9ez1i.webp",
+            "raw_image_height": 2560,
+            "raw_image_width": 1451
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-09T00:22:40+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "12"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 12466,
+            "resolutions": [
+              "sd",
+              "uhd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/e54a113c-53a4-43d4-8074-57435844d6d4/image20260208-1-a9ez1i.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "5c7a1ab2-7a14-46d7-b7fa-584b5d85ed22",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編フル→ https://myfans.jp/noah69\r\n♦️100部限定♦️SNSフォロワー数十万人超の爆美女アイドルちゃんと禁断の密会してきました。\r\n \r\n 100部限定でmyfansで公開中。\r\n 流出厳禁です。\r\n \r\n 【内容詳細】\r\n \r\n 正直、連絡来たときは半信半疑だった。\r\n SNSフォロワー数十万人超えの現役アイドル。\r\n 写真も動画も完成されすぎてて、\r\n 「この人ほんとに実在するの？」ってレベルの爆美女。\r\n \r\n 実際に会ってみたら、\r\n 画面越しよりもさらに可愛くて、\r\n オーラも透明感も段違い。\r\n 周りの目を気にしながらの待ち合わせから、\r\n もうすでにドキドキが止まらなかった。\r\n \r\n カフェで軽く話すだけでも、\r\n 視線や距離感がいちいち意味深。\r\n アイドルとしての完璧な表情と、\r\n ふとした瞬間に見せる素の顔のギャップがズルすぎる。\r\n \r\n 人目を避けながら移動して、\r\n 2人きりになった瞬間に空気が一変。\r\n 表では絶対に見せない表情や反応が出てきて、\r\n 「これ本当に現実？」って何度も思った。\r\n \r\n 有名だからこその緊張感、\r\n バレたら終わりの背徳感、\r\n それでも距離が縮んでいくあの感じがリアルに詰まってます。\r\n \r\n SNSでは絶対に見られない、\r\n “裏側の時間”をそのまま記録した禁断の一本。\r\n 刺激が欲しい人にはめちゃくちゃ刺さると思います。",
+        "bookmarked": false,
+        "bookmarks_count": 91,
+        "humanized_publish_start_at": "02/03 21:17",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 129,
+        "view_count": 2923,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/7b086e6c-5592-4a61-9971-e24f0b5f03ca/image20260203-1-vpgkpp.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/7b086e6c-5592-4a61-9971-e24f0b5f03ca/image20260203-1-lw5s2c.webp",
+            "raw_image_height": 2560,
+            "raw_image_width": 1440
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-03T21:17:01+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "22"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 22400,
+            "resolutions": [
+              "sd",
+              "fhd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/7b086e6c-5592-4a61-9971-e24f0b5f03ca/image20260203-1-lw5s2c.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "fbb67bcd-09e8-4807-8c99-9f2a0064f7d0",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "本編フル→ https://myfans.jp/adult_circle\r\n🍻100部限定🍻お嬢様学校の大学1年生ちゃんが入部したので、歓迎会をやりました。先輩たちとの初めての乱交に緊張してる様子😂\r\n 100部限定で\"顔出しフル動画\"販売中\r\n #春から大学生\r\n \r\n お嬢様学校出身の18歳以上の大学1年生が新しく入部したので、部内でささやかな歓迎会を開きました。\r\n 初めて参加する集まりということもあって、最初は少し緊張した様子でしたが、先輩たちと会話を重ねるうちに、だんだんと表情もやわらいでいきます。\r\n \r\n 落ち着いた空気の中で進む歓迎会は、終始和やかなムード。\r\n 慣れない環境に戸惑いながらも、一生懸命その場に馴染もうとする姿が印象的で、初々しさが伝わってくる時間になりました😂\r\n 新生活のスタートらしい、等身大の雰囲気がそのまま残っています。\r\n \r\n 当日の様子は記録映像としてまとめており、数量限定でフルバージョンを公開中。\r\n 新入生を迎えたばかりの、今だけの空気感を楽しんでもらえる内容です。",
+        "bookmarked": false,
+        "bookmarks_count": 56,
+        "humanized_publish_start_at": "02/03 02:12",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 81,
+        "view_count": 3012,
+        "user": {
+          "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+          "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 131677,
+          "name": "裏垢男子の日常",
+          "username": "fanzazz",
+          "can_display_premium_badge": true,
+          "can_create_coupon": false,
+          "can_use_dashboard": false,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/269dbde2-9168-4086-be12-1fc6712964c6/image20260202-1-kzmsct.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/269dbde2-9168-4086-be12-1fc6712964c6/image20260202-1-qja472.webp",
+            "raw_image_height": 1280,
+            "raw_image_width": 720
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-02-03T02:12:45+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "11"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 11700,
+            "resolutions": [
+              "sd",
+              "hd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/269dbde2-9168-4086-be12-1fc6712964c6/image20260202-1-qja472.webp",
+        "affiliate_status": "off"
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": 2,
+      "previous": null
+    }
+  }
+}

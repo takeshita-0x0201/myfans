@@ -1,0 +1,477 @@
+{
+  "ranking": {
+    "data": [
+      {
+        "id": "286cfa16-98e5-419b-bb8d-6282ee0e0475",
+        "username": "natsumikan",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/e7fd057b-0274-4f12-b05e-666b429982bc/image20260321-1-9kw0gm.webp",
+        "likes_count": 497,
+        "name": "なつみ",
+        "about": "趣味:ダイエット🏃‍♀️旅行✈️食べ歩き🍺\r\n特技:リバウンド🐷ボケ潰し🥺",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 194,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/0fb2f330-c8f7-45f4-9bed-a41a44e3fb7a/image20260227-1-niyf3q.webp",
+        "is_following": false,
+        "recommended_plan": {
+          "id": "39579995-5e6f-47e8-92ed-fd9c9b265e2b",
+          "is_single": true,
+          "is_back_number": false,
+          "flag": "recommended",
+          "monthly_price": 2000,
+          "posts_count": 17,
+          "product_name": "🫧 なつみのひみつるーむ 🫧 ",
+          "description": "🎀 ここだけの特別なお部屋 🎀\n\n月額1,800円で、私のいちばん近くにいられる場所です☺️🩷\n\nここでは…\n♡ 会員さま限定動画（週2回更新）\n♡ ここだけのオフショット\n♡ 先行公開コンテンツ\n♡ 会員さまだけに向けた限定メッセージ投稿\n\nをお届けします🌸\n\nちょっと照れちゃうけど、\n応援してくれるあなたにだけ見せたい世界です…♡\n\n一緒にたくさん思い出つくろうね🥰",
+          "status": "initialize",
+          "user": {
+            "id": "286cfa16-98e5-419b-bb8d-6282ee0e0475",
+            "username": "natsumikan",
+            "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/e7fd057b-0274-4f12-b05e-666b429982bc/image20260321-1-9kw0gm.webp",
+            "likes_count": 497,
+            "name": "なつみ",
+            "about": "趣味:ダイエット🏃‍♀️旅行✈️食べ歩き🍺\r\n特技:リバウンド🐷ボケ潰し🥺",
+            "is_official": false,
+            "can_display_premium_badge": true,
+            "can_create_coupon": true,
+            "can_use_dashboard": true,
+            "creator_sexual_orientation": "general"
+          },
+          "active_plan_bundles": [
+            {
+              "id": "a50c741d-920f-49a7-a452-2ea7e19891be",
+              "duration_months": 6,
+              "price": 10800,
+              "monthly_price": 1800,
+              "is_recommended": true,
+              "discount_rate": 10,
+              "display_price": 10800
+            },
+            {
+              "id": "77f84216-a72a-4199-8929-88f991b8cc59",
+              "duration_months": 3,
+              "price": 5700,
+              "monthly_price": 1900,
+              "is_recommended": false,
+              "discount_rate": 5,
+              "display_price": 5700
+            },
+            {
+              "id": "050d40b1-336d-48f0-9faa-e7e0403a3f7d",
+              "duration_months": 12,
+              "price": 20400,
+              "monthly_price": 1700,
+              "is_recommended": false,
+              "discount_rate": 15,
+              "display_price": 20400
+            }
+          ]
+        }
+      },
+      {
+        "id": "3b2a3731-bb5b-43cf-95c7-dadd87dad2cb",
+        "username": "kitiga_dayo",
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/7de653b8-c0d7-4485-bc7b-a462f75dac97/image20260226-1-5xxwbb.webp",
+        "likes_count": 374,
+        "name": "男だが",
+        "about": "男だがです。\r\n少しずつしっかり追加していきます。\r\nチップなど応援してくれたら喜ぶ",
+        "is_official": false,
+        "can_display_premium_badge": true,
+        "can_create_coupon": true,
+        "can_use_dashboard": true,
+        "has_approved_user_identification": true,
+        "followers_count": 156,
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/50fb36ac-1acc-4ad8-9ec8-43bbb70151e2/image20260226-1-p6ikbw.webp",
+        "is_following": false
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": 2,
+      "previous": null
+    }
+  },
+  "profile": {
+    "about": "趣味:ダイエット🏃‍♀️旅行✈️食べ歩き🍺\r\n特技:リバウンド🐷ボケ潰し🥺",
+    "active": true,
+    "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/e7fd057b-0274-4f12-b05e-666b429982bc/image20260321-1-9kw0gm.webp",
+    "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/0fb2f330-c8f7-45f4-9bed-a41a44e3fb7a/image20260227-1-niyf3q.webp",
+    "id": "286cfa16-98e5-419b-bb8d-6282ee0e0475",
+    "is_following": false,
+    "is_blocking": false,
+    "likes_count": 497,
+    "name": "なつみ",
+    "username": "natsumikan",
+    "can_display_premium_badge": true,
+    "can_create_coupon": true,
+    "can_use_dashboard": true,
+    "is_official": false,
+    "label": null,
+    "genre_keys": [],
+    "has_approved_user_identification": true,
+    "back_number_post_images_count": 0,
+    "back_number_post_videos_count": 0,
+    "cant_receive_message": false,
+    "current_back_number_plan": null,
+    "followers_count": 194,
+    "followings_count": 0,
+    "has_ranking": true,
+    "hidden_ranking_order": false,
+    "is_bought_back_number": false,
+    "is_followed": false,
+    "is_single_month_back_number": false,
+    "is_subscribed": false,
+    "link_instagram_id": "",
+    "link_instagram_url": null,
+    "link_tiktok_id": "natsunatsumi723",
+    "link_tiktok_url": "https://www.tiktok.com/@natsunatsumi723",
+    "link_twitter_id": "natsumi11723",
+    "link_twitter_url": "https://twitter.com/natsumi11723",
+    "link_youtube_url": "",
+    "post_images_count": 12,
+    "post_videos_count": 31,
+    "posts_count": 43,
+    "single_month_back_number_amount": null,
+    "sns_link1": "",
+    "sns_link2": "",
+    "achievement": {
+      "plan": {
+        "posts_count_last_month": 43
+      },
+      "recommended_plan": {
+        "plan_cost": 2000,
+        "plan_cost_per_content": 117
+      }
+    },
+    "show_tip_button": true,
+    "short_url": null,
+    "has_gachas": false,
+    "creator_sexual_orientation": "general"
+  },
+  "plans": [
+    {
+      "id": "39579995-5e6f-47e8-92ed-fd9c9b265e2b",
+      "product_name": "🫧 なつみのひみつるーむ 🫧 ",
+      "monthly_price": 2000,
+      "status": "initialize",
+      "is_limited_access": false,
+      "is_single": true,
+      "disallow_new_subscriber": false,
+      "active_discount": null,
+      "active_plan_bundles": [
+        {
+          "id": "a50c741d-920f-49a7-a452-2ea7e19891be",
+          "duration_months": 6,
+          "price": 10800,
+          "monthly_price": 1800,
+          "is_recommended": true,
+          "discount_rate": 10,
+          "display_price": 10800
+        },
+        {
+          "id": "77f84216-a72a-4199-8929-88f991b8cc59",
+          "duration_months": 3,
+          "price": 5700,
+          "monthly_price": 1900,
+          "is_recommended": false,
+          "discount_rate": 5,
+          "display_price": 5700
+        },
+        {
+          "id": "050d40b1-336d-48f0-9faa-e7e0403a3f7d",
+          "duration_months": 12,
+          "price": 20400,
+          "monthly_price": 1700,
+          "is_recommended": false,
+          "discount_rate": 15,
+          "display_price": 20400
+        }
+      ],
+      "description": "🎀 ここだけの特別なお部屋 🎀\n\n月額1,800円で、私のいちばん近くにいられる場所です☺️🩷\n\nここでは…\n♡ 会員さま限定動画（週2回更新）\n♡ ここだけのオフショット\n♡ 先行公開コンテンツ\n♡ 会員さまだけに向けた限定メッセージ投稿\n\nをお届けします🌸\n\nちょっと照れちゃうけど、\n応援してくれるあなたにだけ見せたい世界です…♡\n\n一緒にたくさん思い出つくろうね🥰",
+      "posts_count": 17,
+      "is_back_number": false,
+      "flag": "recommended",
+      "welcome_message": "",
+      "plan_discounts": null,
+      "plan_bundles": [],
+      "is_unlimited": false,
+      "is_unlimited_ch_private": false,
+      "cdb": null,
+      "applying_discount": null,
+      "applying_coupon": null,
+      "user": {
+        "about": "趣味:ダイエット🏃‍♀️旅行✈️食べ歩き🍺\r\n特技:リバウンド🐷ボケ潰し🥺",
+        "active": true,
+        "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/e7fd057b-0274-4f12-b05e-666b429982bc/image20260321-1-9kw0gm.webp",
+        "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/0fb2f330-c8f7-45f4-9bed-a41a44e3fb7a/image20260227-1-niyf3q.webp",
+        "id": "286cfa16-98e5-419b-bb8d-6282ee0e0475",
+        "is_following": false,
+        "is_blocking": false,
+        "likes_count": 497,
+        "name": "なつみ",
+        "username": "natsumikan",
+        "creator_sexual_orientation": "general"
+      }
+    }
+  ],
+  "posts": {
+    "data": [
+      {
+        "id": "25c3de57-83c0-4914-8961-0c9a41036a9e",
+        "kind": "video",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "みんなお昼なにたべたー？？💕",
+        "bookmarked": false,
+        "bookmarks_count": 0,
+        "humanized_publish_start_at": "03/25 11:28",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 1,
+        "view_count": 26,
+        "user": {
+          "about": "趣味:ダイエット🏃‍♀️旅行✈️食べ歩き🍺\r\n特技:リバウンド🐷ボケ潰し🥺",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/e7fd057b-0274-4f12-b05e-666b429982bc/image20260321-1-9kw0gm.webp",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/0fb2f330-c8f7-45f4-9bed-a41a44e3fb7a/image20260227-1-niyf3q.webp",
+          "id": "286cfa16-98e5-419b-bb8d-6282ee0e0475",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 497,
+          "name": "なつみ",
+          "username": "natsumikan",
+          "can_display_premium_badge": true,
+          "can_create_coupon": true,
+          "can_use_dashboard": true,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/image/3ffe12cd-3158-479c-b2c9-8ed4b441788c/image20260325-1-64i246.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/3ffe12cd-3158-479c-b2c9-8ed4b441788c/image20260325-1-6yi7wk.webp",
+            "raw_image_height": 1280,
+            "raw_image_width": 720
+          }
+        ],
+        "visible": true,
+        "publish_end_at": null,
+        "published_at": "2026-03-25T11:28:56+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [],
+        "video_processing": false,
+        "video_duration": {
+          "hours": null,
+          "minutes": "00",
+          "seconds": "11"
+        },
+        "free": true,
+        "limited": false,
+        "available": true,
+        "metadata": {
+          "video": {
+            "duration": 11133,
+            "resolutions": [
+              "sd",
+              "hd"
+            ]
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/square_image/3ffe12cd-3158-479c-b2c9-8ed4b441788c/image20260325-1-6yi7wk.webp",
+        "affiliate_status": "off"
+      },
+      {
+        "id": "221fe68d-4b80-48c5-a4f1-01546127c322",
+        "kind": "image",
+        "status": "approved",
+        "status_label": "publishing",
+        "body": "おはよう🥱\r\n急いで着替えなきゃっ！！！💨",
+        "bookmarked": false,
+        "bookmarks_count": 2,
+        "humanized_publish_start_at": "03/24 09:24",
+        "deleted_at_i18n": null,
+        "liked": false,
+        "likes_count": 5,
+        "view_count": 0,
+        "user": {
+          "about": "趣味:ダイエット🏃‍♀️旅行✈️食べ歩き🍺\r\n特技:リバウンド🐷ボケ潰し🥺",
+          "active": true,
+          "avatar_url": "https://content.mfcdn.jp/uploads/users/images/profile/image/e7fd057b-0274-4f12-b05e-666b429982bc/image20260321-1-9kw0gm.webp",
+          "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/0fb2f330-c8f7-45f4-9bed-a41a44e3fb7a/image20260227-1-niyf3q.webp",
+          "id": "286cfa16-98e5-419b-bb8d-6282ee0e0475",
+          "is_following": false,
+          "is_blocking": false,
+          "likes_count": 497,
+          "name": "なつみ",
+          "username": "natsumikan",
+          "can_display_premium_badge": true,
+          "can_create_coupon": true,
+          "can_use_dashboard": true,
+          "is_official": false,
+          "label": null,
+          "genre_keys": [],
+          "has_approved_user_identification": true,
+          "current_back_number_plan": null
+        },
+        "post_images": [
+          {
+            "file_url": "https://content.mfcdn.jp/uploads/post_image/blurred_image/e2c248ca-7629-48b3-8fbd-6dfbc8905f69/image20260324-1-hol4rq.webp",
+            "square_thumbnail_url": "https://content.mfcdn.jp/uploads/post_image/blurred_square_image/e2c248ca-7629-48b3-8fbd-6dfbc8905f69/image20260324-1-skfdsa.webp",
+            "raw_image_height": 1136,
+            "raw_image_width": 621
+          }
+        ],
+        "visible": false,
+        "publish_end_at": null,
+        "published_at": "2026-03-24T09:24:55+09:00",
+        "publish_start_at": null,
+        "pinned_at": null,
+        "attachment": null,
+        "plan": null,
+        "current_single_plan": null,
+        "plans": [
+          {
+            "id": "39579995-5e6f-47e8-92ed-fd9c9b265e2b",
+            "product_name": "🫧 なつみのひみつるーむ 🫧 ",
+            "monthly_price": 2000,
+            "status": "initialize",
+            "is_limited_access": false,
+            "is_single": true,
+            "disallow_new_subscriber": false,
+            "active_discount": null,
+            "active_plan_bundles": [
+              {
+                "id": "a50c741d-920f-49a7-a452-2ea7e19891be",
+                "duration_months": 6,
+                "price": 10800,
+                "monthly_price": 1800,
+                "is_recommended": true,
+                "discount_rate": 10,
+                "display_price": 10800
+              },
+              {
+                "id": "77f84216-a72a-4199-8929-88f991b8cc59",
+                "duration_months": 3,
+                "price": 5700,
+                "monthly_price": 1900,
+                "is_recommended": false,
+                "discount_rate": 5,
+                "display_price": 5700
+              },
+              {
+                "id": "050d40b1-336d-48f0-9faa-e7e0403a3f7d",
+                "duration_months": 12,
+                "price": 20400,
+                "monthly_price": 1700,
+                "is_recommended": false,
+                "discount_rate": 15,
+                "display_price": 20400
+              }
+            ]
+          }
+        ],
+        "video_processing": null,
+        "video_duration": null,
+        "free": false,
+        "limited": true,
+        "available": false,
+        "metadata": {
+          "image": {
+            "count": 1
+          }
+        },
+        "thumbnail_url": "https://content.mfcdn.jp/uploads/post/thumbnail_image/221fe68d-4b80-48c5-a4f1-01546127c322/image20260324-1-zxp1lz.webp",
+        "affiliate_status": "off"
+      }
+    ],
+    "pagination": {
+      "current": 1,
+      "next": 2,
+      "previous": null
+    }
+  },
+  "ranking_orders": [
+    {
+      "genre_key": "all",
+      "rank_number": 1
+    },
+    {
+      "genre_key": "g-soft",
+      "rank_number": 1
+    },
+    {
+      "genre_key": "g-glamorous",
+      "rank_number": 1
+    },
+    {
+      "genre_key": null,
+      "rank_number": null
+    }
+  ],
+  "profile_fanzazz": {
+    "about": "ヤリチンの日常Vlog。平均3時間の長編動画です。おしゃべり･着替え･お風呂などセックスの前後も撮ってそのまま載せているのでリアルで生々しい臨場感溢れる長編動画となっています。\r\n\r\nなぎ…SNSやリアルで仲良くなった女の子とハメ撮りを撮るのが趣味の裏垢男子。\r\n\r\n⚠️スクリーンショットまたは画面録画した場合、こちらに通知が来るのでその情報を基に開示請求を行い著作権法に基づき対処します。示談には応じません。\r\n\r\n⚠️月額プランは「加入した日から数えて30日間」視聴可能。加入するタイミングが月初か月末かを気にする必要はありません。\r\n\r\n⚠️Unauthorized screenshots or recordings are strictly prohibited.Violations will result in immediate legal action under copyright law.No settlement will be accepted.\r\n\r\n⚠️ 嚴禁未經授權之截圖或錄屏行為。違者將依法追究責任，概不和解。",
+    "active": true,
+    "avatar_url": "https://content.mfcdn.jp/uploads/user/avatar_image/227f2f1e-d75d-4460-a7c7-d6036921e44c/IMG_3220_Original.png",
+    "banner_url": "https://content.mfcdn.jp/uploads/users/images/header/image/b320b228-74b0-433b-add6-623f6a400b0c/image20250909-1-ky4x0t.webp",
+    "id": "227f2f1e-d75d-4460-a7c7-d6036921e44c",
+    "is_following": false,
+    "is_blocking": false,
+    "likes_count": 131948,
+    "name": "裏垢男子の日常",
+    "username": "fanzazz",
+    "can_display_premium_badge": true,
+    "can_create_coupon": false,
+    "can_use_dashboard": false,
+    "is_official": false,
+    "label": null,
+    "genre_keys": [],
+    "has_approved_user_identification": true,
+    "back_number_post_images_count": 0,
+    "back_number_post_videos_count": 0,
+    "cant_receive_message": false,
+    "current_back_number_plan": null,
+    "followers_count": 148780,
+    "followings_count": 19,
+    "has_ranking": true,
+    "hidden_ranking_order": false,
+    "is_bought_back_number": false,
+    "is_followed": false,
+    "is_single_month_back_number": false,
+    "is_subscribed": false,
+    "link_instagram_id": "",
+    "link_instagram_url": null,
+    "link_tiktok_id": "",
+    "link_tiktok_url": null,
+    "link_twitter_id": "",
+    "link_twitter_url": null,
+    "link_youtube_url": "",
+    "post_images_count": 1,
+    "post_videos_count": 133,
+    "posts_count": 145,
+    "single_month_back_number_amount": null,
+    "sns_link1": "https://linktr.ee/fanzazz",
+    "sns_link2": "",
+    "achievement": {
+      "plan": {
+        "posts_count_last_month": 17
+      },
+      "recommended_plan": {
+        "plan_cost": 5980,
+        "plan_cost_per_content": 51
+      }
+    },
+    "show_tip_button": true,
+    "short_url": null,
+    "has_gachas": false,
+    "creator_sexual_orientation": "woman"
+  }
+}
