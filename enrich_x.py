@@ -159,7 +159,7 @@ def get_recent_tweets(session: requests.Session, user_id: str) -> tuple:
     recent_count = 0
     cursor = None
 
-    for page in range(3):  # 最新投稿日だけなので最大3ページ
+    for page in range(1):  # 最新投稿日だけなので1ページで十分
         variables = {
             "userId": user_id,
             "count": 20,
