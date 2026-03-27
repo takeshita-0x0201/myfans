@@ -155,39 +155,36 @@ def main():
     ig_targets = [(i, r) for i, r in enumerate(rows) if r.get("sns_url_instagram", "").strip()]
     print(f"CSV: {total}行, Instagram URL あり: {len(ig_targets)}行\n", flush=True)
 
+    # 初回: 全行にカラム追加
+    for row in rows:
+        for col in IG_COLUMNS:
+            row.setdefault(col, "")
+
     for idx, (i, row) in enumerate(ig_targets):
         ig_url = row["sns_url_instagram"].strip()
         ig_username = extract_username(ig_url)
 
         if not ig_username:
             print(f"[{idx+1}/{len(ig_targets)}] #{row['rank']} {row['username']} - IG URL parse failed: {ig_url}", flush=True)
-            for col in IG_COLUMNS:
-                rows[i][col] = ""
-            continue
-
-        print(f"[{idx+1}/{len(ig_targets)}] #{row['rank']} {row['username']} -> @{ig_username}...", end=" ", flush=True)
-
-        ig_data = fetch_ig_data(session, ig_username)
-        for col in IG_COLUMNS:
-            rows[i][col] = ig_data[col]
-
-        if ig_data["ig_user_id"]:
-            print(f"OK | {ig_data['ig_full_name']} | {ig_data['ig_follower_count']} flw | {ig_data['ig_media_count']} posts", flush=True)
         else:
-            print("SKIP (not found)", flush=True)
+            print(f"[{idx+1}/{len(ig_targets)}] #{row['rank']} {row['username']} -> @{ig_username}...", end=" ", flush=True)
 
-        time.sleep(1)
+            ig_data = fetch_ig_data(session, ig_username)
+            for col in IG_COLUMNS:
+                rows[i][col] = ig_data[col]
 
-    # IGなしの行にも空カラム追加
-    for row in rows:
-        for col in IG_COLUMNS:
-            row.setdefault(col, "")
+            if ig_data["ig_user_id"]:
+                print(f"OK | {ig_data['ig_full_name']} | {ig_data['ig_follower_count']} flw | {ig_data['ig_media_count']} posts", flush=True)
+            else:
+                print("SKIP (not found)", flush=True)
 
-    # CSV上書き保存
-    with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=out_columns, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(rows)
+            time.sleep(1)
+
+        # 1ユーザーごとにCSV保存
+        with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
+            writer = csv.DictWriter(f, fieldnames=out_columns, extrasaction="ignore")
+            writer.writeheader()
+            writer.writerows(rows)
 
     print(f"\n=== 完了 ===", flush=True)
     print(f"  処理: {len(ig_targets)}件", flush=True)

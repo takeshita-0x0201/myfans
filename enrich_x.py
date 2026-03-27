@@ -159,7 +159,7 @@ def get_recent_tweets(session: requests.Session, user_id: str) -> tuple:
     recent_count = 0
     cursor = None
 
-    for page in range(10):  # 最大10ページ(200件)で十分
+    for page in range(3):  # 最新投稿日だけなので最大3ページ
         variables = {
             "userId": user_id,
             "count": 20,
@@ -180,12 +180,15 @@ def get_recent_tweets(session: requests.Session, user_id: str) -> tuple:
         try:
             resp = session.get(url, params=params, timeout=15)
             if resp.status_code == 429:
+                print(f"\n    Tweets: rate limited, waiting 60s...", end="", flush=True)
                 time.sleep(60)
                 resp = session.get(url, params=params, timeout=15)
             if resp.status_code != 200:
+                print(f"\n    Tweets: HTTP {resp.status_code}", end="", flush=True)
                 break
             data = resp.json()
-        except Exception:
+        except Exception as e:
+            print(f"\n    Tweets: error {e}", end="", flush=True)
             break
 
         # タイムラインからツイートとカーソルを抽出
@@ -300,37 +303,36 @@ def main():
     x_targets = [(i, r) for i, r in enumerate(rows) if r.get("sns_url_x", "").strip()]
     print(f"CSV: {total}行, X URL あり: {len(x_targets)}行\n", flush=True)
 
+    # 初回: 全行にカラム追加してヘッダー書き込み
+    for row in rows:
+        for col in X_COLUMNS:
+            row.setdefault(col, "")
+
     for idx, (i, row) in enumerate(x_targets):
         x_url = row["sns_url_x"].strip()
         x_username = extract_username(x_url)
 
         if not x_username:
             print(f"[{idx+1}/{len(x_targets)}] #{row['rank']} {row['username']} - X URL parse failed: {x_url}", flush=True)
-            for col in X_COLUMNS:
-                rows[i][col] = ""
-            continue
-
-        print(f"[{idx+1}/{len(x_targets)}] #{row['rank']} {row['username']} -> @{x_username}...", end=" ", flush=True)
-
-        x_data = fetch_x_data(session, x_username)
-        for col in X_COLUMNS:
-            rows[i][col] = x_data[col]
-
-        if x_data["x_user_id"]:
-            print(f"OK | {x_data['x_name']} | {x_data['x_follower_count']} flw | {x_data['x_statuses_count']} tweets", flush=True)
         else:
-            print("SKIP (not found)", flush=True)
+            print(f"[{idx+1}/{len(x_targets)}] #{row['rank']} {row['username']} -> @{x_username}...", end=" ", flush=True)
 
-        time.sleep(1)
+            x_data = fetch_x_data(session, x_username)
+            for col in X_COLUMNS:
+                rows[i][col] = x_data[col]
 
-    for row in rows:
-        for col in X_COLUMNS:
-            row.setdefault(col, "")
+            if x_data["x_user_id"]:
+                print(f"OK | {x_data['x_name']} | {x_data['x_follower_count']} flw | {x_data['x_statuses_count']} tweets", flush=True)
+            else:
+                print("SKIP (not found)", flush=True)
 
-    with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
-        writer = csv.DictWriter(f, fieldnames=out_columns, extrasaction="ignore")
-        writer.writeheader()
-        writer.writerows(rows)
+            time.sleep(1)
+
+        # 1ユーザーごとにCSV保存
+        with open(csv_path, "w", newline="", encoding="utf-8-sig") as f:
+            writer = csv.DictWriter(f, fieldnames=out_columns, extrasaction="ignore")
+            writer.writeheader()
+            writer.writerows(rows)
 
     print(f"\n=== 完了 ===", flush=True)
     print(f"  処理: {len(x_targets)}件", flush=True)
