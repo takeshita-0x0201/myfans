@@ -1,6 +1,8 @@
 """ランキングページのデバッグ用スクリプト
 クリエイタータブクリック後のページ構造を確認する
 """
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from scrapling import StealthyFetcher
 from utils import load_cookies
 

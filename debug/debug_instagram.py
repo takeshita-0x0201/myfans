@@ -1,4 +1,6 @@
 """Instagram ページ状態の調査"""
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from scrapling import StealthyFetcher
 from utils import load_cookies
 

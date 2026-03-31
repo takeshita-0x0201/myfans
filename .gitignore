@@ -9,6 +9,7 @@ output/
 # 調査用一時ファイル
 page_*.html
 explore_site.py
+debug/page_*.html
 
 # Python
 __pycache__/

@@ -177,17 +177,34 @@ pyenv local 3.13.0
 
 ```
 myfans/
-├── main.py               # メインスクリプト（エントリポイント）
-├── scraper_myfans.py     # MyFansスクレイパー
-├── scraper_x.py          # X (Twitter) スクレイパー
-├── scraper_instagram.py  # Instagramスクレイパー
-├── scraper_tiktok.py     # TikTokスクレイパー
-├── scraper_ranking.py    # 月間クリエイターランキング
-├── utils.py              # 共通ユーティリティ
-├── requirements.txt      # Pythonパッケージ
-├── cookies/              # Cookie格納（git管理外）
-│   └── README.md         # Cookie取得手順
-├── output/               # CSV出力先（git管理外）
+├── main.py                # メインスクリプト（エントリポイント）
+├── scraper_myfans.py      # MyFansスクレイパー
+├── scraper_x.py           # X (Twitter) スクレイパー
+├── scraper_instagram.py   # Instagramスクレイパー
+├── scraper_tiktok.py      # TikTokスクレイパー
+├── scraper_ranking.py     # ランキングスクレイパー
+├── scraper_discover.py    # ランキング+プロフィール一括取得
+├── utils.py               # 共通ユーティリティ
+├── requirements.txt       # Pythonパッケージ
+├── cookies/               # Cookie格納（git管理外）
+│   └── README.md          # Cookie取得手順
+├── output/                # CSV出力先（git管理外）
+├── scripts/               # スタンドアロンスクリプト
+│   ├── enrich_instagram.py  # Instagram情報エンリッチメント
+│   ├── enrich_x.py          # X情報エンリッチメント
+│   ├── fetch_instagram.py   # Instagram APIフェッチャー
+│   └── fetch_monthly_api.py # 月間ランキングAPI取得
+├── debug/                 # デバッグ・調査用スクリプト
+│   ├── debug_api_headers.py
+│   ├── debug_api_response.py
+│   ├── debug_instagram.py
+│   ├── debug_network_capture.py
+│   └── debug_ranking.py
+├── docs/                  # ドキュメント・参考資料
+│   ├── API_REFERENCE.md     # MyFans API リファレンス
+│   ├── setup_mac.md         # macOSセットアップ手順
+│   ├── api_docs_samples.json
+│   └── api_responses.json
 ├── .gitignore
 └── README.md
 ```

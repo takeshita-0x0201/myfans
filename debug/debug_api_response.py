@@ -1,5 +1,7 @@
 """MyFans APIレスポンスの全フィールドを確認"""
 import json
+import sys, os
+sys.path.insert(0, os.path.join(os.path.dirname(__file__), '..'))
 from scrapling import StealthyFetcher
 from utils import load_cookies
 
