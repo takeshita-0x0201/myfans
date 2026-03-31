@@ -1,6 +1,7 @@
 """MyFans ランキング＋プロフィール スクレイパー
 ランキングページからユーザーを発見し、そのままプロフィールを取得する統合フロー
 """
+import math
 import re
 from concurrent.futures import ThreadPoolExecutor, as_completed
 from datetime import datetime
@@ -316,13 +317,16 @@ def _scrape_profile(page, username: str) -> dict:
     return data
 
 
-def _fetch_pages_worker(term: str, worker_id: int, total_workers: int, limit: int | None) -> list[dict]:
+def _fetch_pages_worker(term: str, worker_id: int, total_workers: int, max_pages: int | None) -> list[dict]:
     """ワーカー: ランキングページを取得し、各ユーザーのプロフィールもそのまま取得
 
-    worker_id=0, total_workers=3 → pages 1, 4, 7, ...
-    worker_id=1, total_workers=3 → pages 2, 5, 8, ...
+    worker_id=0, total_workers=5 → pages 1, 6, 11, ...
+    worker_id=1, total_workers=5 → pages 2, 7, 12, ...
 
-    Returns: [{username, rank, rank_as, + 全プロフィールデータ}, ...]
+    Args:
+        max_pages: このワーカーが取得する最大ページ数（Noneなら無制限）
+
+    Returns: [(page_num, rank_in_page, data_dict), ...]
     """
     fetcher = StealthyFetcher()
     cookies = load_cookies('myfans')
@@ -333,9 +337,13 @@ def _fetch_pages_worker(term: str, worker_id: int, total_workers: int, limit: in
         _click_age_gate(page)
 
         page_num = worker_id + 1
-        global_rank_offset = worker_id * 20  # 各ページ約20件想定
+        pages_done = 0
 
         while True:
+            if max_pages and pages_done >= max_pages:
+                print(f'    [{term}] W{worker_id+1}: reached {max_pages} pages limit, stopping')
+                break
+
             url = f'{base_url}&page={page_num}'
             print(f'  [{term}] W{worker_id+1}: page {page_num}')
 
@@ -370,11 +378,7 @@ def _fetch_pages_worker(term: str, worker_id: int, total_workers: int, limit: in
                     data['rank_as'] = term
                     results.append((page_num, idx, data))
 
-                # limit チェック
-                if limit:
-                    total_so_far = len(results)
-                    if total_so_far >= limit:
-                        return
+            pages_done += 1
 
             # ランキングの次のページへ（ワーカー分ストライド）
             page_num += total_workers
@@ -409,13 +413,23 @@ def scrape_ranking_and_profiles(terms: list[str], limit: int | None = None) -> l
             print(f'  Unknown term: {term}, skipping')
             continue
 
+        # limit件 → 必要ページ数 → ワーカーあたりページ数に変換
+        # 各ページ約20件なので、limit=100 → 5ページ → 各ワーカー1ページ
+        if limit:
+            total_pages = math.ceil(limit / 20)
+            max_pages_per_worker = math.ceil(total_pages / PAGE_WORKERS)
+        else:
+            max_pages_per_worker = None
+
         print(f'\n  [{term}] Starting with {PAGE_WORKERS} parallel browsers...')
+        if max_pages_per_worker:
+            print(f'  [{term}] Target: {limit} users -> {total_pages} pages -> {max_pages_per_worker} pages/worker')
 
         # 各ワーカーを並列実行
         all_results = []
         with ThreadPoolExecutor(max_workers=PAGE_WORKERS) as executor:
             futures = {
-                executor.submit(_fetch_pages_worker, term, i, PAGE_WORKERS, limit): i
+                executor.submit(_fetch_pages_worker, term, i, PAGE_WORKERS, max_pages_per_worker): i
                 for i in range(PAGE_WORKERS)
             }
             for future in as_completed(futures):
